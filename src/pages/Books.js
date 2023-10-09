@@ -1,11 +1,15 @@
-import React from 'react'
+import React from "react";
+import Footer from "./Footer";
+import "./Books.css";
 
 function Books() {
   return (
     <div>
-      hello from books
+      {" "}
+      <div className="bookpage">Ehello from books</div>;
+      <Footer />{" "}
     </div>
-  )
+  );
 }
 
-export default Books
+export default Books;

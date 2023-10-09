@@ -1,13 +1,7 @@
-.writingtipspage {
+.newsletterpage {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
   margin-top: -140px;
   text-align: center;
-}
-
-
-
-.WritingTips {
-  background-color: aqua;
 }

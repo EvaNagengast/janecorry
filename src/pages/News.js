@@ -1,11 +1,14 @@
-import React from 'react'
+import React from "react";
+import Footer from "./Footer";
+import "./News.css";
 
 function News() {
   return (
     <div>
-      NEWSIES
+      <div className="newspage">NEWSIES</div>
+      <Footer />{" "}
     </div>
-  )
+  );
 }
 
-export default News
+export default News;

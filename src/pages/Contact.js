@@ -1,11 +1,14 @@
-import React from 'react'
+import React from "react";
+import Footer from "./Footer";
+import "./Contact.css";
 
 function Contact() {
   return (
     <div>
-      contactpage
+      {" "}
+      <div className="contactpage">Econtactpage</div> <Footer />{" "}
     </div>
-  )
+  );
 }
 
-export default Contact
+export default Contact;

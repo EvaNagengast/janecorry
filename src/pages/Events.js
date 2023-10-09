@@ -1,11 +1,14 @@
-import React from 'react'
+import React from "react";
+import Footer from "./Footer";
+import "./Events.css";
 
 function Events() {
   return (
     <div>
-      eventsss
+      <div className="eventspage">eventsss</div>
+      <Footer />{" "}
     </div>
-  )
+  );
 }
 
-export default Events
+export default Events;
