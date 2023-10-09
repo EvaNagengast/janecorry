@@ -1,11 +1,14 @@
-import React from 'react'
+import React from "react";
+import Footer from "./Footer";
+import "./AboutMe.css"
 
 function AboutMe() {
   return (
-    <div>
-      hello aboutme
+    <div className="AboutMe">
+      <div className="aboutmepage"> hello aboutme</div>
+      <Footer />
     </div>
-  )
+  );
 }
 
-export default AboutMe
+export default AboutMe;

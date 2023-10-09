@@ -1,0 +1,9 @@
+.navbar {
+  background-color: #202123;
+}
+.navbar .nav-link {
+  color: rgb(255, 213, 0);
+}
+.smalllogo {
+  height: 30px;
+}

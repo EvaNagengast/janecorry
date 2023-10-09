@@ -1,0 +1,11 @@
+.Footer {
+  background-color: green;
+  color: red;
+}
+.Footer .footerlink {
+  color: yellow;
+}
+.Footer .footerlink:hover {
+  background-color: orange;
+  color: pink;
+}

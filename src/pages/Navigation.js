@@ -5,7 +5,7 @@ import {
   Route,
   NavLink,
 } from "react-router-dom";
-
+//
 import Home from "./Home";
 import AboutMe from "./AboutMe";
 import Books from "./Books.js";
@@ -17,6 +17,7 @@ import Reviews from "./Reviews";
 import WritingTips from "./WritingTips";
 import Error from "./Error";
 import "./Navigation.css";
+import Logo from "../media/logosmalll.png";
 
 export default function Navigation() {
   let routes = (
@@ -37,10 +38,10 @@ export default function Navigation() {
   return (
     <div className="Navigation">
       <Router>
-        <nav className="navbar navbar-expand-lg bg-light">
+        <nav className="navbar navbar-expand-lg ">
           <div className="container-fluid">
-            <NavLink to="/" id="main" className="navbar-brand">
-              LOGO
+            <NavLink to="/" className="navbar-brand">
+              <img src={Logo} alt="Jane Correy Home" className="smalllogo"></img>
             </NavLink>
             <button
               className="navbar-toggler"
@@ -59,40 +60,44 @@ export default function Navigation() {
             >
               <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                 <li className="nav-item">
+                  <NavLink to="/" className="nav-link">
+                    Home
+                  </NavLink>
+                </li>
+                <li className="nav-item">
                   <NavLink to="/aboutme" className="nav-link">
-                    ABOUT
+                    About Me
                   </NavLink>
                 </li>
                 <li className="nav-item">
                   <NavLink to="/books" className="nav-link">
-                    BOOKS
+                    Books
                   </NavLink>
                 </li>
                 <li className="nav-item">
                   <NavLink to="/contact" className="nav-link">
-                    CONTACT
+                    Contact
                   </NavLink>
                 </li>
                 <li className="nav-item dropdown">
-                  <a
+                  <NavLink
+                    to="/more"
                     className="nav-link dropdown-toggle"
-                    href="/writing tips"
                     role="button"
                     data-bs-toggle="dropdown"
                     aria-expanded="false"
                   >
-                    MORE
-                  </a>
-
+                    More
+                  </NavLink>
                   <ul className="dropdown-menu">
                     <li>
                       <NavLink to="/newsletter" className="dropdown-item">
-                        NEWSLETTER
+                        Newsletter
                       </NavLink>
                     </li>
                     <li>
                       <NavLink to="/reviews" className="dropdown-item">
-                        REVIEWS
+                        Reviews
                       </NavLink>
                     </li>
                     <li>
@@ -101,14 +106,10 @@ export default function Navigation() {
                       </NavLink>
                     </li>
                     <li>
-                      <hr className="dropdown-divider" />
-                    </li>
-                    <li>
                       <NavLink to="/events" className="dropdown-item">
                         Events
                       </NavLink>
                     </li>
-
                     <li>
                       <NavLink to="/news" className="dropdown-item">
                         News
@@ -119,21 +120,6 @@ export default function Navigation() {
               </ul>
             </div>
           </div>
-
-          {/* <NavLink to="/" id="main">
-            LOGO
-          </NavLink>
-          <NavLink to="/" id="main">
-            HOME
-          </NavLink>
-          <NavLink to="/aboutme">ABOUT</NavLink>
-          <NavLink to="/books">BOOKS</NavLink>
-          <NavLink to="/contact">CONTACT</NavLink>{" "}
-          <NavLink to="/newsletter">NEWSLETTER</NavLink>{" "}
-          <NavLink to="/reviews">REVIEWS</NavLink>{" "}
-          <NavLink to="/writingtips">Writing Tips</NavLink>
-          <NavLink to="/events">Events</NavLink>
-          <NavLink to="/news">News</NavLink> */}
         </nav>
         {routes}
       </Router>
