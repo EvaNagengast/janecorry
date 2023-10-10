@@ -3,7 +3,7 @@ import Title from "../../media/jcfonttitle.png";
 import "./Homehero.css";
 function Homehero() {
   return (
-    <div>
+    <div className="homesection">
       <div className="herocontainer">
         <div className="flickeringlights"> </div>
         <div className="hero">

@@ -1,15 +1,21 @@
 import React from "react";
 import Footer from "./Footer";
 import Homehero from "./subpages/Homehero";
+import Currentbook from "./subpages/Currentbook";
 import "./Home.css";
 
 function Home() {
   return (
     <div className="home">
       <div className="homepage">
-      <Homehero/>
+        <Homehero />
+        <main>
+          <Currentbook/>
+        </main>
       </div>
-      <Footer />
+      <footer>
+        <Footer />
+      </footer>
     </div>
   );
 }

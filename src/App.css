@@ -1,0 +1,8 @@
+:root {
+  ---baselight: #fdb20b;
+  ---basedark: #1c4a4d;
+  ---fontheadline:      'Croissant One', serif;
+}
+.App {
+  font-family: "Catamaran", sans-serif;
+}
