@@ -4,4 +4,54 @@
   min-height: 100vh;
   margin-top: -140px;
   text-align: center;
+  background-color: black;
+  padding-top: 140px;
+}
+
+.flickeringlights {
+  height: 500px;
+  width: 250px;
+  background-color: #fdb20b;
+  animation: blinker 15s
+    linear(
+      -0.45 -11.98%,
+      0.25 -3.31%,
+      -0.11 11.94%,
+      0.29 23.92%,
+      -0.14 35.36%,
+      1.05 44.08%,
+      -0.38 48.98%,
+      0.03 60.42%,
+      -0.31 78.94%,
+      1.35 99.46%
+    )
+    infinite;
+}
+.hero {
+  position: relative;
+  top: -580px;
+  height: 620px;
+  background: linear-gradient(
+      172deg,
+      rgba(0, 0, 0, 0.1) 0%,
+      rgb(0, 0, 0, 0.1) 100%
+    ),
+    url("../media/jccovernowindow.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+.titleimage {
+  max-height: 300px;
+  margin: 150px 10px 5px 1px;
+}
+@keyframes blinker {
+  0% {
+    opacity: 1;
+  }
+  30% {
+    opacity: 0;
+  }
+
 }

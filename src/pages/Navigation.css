@@ -1,5 +1,11 @@
-.navbar {
-  background-color: #202123;
+.Navigation nav {
+  background-color: #000f11;
+  position: sticky;
+  top: 0;
+  height: fit-content;
+  padding: 7px 0;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.237);
+  z-index: 10;
 }
 .navbar .nav-link {
   color: rgb(255, 213, 0);
