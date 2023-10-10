@@ -1,23 +1,13 @@
 import React from "react";
 import Footer from "./Footer";
-import Title from "../media/jcfonttitle.png";
+import Homehero from "./subpages/Homehero";
 import "./Home.css";
 
 function Home() {
   return (
     <div className="home">
       <div className="homepage">
-        <div className="herocontainer">
-          <div className="flickeringlights"> </div>
-          <div className="hero">
-            {" "}
-            <img
-              src={Title}
-              alt="title coming to find you"
-              className="titleimage"
-            ></img>{" "}
-          </div>
-        </div>
+      <Homehero/>
       </div>
       <Footer />
     </div>
