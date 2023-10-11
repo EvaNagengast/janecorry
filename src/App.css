@@ -1,8 +1,45 @@
 :root {
+  ---base: rgb(224, 219, 199);
   ---baselight: #fdb20b;
-  ---basedark: #1c4a4d;
-  ---fontheadline:      'Croissant One', serif;
+  ---basedark: #011415;
+  ---fontheadline: "Croissant One", serif;
 }
+
+/* generic classes */
+.btnLightDark {
+  border: 1px solid var(---baselight);
+  border-radius: 4px;
+  background-color: var(---baselight);
+  color: #000000;
+  text-decoration: none;
+}
+.btnLightDark:hover {
+  background-color: #000000;
+  color: var(---baselight);
+}
+
+.btnDarkLight {
+  border: 1px solid var(---baselight);
+  border-radius: 4px;
+  background-color: var(---baselight);
+  color: #000000;
+  text-decoration: none;
+}
+.btnDarkLight:hover {
+  background-color: #000000;
+  color: var(---baselight);
+}
+
+.linkLightBase {
+  color: var(---baselight);
+  text-decoration: none;
+}
+.linkLightBase:hover {
+  color: var(---base);
+}
+/*  */
+
 .App {
+  color: var(---base);
   font-family: "Catamaran", sans-serif;
 }

@@ -1,17 +1,51 @@
 .currentbooksection {
   background-color: #000000;
-  color: rgb(224, 219, 199);
 }
-.quotesource {
-  color: red;
-}
-h1 {margin-top: -30px;
-  font-family: var(---fontheadline);
-  font-weight: 900;
-  font-size: 80px;
+.highlight {
   color: var(---baselight);
 }
-.subtitle {margin: -10px 0 0 15px;
+
+h1 {
+  margin-top: -30px;
+
+  font-weight: 900;
+  font-size: 80px;
+  font-family: var(---fontheadline);
+  color: var(---baselight);
+}
+h2 {
+  font-family: var(---fontheadline);
+}
+.subtitle {
+  margin: -10px 0 0 15px;
   max-height: 50px;
   transform: rotate(-5deg);
+}
+.jcimagesmall {
+  max-height: 490px;
+}
+.introduction {
+  font-size: 20px;
+}
+.stars {
+  color: var(---baselight);
+}
+.newspapersnippet {
+  max-height: 300px;
+  border-radius: 6px;
+}
+
+.bookinmagazine {
+  font-size: 30px;
+}
+hr {
+  border: 2px solid var(---basedark);
+
+  color: var(---basedark);
+}
+.adlastbook {
+  font-size: 20px;
+}
+.aboutJaneCorry {
+  background-color: var(---basedark);
 }
