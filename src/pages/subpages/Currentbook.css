@@ -1,5 +1,5 @@
 .currentbooksection {
-  background-color: #000000;
+  background-color: var(---dark);
 }
 
 .currentbooksection h1 {
@@ -28,6 +28,7 @@
 }
 .currentbooksection .introduction {
   font-size: 20px;
+  line-height: 33px;
 }
 .currentbooksection .stars {
   color: var(---baselight);
@@ -45,12 +46,17 @@
   font-size: 20px;
 }
 .currentbooksection .aboutJaneCorry {
-  background-color: var(---basedark);
+  background: linear-gradient(
+      172deg,
+      rgba(1,20,21, 0.85) 0%,
+      rgb(1,20,21, 0.85) 100%
+    ),
+    url("../../media/jccoverwindow.png");
 }
 .currentbooksection .jcimage {
   max-height: 400px;
   filter: saturate(130%) grayscale(90%);
 }
 .currentbooksection .jcdescription {
-  font-size: 20px;
+  font-size: 20px; line-height: 33px;
 }

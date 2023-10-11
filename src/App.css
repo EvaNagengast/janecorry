@@ -1,5 +1,6 @@
 :root {
   ---base: rgb(224, 219, 199);
+  ---dark:#001112;
   ---baselight: #fdb20b;
   ---basedark: #011415;
   ---fontheadline: "Croissant One", serif;
@@ -10,11 +11,11 @@
   border: 1px solid var(---baselight);
   border-radius: 4px;
   background-color: var(---baselight);
-  color: #000000;
+  color: var(---dark);
   text-decoration: none;
 }
 .btnLightDark:hover {
-  background-color: #000000;
+  background-color:var(---dark);
   color: var(---baselight);
 }
 
@@ -22,11 +23,11 @@
   border: 1px solid var(---baselight);
   border-radius: 4px;
   background-color: var(---baselight);
-  color: #000000;
+  color: var(---dark);
   text-decoration: none;
 }
 .btnDarkLight:hover {
-  background-color: #000000;
+  background-color:var(---dark);
   color: var(---baselight);
 }
 
