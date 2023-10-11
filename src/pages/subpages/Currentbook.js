@@ -177,7 +177,7 @@ function Currentbook() {
             SAMANTHA DOWNING , Sunday Times bestselling author of My Lovely Wife
           </span>
         </div>
-        <div className="col-6 mt-5 ps-5">
+        <div className="col-6 mt-4 ps-5">
           I loved the concept and I loved the tension throughout between Emily
           and Francoise. This was a gripping slice of domestic noir. There's
           plenty of twists to keep the reader hooked. Another winner from Jane.
@@ -190,7 +190,7 @@ function Currentbook() {
             major BBC drama <i> You Don't Know Me </i>
           </span>
         </div>
-        <div className="col-6 mt-5 p-5">
+        <div className="col-6 mt-4 p-5">
           <i>We All Have Our Secrets</i> Our Secrets is a clever, tense and
           compelling thriller about fathers and daughters and the lies we tell
           to ourselves and others. I never knew which of the well-drawn
@@ -212,38 +212,47 @@ function Currentbook() {
           find more reviews here
         </button>
       </p>
-      <section className="mt-5 pt-5 aboutJaneCorry">
-        <h2>Jane Corry</h2>
-        <div className="Newsletterprompt">
-          <button
-            onClick={() => {
-              navigate("../newsletter");
-            }}
-          >
-            Sign up to my newsletter
-          </button>
-          and I will send you a free short story.
+      <section className="mt-5 py-5 aboutJaneCorry">
+        <div className="row m-auto align-items-center">
+          <div className="col-6 mt-3">
+            <h2>Jane Corry</h2>
+            <div className="my-5 Newsletterprompt">
+              <button
+                onClick={() => {
+                  navigate("../newsletter");
+                }}
+                className="d-block m-auto mb-2 btnLightDark"
+              >
+                Sign up to my newsletter
+              </button>
+              and I will send you a free short story.
+            </div>
+            <div className="px-5 jcdescription">
+              Jane Corry is a writer and journalist who has spent time working
+              as the writer in residence of a high security prison for men - an
+              experience that helped inspire her Sunday Times bestsellers. Jane
+              runs regular writing workshops and speaks at literary festivals
+              all over the world. Many of her ideas strike during morning
+              dog-jogs along the beach followed by a dip in the sea.
+              <button
+                onClick={() => {
+                  navigate("./reviews");
+                }}
+                className="d-block m-auto mt-3 buttonLink"
+              >
+                Find out more about Jane
+              </button>
+            </div>
+          </div>
+
+          <div className="col-6 ">
+            <img
+              src={Halfimage}
+              alt="Jane Corry Profile holiding her newest Book"
+              className="jcimage img-fluid"
+            />
+          </div>
         </div>
-        <p>
-          Jane Corry is a writer and journalist who has spent time working as
-          the writer in residence of a high security prison for men - an
-          experience that helped inspire her Sunday Times bestsellers. Jane runs
-          regular writing workshops and speaks at literary festivals all over
-          the world. Many of her ideas strike during morning dog-jogs along the
-          beach followed by a dip in the sea.
-          <button
-            onClick={() => {
-              navigate("./reviews");
-            }}
-          >
-            Find out more about Jane
-          </button>
-          <img
-            src={Halfimage}
-            alt="Jane Corry Profile holiding her newest Book"
-            className="jcimage"
-          />
-        </p>{" "}
       </section>
     </div>
   );

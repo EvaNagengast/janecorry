@@ -37,6 +37,15 @@
 .linkLightBase:hover {
   color: var(---base);
 }
+.highlight {
+  color: var(---baselight);
+}
+.buttonLink {
+  background: none;
+  border: none;
+  color: var(---baselight);
+}
+.buttonLink:hover {color: var(---base);}
 /*  */
 
 .App {

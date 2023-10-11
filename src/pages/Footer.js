@@ -5,7 +5,7 @@ export default function Footer() {
     <div className="Footer ">
       <footer className="footer text-center">
         © 2023 Jane Correy <br className="text-end" />
-        This page was crafted with care by 
+        This page was crafted with care by
         <a
           href="https://github.com/EvaNagengast/PersonalPortfolio"
           target="_blank"
@@ -13,9 +13,18 @@ export default function Footer() {
           alt="Info Eva Nagengast"
           className="footerlink"
         >
-        Eva Nagengast
+          Eva Nagengast
         </a>
-       images are by Lucy Davies
+  
+        images are by      <a
+          href="https://www.lucydaviesphotography.com/"
+          target="_blank"
+          rel="noreferrer"
+          alt="Photos by Lucy Davies"
+          className="footerlink"
+        >
+          Lucy Davies
+        </a>
       </footer>
     </div>
   );
