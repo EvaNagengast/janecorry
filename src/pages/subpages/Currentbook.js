@@ -170,9 +170,10 @@ function Currentbook() {
         </div>
 
         <div className="col-3 mt-5 pe-4">
-          “This is a book that sneaks up on you. A complex and suspenseful story
+          This is a book that sneaks up on you. A complex and suspenseful story
           about family secrets and relationship driven, beautifully plotted and
-          filled with shocking twists.”{" "}
+          filled with shocking twists.
+          <br />
           <span className="highlight">
             SAMANTHA DOWNING , Sunday Times bestselling author of My Lovely Wife
           </span>

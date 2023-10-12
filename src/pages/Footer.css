@@ -1,6 +1,6 @@
 .Footer {
   background-color:#001112;
-  box-shadow:0px -4px 5px 0px red
+  box-shadow: 0 -3px 10px rgba(0, 0, 0, 0.7);
  
 }
 .Footer .footerlink {
