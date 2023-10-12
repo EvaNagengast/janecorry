@@ -14,9 +14,9 @@ function Currentbook() {
   return (
     <div className="currentbooksection">
       <img src={Subtitle} alt="subtitle" className="subtitle d-block"></img>
-      <h1 className="mt-2 ">
-        COMING TO <br />
-        FIND YOU
+      <h1 className="mt-2 text-capitalize">
+        Coming To<br />
+        Find You
       </h1>
       <div className="row m-auto mt-5 pt-4">
         <div className="col-7 pt-2 ps-5 introduction">
@@ -219,8 +219,8 @@ function Currentbook() {
       <section className="mt-5 py-5 aboutJaneCorry">
         <div className="row m-auto align-items-center">
           <div className="col-6 mt-3">
-            <h2>JANE CORRY</h2>
-            <div className="my-5 Newsletterprompt">
+            <h2>Jane Corry</h2>
+            <div className="my-4 Newsletterprompt">
               <button
                 onClick={() => {
                   navigate("../newsletter");

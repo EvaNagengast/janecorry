@@ -5,6 +5,7 @@ import {
   Route,
   NavLink,
 } from "react-router-dom";
+import { RxHamburgerMenu } from "react-icons/rx";
 //
 import Home from "./Home";
 import AboutMe from "./AboutMe";
@@ -41,7 +42,11 @@ export default function Navigation() {
         <nav className="navbar navbar-expand-lg ">
           <div className="container-fluid">
             <NavLink to="/" className="navbar-brand">
-              <img src={Logo} alt="Jane Correy Home" className="smalllogo"></img>
+              <img
+                src={Logo}
+                alt="Jane Correy Home"
+                className="smalllogo"
+              ></img>
             </NavLink>
             <button
               className="navbar-toggler"
@@ -52,7 +57,9 @@ export default function Navigation() {
               aria-expanded="false"
               aria-label="Toggle navigation"
             >
-              <span className="navbar-toggler-icon"></span>
+              <span className="navbar-toggler-icon">
+                <RxHamburgerMenu />
+              </span>
             </button>
             <div
               className="collapse navbar-collapse"

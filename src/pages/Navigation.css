@@ -8,11 +8,34 @@
   z-index: 10;
 }
 .navbar .nav-link {
-  color: rgb(255, 213, 0);
+  color: var(---baselight);
   font-family: var(---fontheadline);
-  font-weight: 100;
+  font-size: 20px;
 }
 .navbar .smalllogo {
   height: 30px;
   filter: saturate(170%) hue-rotate(-10deg);
+}
+.navbar .navbar-toggler-icon {
+  padding-top: 5px;
+
+  border: 1px solid var(---baselight);
+  border-radius: 5px;
+  font-size: 30px;
+  color: var(---baselight);
+}
+.navbar .dropdown-menu {
+  background-color: var(---basedark);
+  color: var(---baselight);
+}
+.navbar .dropdown-item {
+  color: var(---base);
+}
+.navbar .dropdown-item:hover {
+  background-color: var(---baselight);
+  color: var(---basedark);
+}
+.navbar .dropdown-item:active {
+  background-color: var(---baselight);
+  color: var(---basedark);
 }
