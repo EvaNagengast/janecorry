@@ -4,7 +4,7 @@
 
 .currentbooksection h1 {
   margin-top: -30px;
-
+  padding-top: 10px;
   font-size: 80px;
   font-family: var(---fontheadline);
   color: var(---baselight);
@@ -19,13 +19,14 @@
   color: var(---basedark);
 }
 .currentbooksection .subtitle {
-  max-height: 50px;
-  margin: -10px 0px 0 100px;
+  max-height: 60px;
+  margin: 30px 0px 0 30px;
   transform: rotate(-5deg);
 }
-.currentbooksection .jcimagesmall {
-  max-height: 490px;
+.currentbooksection .jcimage {
+  max-height: 540px;
 }
+
 .currentbooksection .introduction {
   font-size: 20px;
   line-height: 33px;
@@ -53,7 +54,7 @@
     ),
     url("../../media/jccoverwindow.png");
 }
-.currentbooksection .jcimage {
+.currentbooksection .jcimagesmall {
   max-height: 450px;
   filter: saturate(130%) grayscale(90%);
 }
@@ -63,10 +64,120 @@
 }
 
 @media (max-width: 992px) {
+  .currentbooksection h1 {
+    margin: -10px 0 30px 0;
+    padding: 10px 0 0 90px;
+  }
+
+  .currentbooksection .subtitle {
+    max-height: 50px;
+    margin: 30px 0px 0 30px;
+  }
+  .currentbooksection .jcimage {
+    max-height: 450px;
+  }
+
+  .currentbooksection .introduction {
+    line-height: 30px;
+  }
+
+  .currentbooksection .newspapersnippet {
+    max-height: 250px;
+  }
+
+  .currentbooksection .bookinmagazine {
+    font-size: 25px;
+  }
+  .starreviewhome {
+    font-size: 19px;
+  }
+  .currentbooksection .jcdescription {
+    font-size: 21px;
+    line-height: 30px;
+  }
 }
+
 @media (max-width: 768px) {
+  .currentbooksection h1 {
+    margin: 0 0 30px 0;
+    padding: 30px 0 0 60px;
+    font-size: 75px;
+  }
+  .currentbooksection h2 {
+    font-size: 70px;
+  }
+  .currentbooksection .subtitle {
+    max-height: 50px;
+    margin: 0px 0px 0 30px;
+  }
+  .currentbooksection .jcimage {
+    max-height: 260px;
+  }
+  .currentbooksection .bookinmagazine {
+    font-size: 18px;
+  }
+  .starreviewhome {
+    font-size: 16px;
+  }
 }
+/* 
+
+
+
+
+
+
+
+
+
+
+*/
 @media (max-width: 576px) {
-}
+  .currentbooksection h1 {
+    margin: 0 0 10px 0;
+    padding: 35px 0 0 30px; 
+    font-size: 65px;
+  }
+  .currentbooksection h2 {
+    font-size: 60px;
+  }
+  .currentbooksection .subtitle {
+    max-height: 45px; 
+    margin: 15px 0px 0 30px; 
+     transform: rotate(-2deg);
+  }
+  .currentbooksection .jcimage {
+    max-height: 460px; 
+  }
+
+  /* .currentbooksection .introduction {
+    font-size: 20px;
+     line-height: 30px;
+  } */
+
+  .currentbooksection .newspapersnippet {
+     max-height: 180px;  
+    border-radius: 4px;
+  }
+
+  .currentbooksection .bookinmagazine {
+    font-size: 19px;
+  }
+  .starreviewhome {
+    font-size: 19px; 
+    line-height: 26px;
+  }
+  .currentbooksection .adlastbook {
+    font-size: 19px;
+  }
+.comingtofindyouAmazon{font-size: 17px;}
+  /* .currentbooksection .jcimagesmall {
+    max-height: 450px;
+  } */
+  .currentbooksection .jcdescription {
+    font-size: 19px; 
+    line-height: 33px; 
+  }
+} /*
 @media (max-width: 420px) {
-}
+} */

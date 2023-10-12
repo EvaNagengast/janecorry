@@ -39,7 +39,7 @@ export default function Navigation() {
   return (
     <div className="Navigation">
       <Router>
-        <nav className="navbar navbar-expand-lg ">
+        <nav className="navbar navbar-expand-sm ">
           <div className="container-fluid">
             <NavLink to="/" className="navbar-brand">
               <img
