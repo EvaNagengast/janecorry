@@ -1,9 +1,9 @@
 :root {
   ---base: rgb(224, 219, 199);
-  ---dark:#001112;
+  ---dark: #001112;
   ---baselight: #fdb20b;
   ---basedark: #011415;
-  ---fontheadline: "Croissant One", serif;
+  ---fontheadline: "East Sea Dokdo", sans-serif;
 }
 
 /* generic classes */
@@ -15,7 +15,7 @@
   text-decoration: none;
 }
 .btnLightDark:hover {
-  background-color:var(---dark);
+  background-color: var(---dark);
   color: var(---baselight);
 }
 
@@ -27,7 +27,7 @@
   text-decoration: none;
 }
 .btnDarkLight:hover {
-  background-color:var(---dark);
+  background-color: var(---dark);
   color: var(---baselight);
 }
 
@@ -46,7 +46,9 @@
   border: none;
   color: var(---baselight);
 }
-.buttonLink:hover {color: var(---base);}
+.buttonLink:hover {
+  color: var(---base);
+}
 /*  */
 
 .App {

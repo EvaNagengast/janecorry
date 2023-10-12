@@ -1,0 +1,8 @@
+.book {
+  max-height: 240px;
+}
+
+.each-slideshow-indicator::before {background-color: aqua;
+  color: var(---baselight)!important;
+  background: red;
+}

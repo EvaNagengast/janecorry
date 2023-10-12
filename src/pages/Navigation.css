@@ -9,6 +9,8 @@
 }
 .navbar .nav-link {
   color: rgb(255, 213, 0);
+  font-family: var(---fontheadline);
+  font-weight: 100;
 }
 .navbar .smalllogo {
   height: 30px;

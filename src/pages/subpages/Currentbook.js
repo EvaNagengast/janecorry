@@ -1,11 +1,11 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-
+import { MdOutlineStar } from "react-icons/md";
+import Slideshow from "./Slideshow";
 import Newspaper from "../../media/ctfynewspaper.jpg";
 import Fullimage from "../../media/jcfullbody.jpg";
 import Halfimage from "../../media/jctopbody.jpg";
 import Subtitle from "../../media/jcfontsubtitle.png";
-import { MdOutlineStar } from "react-icons/md";
 
 import "./Currentbook.css";
 
@@ -89,7 +89,7 @@ function Currentbook() {
         </div>
       </div>
       <hr className="m-5" />
-      <div className="my-3 adlastbook">
+      <div className="mt-3 adlastbook">
         Meanwhile, you can buy my 2022 Penguin novel <br />
         <span className="highlight">
           <i>We all have our Secrets </i>
@@ -97,6 +97,9 @@ function Currentbook() {
         <br />
         and all of my other books at booksellers or online.
       </div>{" "}
+      <div className="m-3 p-5">
+        <Slideshow />
+      </div>
       <a
         href="https://www.amazon.co.uk/stores/Jane-Corry/author/B01BTZ839E?ref=ap_rdr&store_ref=ap_rdr&isDramIntegrated=true&shoppingPortalEnabled=true"
         alt="amazon sellers page"
@@ -104,7 +107,7 @@ function Currentbook() {
         rel="noreferrer"
         className="px-2 py-1 btnLightDark"
       >
-        Just click here to find all my books
+        Click here to find all my books
       </a>
       <hr className="m-5" />
       <div className="row m-auto align-items-center">
@@ -216,7 +219,7 @@ function Currentbook() {
       <section className="mt-5 py-5 aboutJaneCorry">
         <div className="row m-auto align-items-center">
           <div className="col-6 mt-3">
-            <h2>Jane Corry</h2>
+            <h2>JANE CORRY</h2>
             <div className="my-5 Newsletterprompt">
               <button
                 onClick={() => {
