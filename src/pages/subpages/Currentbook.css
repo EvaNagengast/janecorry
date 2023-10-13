@@ -120,64 +120,95 @@
     font-size: 16px;
   }
 }
-/* 
-
-
-
-
-
-
-
-
-
-
-*/
 @media (max-width: 576px) {
   .currentbooksection h1 {
     margin: 0 0 10px 0;
-    padding: 35px 0 0 30px; 
+    padding: 35px 0 0 30px;
     font-size: 65px;
   }
   .currentbooksection h2 {
     font-size: 60px;
   }
   .currentbooksection .subtitle {
-    max-height: 45px; 
-    margin: 15px 0px 0 30px; 
-     transform: rotate(-2deg);
+    max-height: 45px;
+    margin: 15px 0px 0 30px;
+    transform: rotate(-2deg);
   }
   .currentbooksection .jcimage {
-    max-height: 460px; 
+    max-height: 460px;
   }
-
-  /* .currentbooksection .introduction {
-    font-size: 20px;
-     line-height: 30px;
-  } */
-
   .currentbooksection .newspapersnippet {
-     max-height: 180px;  
+    max-height: 180px;
     border-radius: 4px;
   }
-
   .currentbooksection .bookinmagazine {
     font-size: 19px;
   }
   .starreviewhome {
-    font-size: 19px; 
+    font-size: 19px;
     line-height: 26px;
   }
   .currentbooksection .adlastbook {
     font-size: 19px;
   }
-.comingtofindyouAmazon{font-size: 17px;}
-  /* .currentbooksection .jcimagesmall {
-    max-height: 450px;
-  } */
-  .currentbooksection .jcdescription {
-    font-size: 19px; 
-    line-height: 33px; 
+  .comingtofindyouAmazon {
+    font-size: 17px;
   }
-} /*
+  .currentbooksection .jcdescription {
+    font-size: 19px;
+    line-height: 33px;
+  }
+}
+
 @media (max-width: 420px) {
-} */
+  .currentbooksection h1 {
+    margin: 0 0 15px 0;
+    padding: 30px 0 0 30px;
+    font-size: 54px;
+  }
+  .currentbooksection h2 {
+    font-size: 48px;
+  }
+  .currentbooksection .subtitle {
+    max-height: 40px;
+    margin: -50px 0px 0 30px;
+  }
+  .currentbooksection .jcimage {
+    max-height: 400px;
+  }
+
+  .currentbooksection .introduction {
+    font-size: 17px;
+    line-height: 28px;
+  }
+
+  .currentbooksection .bookinmagazine {
+    font-size: 15px;
+  }
+  .currentbooksection .starreviewhome {
+    font-size: 16px;
+    line-height: 23px;
+  }
+  .currentbooksection .adlastbook {
+    font-size: 15px;
+  }
+  .currentbooksection .comingtofindyouAmazon {
+    font-size: 14px;
+  }
+  .reviewsection {
+    font-size: 12px;
+  }
+  .reviewLink{
+    font-size: 14px;
+  }
+  .currentbooksection .jcimagesmall {
+    max-height: 320px;
+  }
+  .currentbooksection .jcdescription {
+    font-size: 17px;
+    line-height: 30px;
+  }
+  .Newsletterprompt{
+    font-size: 15px;
+  }
+}

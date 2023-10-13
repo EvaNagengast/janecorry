@@ -133,7 +133,7 @@ function Currentbook() {
         Click here to find all my books
       </a>
       <hr className="m-4 m-lg-5" />
-      <div className="row m-auto align-items-center">
+      <div className="row m-auto align-items-center reviewsection">
         <div className="col-5 col-sm-4 col-md-3 col-lg-2 ps-4">
           Psychological Thriller Of The Year!
           <br />
@@ -165,7 +165,7 @@ function Currentbook() {
           </span>
         </div>
 
-        <div className="col-8 col-sm-5 col-md-5 col-lg-4  mt-4 mt-md-5   ps-4 ps-lg-3 ">
+        <div className="col-8 col-sm-5 col-md-5 col-lg-4  mt-4 mt-md-5 ps-2  ps-sm-4 ps-lg-3 ">
           Another twisty treat from Jane Corry. I devoured{" "}
           <i>We All Have Our Secrets</i> in one sitting. It's clever and
           addictive and Jane is so very good at creating characters who get
@@ -206,9 +206,6 @@ function Currentbook() {
           </span>
         </div>
 
-
-
-
         <div className="col-12 col-md-5 col-lg-6 mt-4 mt-md-5 mt-lg-4 p-lg-5">
           <i>We All Have Our Secrets</i> Our Secrets is a clever, tense and
           compelling thriller about fathers and daughters and the lies we tell
@@ -240,7 +237,7 @@ function Currentbook() {
           onClick={() => {
             navigate("./reviews");
           }}
-          className="btnLightDark px-3 py-1"
+          className="btnLightDark px-3 py-1 reviewLink"
         >
           find more reviews here
         </button>

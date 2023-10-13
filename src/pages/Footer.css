@@ -1,11 +1,25 @@
 .Footer {
-  background-color:#001112;
+  background-color: #001112;
   box-shadow: 0 -3px 10px rgba(0, 0, 0, 0.7);
- 
 }
 .Footer .footerlink {
   color: var(---baselight);
 }
 .Footer .footerlink:hover {
   color: var(---base);
+}
+@media (max-width: 768px) {
+  .Footer {
+    font-size: 14px;
+  }
+}
+@media (max-width: 576px) {
+  .Footer {
+    font-size: 12px;
+  }
+}
+@media (max-width: 420px) {
+  .Footer {
+    font-size: 10px;
+  }
 }

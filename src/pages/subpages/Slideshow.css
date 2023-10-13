@@ -4,3 +4,6 @@
 @media (max-width: 576px) {.book {
   max-height: 200px;
 }}
+@media (max-width: 420px) {.book {
+  max-height: 160px;
+}}

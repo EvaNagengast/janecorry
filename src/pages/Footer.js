@@ -2,7 +2,7 @@ import React from "react";
 import "./Footer.css";
 export default function Footer() {
   return (
-    <div className="Footer py-3">
+    <div className="Footer py-2 py-sm-3">
       <footer className="footer text-center">
         © 2023 Jane Corry <br />
         Images are by
@@ -15,6 +15,7 @@ export default function Footer() {
         >
           Lucy Davies Photography
         </a>
+        <br className="d-block d-sm-none" />
         This page was crafted with care by
         <a
           href="https://eva-nagengast.com/"

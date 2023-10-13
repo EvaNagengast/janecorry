@@ -97,8 +97,22 @@
 
   .titleimage {
     max-height: 160px;
-    /* margin: 50px 10px 5px 20px;*/
+ 
   }
-} /* 
+} 
 @media (max-width: 420px) {
-} */
+ .herocontainer {
+    max-height: 430px;
+  }
+  .flickeringlights {
+    height: 400px;
+  }
+  .hero {
+    top: -480px;
+    height: 520px;
+  }
+  .titleimage {
+    max-height: 130px;
+    margin: 100px 10px 5px 20px;
+  }
+} 
