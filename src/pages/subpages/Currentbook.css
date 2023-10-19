@@ -9,11 +9,7 @@
   font-family: var(---fontheadline);
   color: var(---baselight);
 }
-.currentbooksection h2 {
-  font-size: 70px;
-  font-family: var(---fontheadline);
-  color: var(---baselight);
-}
+
 .currentbooksection hr {
   border: 2px solid var(---basedark);
   color: var(---basedark);
@@ -46,22 +42,8 @@
 .currentbooksection .adlastbook {
   font-size: 20px;
 }
-.currentbooksection .aboutJaneCorry {
-  background: linear-gradient(
-      172deg,
-      rgba(1, 20, 21, 0.7) 0%,
-      rgb(1, 20, 21, 0.7) 100%
-    ),
-    url("../../media/jccoverwindow.png");
-}
-.currentbooksection .jcimagesmall {
-  max-height: 450px;
-  filter: saturate(130%) grayscale(90%);
-}
-.currentbooksection .jcdescription {
-  font-size: 20px;
-  line-height: 33px;
-}
+
+
 
 @media (max-width: 992px) {
   .currentbooksection h1 {
@@ -90,11 +72,7 @@
   }
   .starreviewhome {
     font-size: 19px;
-  }
-  .currentbooksection .jcdescription {
-    font-size: 21px;
-    line-height: 30px;
-  }
+  } 
 }
 
 @media (max-width: 768px) {
@@ -153,11 +131,7 @@
   }
   .comingtofindyouAmazon {
     font-size: 17px;
-  }
-  .currentbooksection .jcdescription {
-    font-size: 19px;
-    line-height: 33px;
-  }
+  } 
 }
 
 @media (max-width: 420px) {
@@ -200,15 +174,5 @@
   }
   .reviewLink{
     font-size: 14px;
-  }
-  .currentbooksection .jcimagesmall {
-    max-height: 320px;
-  }
-  .currentbooksection .jcdescription {
-    font-size: 17px;
-    line-height: 30px;
-  }
-  .Newsletterprompt{
-    font-size: 15px;
-  }
+  } 
 }
