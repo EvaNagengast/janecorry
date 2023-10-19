@@ -1,18 +1,13 @@
+.Aboutme {
+  background-color: var(---basedark);
+}
 .aboutmepage {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  margin-top: -140px;
   text-align: center;
 }
-.newspapersnippet {
-  max-height: 300px;
-  border-radius: 6px;
-}
 
-.bookinmagazine {
-  font-size: 30px;
-}
 @media (max-width: 768px) {
 }
 @media (max-width: 576px) {

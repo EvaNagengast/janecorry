@@ -11,12 +11,15 @@
     ),
     url("../../media/jccoverwindow.png");
 }
+ .abouttheauthor .Newsletterprompt {
+    font-size: 20px;
+  }
 .abouttheauthor .jcimagesmall {
   max-height: 450px;
   filter: saturate(130%) grayscale(90%);
 }
 .abouttheauthor .jcdescription {
-  font-size: 20px;
+  font-size: 24px;
   line-height: 33px;
 }
 

@@ -5,3 +5,11 @@
   margin-top: -140px;
   text-align: center;
 }
+.newspapersnippet {
+  max-height: 300px;
+  border-radius: 6px;
+}
+
+.bookinmagazine {
+  font-size: 30px;
+}

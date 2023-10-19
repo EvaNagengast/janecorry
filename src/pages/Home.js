@@ -2,6 +2,7 @@ import React from "react";
 import Footer from "./Footer";
 import Homehero from "./subpages/Homehero";
 import Currentbook from "./subpages/Currentbook";
+import AbouttheAuthor from "./subpages/AbouttheAuthor";
 import "./Home.css";
 
 function Home() {
@@ -10,9 +11,12 @@ function Home() {
       <div className="homepage">
         <Homehero />
         <main>
-          <Currentbook/>
+          <Currentbook />
         </main>
       </div>
+      <section>
+        <AbouttheAuthor />
+      </section>
       <footer>
         <Footer />
       </footer>

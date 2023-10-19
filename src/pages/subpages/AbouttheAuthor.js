@@ -1,16 +1,17 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import Halfimage from "../../media/jctopbody.jpg";import "./AbouttheAuthor.css";
+import Halfimage from "../../media/jctopbody.jpg";
+import "./AbouttheAuthor.css";
 
 function AbouttheAuthor() {
   let navigate = useNavigate();
   return (
     <div className="abouttheauthor">
-      <div className="mt-5 py-2 py-lg-5 aboutJaneCorry">
+      <div className="py-2 py-lg-5 aboutJaneCorry">
         <div className="row m-auto align-items-center">
-          <div className="col-md-6 mt-4 mt-md-0 mt-lg-3">
-            <h2>Jane Corry</h2>
-            <div className="my-4 d-none d-lg-block Newsletterprompt">
+          <div className="col-md-6 col-lg-7 col-xl-8 col-xxl-9 mt-4 mt-md-0 mt-lg-3">
+            <h2 className="text-center">Jane Corry</h2>
+            <div className="my-4 d-none d-lg-block text-center Newsletterprompt">
               <button
                 onClick={() => {
                   navigate("../newsletter");
@@ -21,7 +22,7 @@ function AbouttheAuthor() {
               </button>
               and I will send you a free short story.
             </div>
-            <div className="px-2 px-md-3 px-lg-5 pt-3 pt-md-0 jcdescription">
+            <div className="px-2 px-md-3 px-lg-5 pt-3 pt-md-0 text-center jcdescription">
               Jane Corry is a writer and journalist who has spent time working
               as the writer in residence of a high security prison for men - an
               experience that helped inspire her Sunday Times bestsellers. Jane
@@ -38,23 +39,26 @@ function AbouttheAuthor() {
               </button>
             </div>
           </div>
-          <div className="col-md-6 ">
+          <div className="d-flex col-md-6 col-lg-5 col-xl-4 col-xxl-3 justify-content-center">
             <img
               src={Halfimage}
               alt="Jane Corry Profile holiding her newest Book"
               className="img-fluid pt-4 pt-sm-5 jcimagesmall"
             />
-            <div className="my-4 d-block d-lg-none Newsletterprompt">
-              <button
-                onClick={() => {
-                  navigate("../newsletter");
-                }}
-                className="d-block m-auto mb-2 btnLightDark"
-              >
-                Sign up to my newsletter
-              </button>
+          </div>
+          <div className="my-4 d-block d-lg-none Newsletterprompt">
+            <button
+              onClick={() => {
+                navigate("../newsletter");
+              }}
+              className="d-block mb-2 m-auto btnLightDark"
+            >
+              Sign up to my newsletter
+            </button>
+            <p className="text-center">
+              {" "}
               and I will send you a free short story.
-            </div>
+            </p>
           </div>
         </div>
       </div>

@@ -1,7 +1,6 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 import { MdOutlineStar } from "react-icons/md";
-import AbouttheAuthor from "./AbouttheAuthor";
 import Slideshow from "./Slideshow";
 import Newspaper from "../../media/ctfynewspaper.jpg";
 import Fullimage from "../../media/jcfullbody.jpg";
@@ -13,7 +12,7 @@ import "./Currentbook.css";
 function Currentbook() {
   let navigate = useNavigate();
   return (
-    <div className="currentbooksection">
+    <div className="currentbooksection pb-4">
       <div className="row">
         <div className="col-3">
           <img src={Subtitle} alt="subtitle" className="subtitle d-block"></img>
@@ -233,7 +232,7 @@ function Currentbook() {
           </span>
         </div>
       </div>
-      <p className="mt-2">
+      <p className="mt-2 mb-0">
         <button
           onClick={() => {
             navigate("./reviews");
@@ -243,10 +242,7 @@ function Currentbook() {
           find more reviews here
         </button>
       </p>
-      <div>
-        <AbouttheAuthor />
-      </div>
-    </div>
+        </div>
   );
 }
 

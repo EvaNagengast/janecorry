@@ -5,7 +5,7 @@ import "./AboutMe.css";
 
 function AboutMe() {
   return (
-    <div>
+    <div className="Aboutme">
       <div className="aboutmepage">
         ABOUT ME Sunday Times best-selling author; Washington Post best-seller;
         sold over a million copies world-wide in over 20 countries including the
