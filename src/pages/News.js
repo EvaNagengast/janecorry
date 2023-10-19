@@ -1,5 +1,6 @@
 import React from "react";
 import Footer from "./Footer";
+import { InstagramEmbed } from "react-social-media-embed";
 import Newspaper from "../media/ctfynewspaper.jpg";
 import "./News.css";
 
@@ -47,6 +48,23 @@ function News() {
               Woman & Home!
             </a>
           </div>
+        </div>
+        <div style={{ display: "flex", justifyContent: "center" }}>
+          <InstagramEmbed
+            url="https://www.instagram.com/p/CwIEH9JLzub/"
+            width={328}
+            captioned="false"
+          />
+          <InstagramEmbed
+            url="https://www.instagram.com/p/CvFR657oeQ1/"
+            width={328}
+            captioned="false"
+          />{" "}
+          <InstagramEmbed
+            url="https://www.instagram.com/p/CuIF8JDLp2p/"
+            width={328}
+            captioned="false"
+          />
         </div>
       </div>
       <Footer />
