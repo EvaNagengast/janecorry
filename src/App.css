@@ -3,10 +3,16 @@
   ---dark: #001112;
   ---baselight: #fdb20b;
   ---basedark: #011415;
-  ---fontheadline:  'Alice', serif;
+  ---fontheadline: "Alice", serif;
 }
 
 /* generic classes */
+
+h1 {
+  font-size: 80px;
+  font-family: var(---fontheadline);
+  color: var(---baselight);
+}
 .btnLightDark {
   border: 1px solid var(---baselight);
   border-radius: 4px;

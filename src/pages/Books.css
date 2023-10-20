@@ -1,7 +1,51 @@
+.Books {
+  background-color: var(---basedark);
+}
 .bookpage {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  margin-top: -140px;
+  padding-top: 20px;
+}
+.bookpage h1 {
+  margin: 10px 40px;
+  font-size: 120px;
+}
+/* current book */
+.bookpage .currentbook {
+  background: linear-gradient(
+      172deg,
+      rgba(0, 0, 0, 0.7) 0%,
+      rgb(0, 0, 0, 0.7) 100%
+    ),
+    url("../media/ctfy.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  margin: 0 auto;
   text-align: center;
+  font-size: 20px;
+}
+
+.bookpage .currentbookimage {
+  width: 120px;
+}
+/* last book */
+.bookpage .lastbook {
+  background: linear-gradient(
+      172deg,
+      rgba(0, 0, 0, 0.7) 0%,
+      rgb(0, 0, 0, 0.7) 100%
+    ),
+    url("../media/wahos.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 20px;
+}
+
+.bookpage .lastbookimage {
+  width: 120px;
 }

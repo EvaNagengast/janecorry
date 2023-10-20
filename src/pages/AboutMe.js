@@ -1,5 +1,6 @@
 import React from "react";
 import Footer from "./Footer";
+import jcfront from "../media/jcfront.png";
 
 import "./AboutMe.css";
 
@@ -24,6 +25,7 @@ function AboutMe() {
         </i>
         Peter James
         <br />
+        <img src={jcfront} alt="Jane Corry in a white blouse from the front"/>
         <br />
         HOW I STARTED <br />
         <br />I can’t remember NOT writing! In fact, it was all l could do!
