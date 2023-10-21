@@ -15,15 +15,16 @@ function Books() {
   return (
     <div className="Books">
       <div className="bookpage">
-        <h1>Books</h1>
+        <h1 className="m-3">Books</h1>
         <div className="row g-5 m-auto justify-content-center">
           <div className="col-6  p-3">
             <div className="currentbook">
               <img
                 src={book8}
-                alt="We all have our Secrets Book cover"
+                alt="Coming to find you Book cover"
                 className=" float-start m-2 currentbookimage"
               />
+              <h2>Coming to find you </h2>
               <p className="lastbooktext">
                 When her family tragedy is splashed across the newspapers, Nancy
                 decides to disappear. Her grandmother's beautiful Regency house
@@ -72,12 +73,12 @@ function Books() {
           </div>
           <div className="col-6  p-3">
             <div className="lastbook">
-              {" "}
               <img
                 src={book7}
                 alt="We all have our Secrets Book cover"
-                className=" float-start m-2 lastbookimage"
-              />
+                className=" float-start m-2 img-fluid lastbookimage"
+              />{" "}
+              <h2>We all have our Secrets</h2>
               <p className="lastbooktext">
                 Emily made one bad decision, and now her career could be over.
                 Her family home on the Cornish coast is the only place where she
@@ -126,7 +127,17 @@ function Books() {
             </div>
           </div>
         </div>
-
+  
+ {/* 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ */}
         <div className="row m-auto">
           <div className="col-3">
             <img

@@ -7,9 +7,9 @@
   min-height: 100vh;
   padding-top: 20px;
 }
-.bookpage h1 {
-  margin: 10px 40px;
-  font-size: 120px;
+.bookpage h2 {
+  font-family: var(---fontheadline);
+  color: var(---baselight);
 }
 /* current book */
 .bookpage .currentbook {
@@ -24,11 +24,13 @@
   height: 100%;
   margin: 0 auto;
   text-align: center;
-  font-size: 20px;
 }
 
 .bookpage .currentbookimage {
   width: 120px;
+}
+.bookpage .currentbooktext {
+  font-size: 10px;
 }
 /* last book */
 .bookpage .lastbook {
@@ -43,9 +45,81 @@
   height: 100%;
   margin: 0 auto;
   text-align: center;
-  font-size: 20px;
 }
 
 .bookpage .lastbookimage {
-  width: 120px;
+  max-width: 150px;
+}
+
+.bookpage .lastbooktext {
+  font-size: 10px;
+}
+/* old books */
+.bookpage .book6 {
+  background: linear-gradient(
+      172deg,
+      rgba(0, 0, 0, 0.7) 0%,
+      rgb(0, 0, 0, 0.7) 100%
+    ),
+    url("../media/tlwt.png");
+}
+.bookpage .book5 {
+  background: linear-gradient(
+      172deg,
+      rgba(0, 0, 0, 0.7) 0%,
+      rgb(0, 0, 0, 0.7) 100%
+    ),
+    url("../media/wahos.png");
+}
+.bookpage .book4 {
+  background: linear-gradient(
+      172deg,
+      rgba(0, 0, 0, 0.7) 0%,
+      rgb(0, 0, 0, 0.7) 100%
+    ),
+    url("../media/wahos.png");
+}
+.bookpage .book3 {
+  background: linear-gradient(
+      172deg,
+      rgba(0, 0, 0, 0.7) 0%,
+      rgb(0, 0, 0, 0.7) 100%
+    ),
+    url("../media/wahos.png");
+}
+.bookpage .book2 {
+  background: linear-gradient(
+      172deg,
+      rgba(0, 0, 0, 0.7) 0%,
+      rgb(0, 0, 0, 0.7) 100%
+    ),
+    url("../media/wahos.png");
+}
+.bookpage .book1 {
+  background: linear-gradient(
+      172deg,
+      rgba(0, 0, 0, 0.7) 0%,
+      rgb(0, 0, 0, 0.7) 100%
+    ),
+    url("../media/wahos.png");
+}
+.bookpage .book0 {
+  background: linear-gradient(
+      172deg,
+      rgba(0, 0, 0, 0.7) 0%,
+      rgb(0, 0, 0, 0.7) 100%
+    ),
+    url("../media/wahos.png");
+}
+.bookpage .oldbooks {
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 20px;
+}
+
+.bookpage .oldbookimage {
+  max-width: 150px;
 }
