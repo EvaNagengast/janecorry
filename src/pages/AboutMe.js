@@ -9,13 +9,18 @@ function AboutMe() {
     <div className="Aboutme">
       <div className="aboutmepage pb-5">
         <h1 className="text-center">About Me</h1>
+        <img
+          src={jcfront}
+          alt="Jane Corry in a white blouse from the front"
+          className="profile d-block d-sm-none "
+        />
         <div className="m-4">
           <img
             src={jcfront}
             alt="Jane Corry in a white blouse from the front"
-            className="float-start img-fluid profile m-3 me-5"
+            className="float-start img-fluid profile d-none d-sm-block m-md-3 me-3 me-md-4 me-lg-5"
           />
-          <p className="mt-3 p-5 aboutmetext">
+          <p className="mt-3 p-0 p-lg-4 p-xl-5 aboutmetext">
             Sunday Times best-selling author; Washington Post best-seller; sold
             over a million copies world-wide in over 20 countries including the
             States; features writer for numerous magazines including Woman and
@@ -38,7 +43,7 @@ function AboutMe() {
         <br />
         <br />
         <h2 className="text-center"> How I started</h2>
-        <p className="m-5 px-5 bio">
+        <p className="mt-1 mt-sm-3 m-3 m-lg-5 px-3 px-sm-4 px-md-5 bio">
           I can't remember NOT writing! In fact, it was all l could do! (Maths
           and science were not my thing!) I began with little stories and short
           poems. My first published piece was a letter in{" "}
@@ -84,7 +89,7 @@ function AboutMe() {
           one of my books made into a film or tv series.
         </p>{" "}
         <span className="highlight text-center">
-            <i> 'Psychological thriller writing at its very best'</i>
+          <i> 'Psychological thriller writing at its very best'</i>
           <br /> SD Sykes, the Oswald de Lacy Books
         </span>
       </div>
