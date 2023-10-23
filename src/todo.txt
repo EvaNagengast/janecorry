@@ -28,3 +28,5 @@ reviews:    Kate
             stars: yellow or white
 
 writing tips: okay with the typewriter?
+
+events: email button :

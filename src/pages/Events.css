@@ -1,11 +1,17 @@
+/* checked */
+.Events {
+  background-color: var(---basedark);
+}
 .eventspage {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  margin-top: -140px;
-  text-align: center;
+  padding-top: 20px;
+  font-size: 22px;
 }
-
+.event1 {
+  padding: 40px 80px;
+}
 
 @media (max-width: 1400px) {
 }

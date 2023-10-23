@@ -25,6 +25,7 @@ function Newsletter() {
                 href="mailto:janecorryauthor@gmail.com"
                 target="_blank"
                 rel="noreferrer"
+                alt="send a mail to receive the newsletter"
                 className="linkLightBase"
               >
                 {" "}
@@ -37,6 +38,7 @@ function Newsletter() {
               href="mailto:janecorryauthor@gmail.com?subject=Newsletter&body=Please add me to your Newsletter!"
               target="_blank"
               rel="noreferrer"
+              alt="send a mail to receive the newsletter"
               className="px-3 btnLightDark newsletterbutton"
             >
               click here to subscribe
