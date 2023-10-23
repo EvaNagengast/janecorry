@@ -43,6 +43,12 @@
   font-size: 10px;
 }
 /* old books */
+
+.bookpage h3 {
+  font-family: var(---fontheadline);
+  color: var(---baselight);
+  font-size: 20px;
+}
 .bookpage .oldbackgound6 {
   background: linear-gradient(
       172deg,
@@ -112,8 +118,9 @@
 .bookpage .oldbooktext {
   font-size: 10px;
 }
-
-
+.bookpage .oldbooklinks {
+  font-size: 10px;
+}
 @media (max-width: 1400px) {
 }
 @media (max-width: 1200px) {

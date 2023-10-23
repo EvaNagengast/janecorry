@@ -29,15 +29,25 @@ h1 {
 .btnDarkLight {
   border: 1px solid var(---baselight);
   border-radius: 4px;
-  background-color: var(---baselight);
-  color: var(---dark);
+  background-color: var(---basedark);
+  color: var(---baselight);
   text-decoration: none;
 }
 .btnDarkLight:hover {
-  background-color: var(---dark);
-  color: var(---baselight);
+  background-color: var(---baselight);
+  color: var(---dark);
 }
-
+.btnNoneLight {
+  border: 1px solid var(---baselight);
+  border-radius: 4px;
+  background-color: none;
+  color: var(---baselight);
+  text-decoration: none;
+}
+.btnNoneLight:hover {
+  background-color: var(---baselight);
+  color: var(---dark);
+}
 .linkLightBase {
   color: var(---baselight);
   text-decoration: none;

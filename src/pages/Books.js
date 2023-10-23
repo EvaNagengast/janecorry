@@ -44,30 +44,35 @@ function Books() {
                 put down' Heidi Perks, author of The Whispers 'Combines the
                 heart-warming with the thrilling' Emma Curtis, author of Invite
                 Me In
-                <a
-                  href="https://www.amazon.co.uk/Coming-Find-You-heart-wrenching-suspenseful/dp/0241996104"
-                  alt="buy Coming to find you on amazon"
-                  rel="noreferrer"
-                  target="_blank"
-                >
-                  Amazon
-                </a>
-                <a
-                  href="https://www.penguin.co.uk/books/451069/coming-to-find-you-by-corry-jane/9780241996102"
-                  alt="buy Coming to find you on Penguin"
-                  rel="noreferrer"
-                  target="_blank"
-                >
-                  Penguin
-                </a>
-                <a
-                  href="  https://www.goodreads.com/book/show/64645772-coming-to-find-you"
-                  alt="learn about Coming to find you on Goodreads"
-                  rel="noreferrer"
-                  target="_blank"
-                >
-                  Goodreads
-                </a>
+                <p className="m-3">
+                  <a
+                    href="https://www.amazon.co.uk/Coming-Find-You-heart-wrenching-suspenseful/dp/0241996104"
+                    alt="buy Coming to find you on amazon"
+                    rel="noreferrer"
+                    target="_blank"
+                    className="btnNoneLight px-2 mx-3"
+                  >
+                    Amazon
+                  </a>
+                  <a
+                    href="https://www.penguin.co.uk/books/451069/coming-to-find-you-by-corry-jane/9780241996102"
+                    alt="buy Coming to find you on Penguin"
+                    rel="noreferrer"
+                    target="_blank"
+                    className="btnNoneLight px-2 mx-3"
+                  >
+                    Penguin
+                  </a>
+                  <a
+                    href="  https://www.goodreads.com/book/show/64645772-coming-to-find-you"
+                    alt="learn about Coming to find you on Goodreads"
+                    rel="noreferrer"
+                    target="_blank"
+                    className="btnNoneLight px-2 mx-3"
+                  >
+                    Goodreads
+                  </a>
+                </p>
               </p>
             </div>
           </div>
@@ -98,30 +103,36 @@ function Books() {
                 characters and plenty of twists' Heidi Perks, The Whispers 'Jane
                 Corry writes consistently enthralling stories about the dark
                 side of family life' Peter James, Picture You Dead
-                <a
-                  href="https://www.amazon.co.uk/We-All-Have-Our-Secrets-ebook/dp/B09H2Q5SHD"
-                  alt="buy We all have our secrets on amazon"
-                  rel="noreferrer"
-                  target="_blank"
-                >
-                  Amazon
-                </a>
-                <a
-                  href="https://www.penguin.co.uk/books/317041/we-all-have-our-secrets-by-corry-jane/9780241989029"
-                  alt="buy We all have our secrets on penguin"
-                  rel="noreferrer"
-                  target="_blank"
-                >
-                  Penguin
-                </a>
-                <a
-                  href="https://www.goodreads.com/book/show/59063637-we-all-have-our-secrets"
-                  alt="learn about  We all have our secrets on Goodreads"
-                  rel="noreferrer"
-                  target="_blank"
-                >
-                  Goodreads
-                </a>
+                <p className="m-3">
+                  {" "}
+                  <a
+                    href="https://www.amazon.co.uk/We-All-Have-Our-Secrets-ebook/dp/B09H2Q5SHD"
+                    alt="buy We all have our secrets on amazon"
+                    rel="noreferrer"
+                    target="_blank"
+                    className="btnNoneLight px-2 mx-3"
+                  >
+                    Amazon
+                  </a>
+                  <a
+                    href="https://www.penguin.co.uk/books/317041/we-all-have-our-secrets-by-corry-jane/9780241989029"
+                    alt="buy We all have our secrets on penguin"
+                    rel="noreferrer"
+                    target="_blank"
+                    className="btnNoneLight px-2 mx-3"
+                  >
+                    Penguin
+                  </a>
+                  <a
+                    href="https://www.goodreads.com/book/show/59063637-we-all-have-our-secrets"
+                    alt="learn about  We all have our secrets on Goodreads"
+                    rel="noreferrer"
+                    target="_blank"
+                    className="btnNoneLight px-2 mx-3"
+                  >
+                    Goodreads
+                  </a>
+                </p>
               </p>
             </div>
           </div>
@@ -145,39 +156,48 @@ function Books() {
                 alt="The lies we tell Book cover"
                 className=" float-start m-2 oldbookimage"
               />
-              <h2>The Lies We Tell</h2>
+              <h3>The Lies We Tell</h3>
               <p className="oldbooktext">
-                The lies we tell The lies we tellThe lies we tellThe lies we
-                tellThe lies we tellThe lies we tellThe lies we tellThe lies we
-                tellThe lies we tellThe lies we tellThe lies we tellThe lies we
-                tellThe lies we tellThe lies we tellThe lies we tellThe lies we
-                tellThe lies we tellThe lies we tellThe lies we tell
-                <a
-                  href="https://www.amazon.co.uk/Lies-We-Tell-Jane-Corry/dp/0241989000"
-                  alt="buy The lies we tellon amazon"
-                  rel="noreferrer"
-                  target="_blank"
-                >
-                  Amazon
-                </a>
-                <a
-                  href="https://www.penguin.co.uk/books/317040/the-lies-we-tell-by-corry-jane/9780241989005"
-                  alt="buy The lies we tell on Penguin"
-                  rel="noreferrer"
-                  target="_blank"
-                >
-                  Penguin
-                </a>
-                <a
-                  href="https://www.goodreads.com/book/show/54139124-the-lies-we-tell"
-                  alt="learn about The lies we tell on Goodreads"
-                  rel="noreferrer"
-                  target="_blank"
-                >
-                  Goodreads
-                </a>
+                Save your son, or save yourself? Sarah always thought of herself
+                and her husband, Tom, as good people. But that was before their
+                son Freddy came home saying he'd done something terrible.
+                Begging them not to tell the police. Soon Sarah and Tom must
+                find out just how far they are willing to push themselves, and
+                their marriage, to protect their only child . . . As the lies
+                build up and Sarah is presented with the perfect opportunity to
+                get Freddy off the hook, she is faced with a terrifying decision
+                . . .
               </p>
-            </div>
+            </div>{" "}
+            <p className="m-2 oldbooklinks">
+              <a
+                href="https://www.amazon.co.uk/Lies-We-Tell-Jane-Corry/dp/0241989000"
+                alt="buy The lies we tellon amazon"
+                rel="noreferrer"
+                target="_blank"
+                className="btnDarkLight px-2 mx-2"
+              >
+                Amazon
+              </a>
+              <a
+                href="https://www.penguin.co.uk/books/317040/the-lies-we-tell-by-corry-jane/9780241989005"
+                alt="buy The lies we tell on Penguin"
+                rel="noreferrer"
+                target="_blank"
+                className="btnDarkLight px-2 mx-2"
+              >
+                Penguin
+              </a>
+              <a
+                href="https://www.goodreads.com/book/show/54139124-the-lies-we-tell"
+                alt="learn about The lies we tell on Goodreads"
+                rel="noreferrer"
+                target="_blank"
+                className="btnDarkLight px-2 mx-2"
+              >
+                Goodreads
+              </a>
+            </p>
           </div>
           <div className="col-3  p-3">
             <div className="oldbackground oldbackgound5">
@@ -186,39 +206,47 @@ function Books() {
                 alt="I made a mistake Book cover"
                 className=" float-start m-2 img-fluid oldbookimage"
               />
-              <h2>I Made a Mistake</h2>
+              <h3>I Made a Mistake</h3>
               <p className="oldbooktext">
-                I Made a MistakeeI Made a MistakeI Made a MistakeI Made a
-                MistakeI Made a MistakeI Made a MistakeI Made a MistakeI Made a
-                MistakeI Made a MistakeI Made a MistakeI Made a MistakeI Made a
-                MistakeI Made a MistakeI Made a MistakeI Made a MistakeI Made a
-                MistakeI Made a Mistake
-                <a
-                  href="https://www.amazon.co.uk/I-Made-Mistake-Jane-Corry/dp/0241984653"
-                  alt="buy I Made a Mistake on amazon"
-                  rel="noreferrer"
-                  target="_blank"
-                >
-                  Amazon
-                </a>
-                <a
-                  href="https://www.penguin.co.uk/books/309670/i-made-a-mistake-by-corry-jane/9780241984659"
-                  alt="buy I Made a Mistake on penguin"
-                  rel="noreferrer"
-                  target="_blank"
-                >
-                  Penguin
-                </a>
-                <a
-                  href="https://www.goodreads.com/book/show/52706064-i-made-a-mistake"
-                  alt="learn about I Made a Mistake on Goodreads"
-                  rel="noreferrer"
-                  target="_blank"
-                >
-                  Goodreads
-                </a>
+                In Poppy Page's mind, there are two types of women in this
+                world: those who are faithful to their husbands, and those who
+                are not. Until now, Poppy has never questioned which she was.
+                But when handsome, charming Matthew Gordon walks back into her
+                life after almost two decades, that changes. Poppy makes a
+                single mistake - and that mistake will be far more dangerous
+                than she could imagine. Someone is going to pay for it with
+                their life . . .
               </p>
             </div>
+            <p className="m-2 oldbooklinks">
+              <a
+                href="https://www.amazon.co.uk/I-Made-Mistake-Jane-Corry/dp/0241984653"
+                alt="buy I Made a Mistake on amazon"
+                rel="noreferrer"
+                target="_blank"
+                className="btnDarkLight px-2 mx-2"
+              >
+                Amazon
+              </a>
+              <a
+                href="https://www.penguin.co.uk/books/309670/i-made-a-mistake-by-corry-jane/9780241984659"
+                alt="buy I Made a Mistake on penguin"
+                rel="noreferrer"
+                target="_blank"
+                className="btnDarkLight px-2 mx-2"
+              >
+                Penguin
+              </a>
+              <a
+                href="https://www.goodreads.com/book/show/52706064-i-made-a-mistake"
+                alt="learn about I Made a Mistake on Goodreads"
+                rel="noreferrer"
+                target="_blank"
+                className="btnDarkLight px-2 mx-2"
+              >
+                Goodreads
+              </a>
+            </p>
           </div>
           <div className="col-3  p-3">
             <div className="oldbackground oldbackgound4">
@@ -227,39 +255,49 @@ function Books() {
                 alt="I Looked Away Book cover"
                 className=" float-start m-2 img-fluid oldbookimage"
               />
-              <h2>I Looked Away</h2>
+              <h3>I Looked Away</h3>
               <p className="oldbooktext">
-                I Looked AwayI Looked AwayI Looked AwayI Looked AwayI Looked
-                AwayI Looked AwayI Looked AwayI Looked AwayI Looked AwayI Looked
-                AwayI Looked AwayI Looked AwayI Looked AwayI Looked AwayI Looked
-                AwayI Looked AwayI Looked AwayI Looked AwayI Looked AwayI Looked
-                Away
-                <a
-                  href="https://www.amazon.co.uk/Looked-Away-page-turning-Sunday-bestseller/dp/0241984637"
-                  alt="buy I Looked Away on amazon"
-                  rel="noreferrer"
-                  target="_blank"
-                >
-                  Amazon
-                </a>
-                <a
-                  href="https://www.penguin.co.uk/books/309669/i-looked-away-by-corry-jane/9780241984635"
-                  alt="buy I Looked Away on penguin"
-                  rel="noreferrer"
-                  target="_blank"
-                >
-                  Penguin
-                </a>
-                <a
-                  href="https://www.goodreads.com/book/show/40667415-i-looked-away"
-                  alt="learn aboutI Looked Away on Goodreads"
-                  rel="noreferrer"
-                  target="_blank"
-                >
-                  Goodreads
-                </a>
+                Every Monday, 49-year-old Ellie looks after her grandson Josh.
+                She loves him more than anyone else in the world. The only thing
+                that can mar her happiness is her husband's affair. But he
+                swears it's over now, and Ellie has decided to be thankful for
+                what she's got. Then one day, while she's looking after Josh,
+                her husband gets a call from that woman. And just for a moment,
+                Ellie takes her eyes off her grandson. What happens next will
+                change her life forever. Because Ellie is hiding something from
+                her past. And what looks like an accident could start to look
+                like murder . . .
               </p>
-            </div>
+            </div>{" "}
+            <p className="m-2 oldbooklinks">
+              <a
+                href="https://www.amazon.co.uk/Looked-Away-page-turning-Sunday-bestseller/dp/0241984637"
+                alt="buy I Looked Away on amazon"
+                rel="noreferrer"
+                target="_blank"
+                className="btnDarkLight px-2 mx-2"
+              >
+                Amazon
+              </a>
+              <a
+                href="https://www.penguin.co.uk/books/309669/i-looked-away-by-corry-jane/9780241984635"
+                alt="buy I Looked Away on penguin"
+                rel="noreferrer"
+                target="_blank"
+                className="btnDarkLight px-2 mx-2"
+              >
+                Penguin
+              </a>
+              <a
+                href="https://www.goodreads.com/book/show/40667415-i-looked-away"
+                alt="learn aboutI Looked Away on Goodreads"
+                rel="noreferrer"
+                target="_blank"
+                className="btnDarkLight px-2 mx-2"
+              >
+                Goodreads
+              </a>
+            </p>
           </div>
           <div className="col-3  p-3">
             <div className="oldbackground oldbackgound3">
@@ -268,41 +306,48 @@ function Books() {
                 alt="The Dead Ex Book cover"
                 className=" float-start m-2 img-fluid oldbookimage"
               />
-              <h2>The Dead Ex </h2>
+              <h3>The Dead Ex </h3>
               <p className="oldbooktext">
-                The Dead ExThe Dead Ex The Dead ExThe Dead ExThe Dead ExThe Dead
-                ExThe Dead ExThe Dead ExThe Dead ExThe Dead Ex The Dead ExThe
-                Dead ExThe Dead ExThe Dead Ex The Dead Ex The Dead Ex The Dead
-                Ex The Dead Ex The Dead ExThe Dead Ex The Dead Ex The Dead Ex
-                The Dead ExThe Dead Ex The Dead Ex The Dead Ex The Dead Ex The
-                Dead ExThe Dead Ex The Dead ExThe Dead ExThe Dead ExThe Dead Ex
-                The Dead ExThe Dead Ex
-                <a
-                  href="https://www.amazon.co.uk/Dead-Ex-unputdownable-bestselling-thriller/dp/0241981743"
-                  alt="buy The Dead Ex on amazon"
-                  rel="noreferrer"
-                  target="_blank"
-                >
-                  Amazon
-                </a>
-                <a
-                  href="https://www.penguin.co.uk/books/305994/the-dead-ex-by-corry-jane/9780241981740"
-                  alt="buy The Dead Ex on penguin"
-                  rel="noreferrer"
-                  target="_blank"
-                >
-                  Penguin
-                </a>
-                <a
-                  href="https://www.goodreads.com/book/show/40391960-the-dead-ex"
-                  alt="learn about The Dead Ex on Goodreads"
-                  rel="noreferrer"
-                  target="_blank"
-                >
-                  Goodreads
-                </a>
+                Vicki's husband David once promised to love her in sickness and
+                in health. But after a brutal attack left her suffering with
+                epilepsy, he ran away with his mistress. So when Vicki gets a
+                call one day to say that he's missing, her first thought is
+                'good riddance'. But then the police find evidence suggesting
+                that David is dead. And they think Vicki had something to do
+                with it. What really happened on the night of David's
+                disappearance? And how can Vicki prove her innocence, when she's
+                not even sure of it herself?
               </p>
-            </div>
+            </div>{" "}
+            <p className="m-2 oldbooklinks">
+              <a
+                href="https://www.amazon.co.uk/Dead-Ex-unputdownable-bestselling-thriller/dp/0241981743"
+                alt="buy The Dead Ex on amazon"
+                rel="noreferrer"
+                target="_blank"
+                className="btnDarkLight px-2 mx-2"
+              >
+                Amazon
+              </a>
+              <a
+                href="https://www.penguin.co.uk/books/305994/the-dead-ex-by-corry-jane/9780241981740"
+                alt="buy The Dead Ex on penguin"
+                rel="noreferrer"
+                target="_blank"
+                className="btnDarkLight px-2 mx-2"
+              >
+                Penguin
+              </a>
+              <a
+                href="https://www.goodreads.com/book/show/40391960-the-dead-ex"
+                alt="learn about The Dead Ex on Goodreads"
+                rel="noreferrer"
+                target="_blank"
+                className="btnDarkLight px-2 mx-2"
+              >
+                Goodreads
+              </a>
+            </p>
           </div>
           <div className="col-3  p-3">
             <div className="oldbackground oldbackgound2">
@@ -311,42 +356,47 @@ function Books() {
                 alt="The Killing Type cover"
                 className=" float-start m-2 img-fluid oldbookimage"
               />
-              <h2>The Killing Type</h2>
+              <h3>The Killing Type</h3>
               <p className="oldbooktext">
-                The Killing TypeThe Killing TypeThe Killing TypeThe Killing
-                TypeThe Killing TypeThe Killing TypeThe Killing TypeThe Killing
-                TypeThe Killing TypeThe Killing TypeThe Killing TypeThe Killing
-                TypeThe Killing TypeThe Killing TypeThe Killing TypeThe Killing
-                TypeThe Killing TypeThe Killing TypeThe Killing TypeThe Killing
-                TypeThe Killing TypeThe Killing TypeThe Killing TypeThe Killing
-                TypeThe Killing TypeThe Killing TypeThe Killing TypeThe Killing
-                TypeThe Killing Type
-                <a
-                  href="https://www.amazon.co.uk/Killing-Type-bestselling-author-Husbands-ebook/dp/B079XX8CRR"
-                  alt="buy The Killing Type on amazon"
-                  rel="noreferrer"
-                  target="_blank"
-                >
-                  Amazon
-                </a>
-                <a
-                  href="https://www.penguin.co.uk/books/309860/the-killing-type-by-corry-jane/9780241984581"
-                  alt="buy The Killing Type on penguin"
-                  rel="noreferrer"
-                  target="_blank"
-                >
-                  Penguin
-                </a>
-                <a
-                  href="https://www.goodreads.com/book/show/38719858-the-killing-type"
-                  alt="learn about The Killing Type on Goodreads"
-                  rel="noreferrer"
-                  target="_blank"
-                >
-                  Goodreads
-                </a>
+                Susie and her sister have never been close. These days they
+                barely speak. So when Danielle messages her out of the blue and
+                begs to meet, Susie knows something must be wrong. But what
+                Danielle tells her seems crazy. Her husband, Simon, may be a
+                bully, but surely he wouldn't hurt her? Then the accident
+                happens. And Susie is forced to rethink everything. Who is
+                lying? Who is telling the truth? And who, really, is the killing
+                type?
               </p>
-            </div>
+            </div>{" "}
+            <p className="m-2 oldbooklinks">
+              <a
+                href="https://www.amazon.co.uk/Killing-Type-bestselling-author-Husbands-ebook/dp/B079XX8CRR"
+                alt="buy The Killing Type on amazon"
+                rel="noreferrer"
+                target="_blank"
+                className="btnDarkLight px-2 mx-2"
+              >
+                Amazon
+              </a>
+              <a
+                href="https://www.penguin.co.uk/books/309860/the-killing-type-by-corry-jane/9780241984581"
+                alt="buy The Killing Type on penguin"
+                rel="noreferrer"
+                target="_blank"
+                className="btnDarkLight px-2 mx-2"
+              >
+                Penguin
+              </a>
+              <a
+                href="https://www.goodreads.com/book/show/38719858-the-killing-type"
+                alt="learn about The Killing Type on Goodreads"
+                rel="noreferrer"
+                target="_blank"
+                className="btnDarkLight px-2 mx-2"
+              >
+                Goodreads
+              </a>
+            </p>
           </div>
           <div className="col-3  p-3">
             <div className="oldbackground oldbackgound1">
@@ -355,40 +405,47 @@ function Books() {
                 alt="The Killing Type cover"
                 className=" float-start m-2 img-fluid oldbookimage"
               />
-              <h2>Blood Sisters</h2>
+              <h3>Blood Sisters</h3>
               <p className="oldbooktext">
-                Blood SistersBlood SistersBlood SistersBlood SistersBlood
-                SistersBlood SistersBlood SistersBlood SistersBlood SistersBlood
-                SistersBlood SistersBlood SistersBlood SistersBlood SistersBlood
-                SistersBlood SistersBlood SistersBlood SistersBlood SistersBlood
-                SistersBlood SistersBlood SistersBlood SistersBlood SistersBlood
-                Sisters
-                <a
-                  href="https://www.amazon.co.uk/Blood-Sisters-Jane-Corry/dp/0525522182"
-                  alt="buy Blood Sisters on amazon"
-                  rel="noreferrer"
-                  target="_blank"
-                >
-                  Amazon
-                </a>
-                <a
-                  href="https://www.penguin.co.uk/books/294513/blood-sisters-by-corry-jane/9780241976722"
-                  alt="buy Blood Sisters on penguin"
-                  rel="noreferrer"
-                  target="_blank"
-                >
-                  Penguin
-                </a>
-                <a
-                  href="https://www.goodreads.com/book/show/35580277-blood-sisters"
-                  alt="learn about Blood Sisters on Goodreads"
-                  rel="noreferrer"
-                  target="_blank"
-                >
-                  Goodreads
-                </a>
+                Kitty lives in a care home. She can't speak properly, and she
+                has no memory of the accident that put her here. At least that's
+                the story she's sticking to. Art teacher Alison looks fine on
+                the surface. But the surface is a lie. When a job in a prison
+                comes up she decides to take it - this is her chance to finally
+                make things right. But someone is watching Kitty and Alison.
+                Someone who wants revenge for what happened that sunny morning
+                in May. And only another life will do . . .
               </p>
-            </div>
+            </div>{" "}
+            <p className="m-2 oldbooklinks">
+              <a
+                href="https://www.amazon.co.uk/Blood-Sisters-Jane-Corry/dp/0525522182"
+                alt="buy Blood Sisters on amazon"
+                rel="noreferrer"
+                target="_blank"
+                className="btnDarkLight px-2 mx-2"
+              >
+                Amazon
+              </a>
+              <a
+                href="https://www.penguin.co.uk/books/294513/blood-sisters-by-corry-jane/9780241976722"
+                alt="buy Blood Sisters on penguin"
+                rel="noreferrer"
+                target="_blank"
+                className="btnDarkLight px-2 mx-2"
+              >
+                Penguin
+              </a>
+              <a
+                href="https://www.goodreads.com/book/show/35580277-blood-sisters"
+                alt="learn about Blood Sisters on Goodreads"
+                rel="noreferrer"
+                target="_blank"
+                className="btnDarkLight px-2 mx-2"
+              >
+                Goodreads
+              </a>
+            </p>
           </div>
           <div className="col-3  p-3">
             <div className="oldbackground oldbackgound0">
@@ -397,40 +454,46 @@ function Books() {
                 alt="My Husbands Wife cover"
                 className=" float-start m-2 img-fluid oldbookimage"
               />
-              <h2>My Husbands Wife</h2>
+              <h3>My Husbands Wife</h3>
               <p className="oldbooktext">
-                My Husbands WifeMy Husbands WifeMy Husbands Wife My Husbands
-                Wife My Husbands WifeMy Husbands Wife My Husbands WifeMy
-                Husbands WifeMy Husbands Wife My Husbands WifeMy Husbands Wife
-                My Husbands Wife My Husbands Wife My Husbands WifeMy Husbands
-                WifeMy Husbands WifeMy Husbands Wife My Husbands Wife My
-                Husbands WifeMy Husbands Wife My Husbands Wife
-                <a
-                  href="https://www.amazon.co.uk/My-Husbands-Wife-Jane-Corry/dp/0241256488"
-                  alt="buy My Husbands Wife  on amazon"
-                  rel="noreferrer"
-                  target="_blank"
-                >
-                  Amazon
-                </a>
-                <a
-                  href="https://www.penguin.co.uk/books/294457/my-husbands-wife-by-corry-jane/9780241256480"
-                  alt="buy My Husbands Wife on penguin"
-                  rel="noreferrer"
-                  target="_blank"
-                >
-                  Penguin
-                </a>
-                <a
-                  href="https://www.goodreads.com/book/show/31227076-my-husband-s-wife"
-                  alt="learn about My Husbands Wife  on Goodreads"
-                  rel="noreferrer"
-                  target="_blank"
-                >
-                  Goodreads
-                </a>
+                What if your life was built on a lie? When lawyer Lily marries
+                Ed, she's determined to make a fresh start. To leave the secrets
+                of the past behind. But when she takes on her first criminal
+                case, she starts to find herself strangely drawn to her client.
+                A man who's accused of murder. A man she will soon be willing to
+                risk everything for. But is he really innocent? And who is she
+                to judge?
               </p>
-            </div>
+            </div>{" "}
+            <p className="m-2 oldbooklinks">
+              <a
+                href="https://www.amazon.co.uk/My-Husbands-Wife-Jane-Corry/dp/0241256488"
+                alt="buy My Husbands Wife  on amazon"
+                rel="noreferrer"
+                target="_blank"
+                className="btnDarkLight px-2 mx-2"
+              >
+                Amazon
+              </a>
+              <a
+                href="https://www.penguin.co.uk/books/294457/my-husbands-wife-by-corry-jane/9780241256480"
+                alt="buy My Husbands Wife on penguin"
+                rel="noreferrer"
+                target="_blank"
+                className="btnDarkLight px-2 mx-2"
+              >
+                Penguin
+              </a>
+              <a
+                href="https://www.goodreads.com/book/show/31227076-my-husband-s-wife"
+                alt="learn about My Husbands Wife  on Goodreads"
+                rel="noreferrer"
+                target="_blank"
+                className="btnDarkLight px-2 mx-2"
+              >
+                Goodreads
+              </a>
+            </p>
           </div>
         </div>
       </div>
