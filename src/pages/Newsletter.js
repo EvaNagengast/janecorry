@@ -39,7 +39,7 @@ function Newsletter() {
               target="_blank"
               rel="noreferrer"
               alt="send a mail to receive the newsletter"
-              className="px-3 btnLightDark subscribebutton"
+              className="px-3 btnLightDark newsletterbutton"
             >
               click here to subscribe
             </a>

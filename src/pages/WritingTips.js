@@ -81,8 +81,10 @@ function WritingTips() {
           </div>
         </div>
         <div className="m-2 m-sm-3 m-md-5">
-          <h2 className="mt-4">How to come up with an idea for a story</h2>
-          <p className="writingtext">
+          <h2 className="mt-4  ">
+            How to come up with an idea for a story
+          </h2>
+          <p className="text-start writingtext">
             Make a list of big things that have happened to you such as:
             <ul>
               <li> Moving house</li>

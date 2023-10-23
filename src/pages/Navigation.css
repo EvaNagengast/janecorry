@@ -13,6 +13,11 @@
   font-family: var(---fontheadline);
   color: var(---baselight);
 }
+.navbar .nav-link.active,
+.navbar .nav-link:active {
+  color: var(---base);
+}
+
 .navbar .smalllogo {
   height: 30px;
   filter: saturate(170%) hue-rotate(-10deg);
@@ -35,7 +40,8 @@
   background-color: var(---baselight);
   color: var(---basedark);
 }
-.dropdown-item.active, .navbar .dropdown-item:active {
+.navbar .dropdown-item.active,
+.navbar .dropdown-item:active {
   background-color: var(---baselight);
   color: var(---basedark);
 }
