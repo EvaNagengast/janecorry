@@ -6,14 +6,13 @@ import "./News.css";
 
 function News() {
   return (
-    <div>
+    <div className="News">
       <div className="newspage">
-        NEWS
-        <br />
-        <br />
-        I'm very excited that "Coming to find you" is being published by
+       <h1>NEWS</h1> 
+  <p> I'm very excited that "Coming to find you" is being published by
         doubleday in canada and the states on december 19. This will be the
-        cover (Image od cover) Audiobook <br />
+        cover (Image od cover) Audiobook</p>
+        <br />
         <br />
         Do you like listening to novels rather than reading? Then you might
         enjoy the audio version of We All Have Our Secrets
@@ -59,7 +58,7 @@ function News() {
             url="https://www.instagram.com/p/CvFR657oeQ1/"
             width={328}
             captioned="false"
-          />{" "}
+          />
           <InstagramEmbed
             url="https://www.instagram.com/p/CuIF8JDLp2p/"
             width={328}

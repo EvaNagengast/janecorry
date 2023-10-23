@@ -1,9 +1,13 @@
+.News {
+  background-color: var(---basedark);
+}
+
 .newspage {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  margin-top: -140px;
-  text-align: center;
+  padding: 20px;
+  font-size: 22px;
 }
 .newspapersnippet {
   max-height: 300px;
