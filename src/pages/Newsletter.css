@@ -1,30 +1,45 @@
+.Newsletter {
+  background-color: var(---basedark);
+}
 .newsletterpage {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  margin-top: -140px;
+  padding-top: 20px;
+  font-size: 22px;
   text-align: center;
 }
-.newspapersnippet {
-  max-height: 300px;
-  border-radius: 6px;
+.newsletterpage .newsletterimage {
+  max-width: 80%;
+}
+.newsletterpage .newslettertext,.newsletterpage .newsletterbutton {
+  font-size: 40px;
 }
 
-.bookinmagazine {
-  font-size: 30px;
-}
-
-
-
-@media (max-width: 1400px) {
-}
-@media (max-width: 1200px) {
-}
 @media (max-width: 992px) {
+  .newsletterpage .newsletterimage {
+    max-width: 80%;
+  }
+  .newsletterpage .newslettertext,.newsletterpage .newsletterbutton {
+    font-size: 34px;
+  }
 }
-@media (max-width: 768px) {
-}
+
 @media (max-width: 576px) {
+  .newsletterpage h1 {
+    font-size: 60px;
+  }
+
+  .newsletterpage .newslettertext,.newsletterpage .newsletterbutton {
+    font-size: 26px;
+  }
 }
 @media (max-width: 420px) {
+    .newsletterpage h1 {
+    font-size: 55px;
+  }
+
+  .newsletterpage .newslettertext,.newsletterpage .newsletterbutton {
+    font-size: 19px;
+  }
 }
