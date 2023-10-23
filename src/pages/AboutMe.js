@@ -20,7 +20,7 @@ function AboutMe() {
             alt="Jane Corry in a white blouse from the front"
             className="float-start img-fluid profile d-none d-sm-block m-md-3 me-3 me-md-4 me-lg-5"
           />
-          <p className="mt-3 p-0 p-lg-4 p-xl-5 aboutmetext">
+          <p className="mt-3 p-0 p-lg-4 p-xl-5 text-center text-sm-start aboutmetext">
             Sunday Times best-selling author; Washington Post best-seller; sold
             over a million copies world-wide in over 20 countries including the
             States; features writer for numerous magazines including Woman and
@@ -32,7 +32,7 @@ function AboutMe() {
             stories and the Vera Brittain cup for short stories.
           </p>
         </div>{" "}
-        <p className="text-center highlight">
+        <p className="text-center px-2 highlight quote">
           <i>
             'Jane Corry writes consistently enthralling stories about the dark
             side of family life.'
@@ -88,7 +88,7 @@ function AboutMe() {
           ambition? To have enough courage to drive on a motorway! And to have
           one of my books made into a film or tv series.
         </p>{" "}
-        <span className="highlight text-center">
+        <span className="text-center highlight quote">
           <i> 'Psychological thriller writing at its very best'</i>
           <br /> SD Sykes, the Oswald de Lacy Books
         </span>

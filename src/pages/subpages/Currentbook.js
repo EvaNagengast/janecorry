@@ -140,7 +140,7 @@ function Currentbook() {
           <br />
           <span className="highlight">The Independent</span>
         </div>
-        <div className="col-7 col-sm-8 col-md-4 col-lg-3 ">
+        <div className="col-7 col-sm-8 col-md-4 col-lg-3">
           Jane Corry writes consistently enthralling stories about the dark side
           of family life.
           <br />

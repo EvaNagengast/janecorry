@@ -12,29 +12,57 @@
 }
 
 .contactpage h1 {
-  margin: 10px 40px;
-  font-size: 120px;
+  margin: 10px 5px 40px 5px;
+  font-size: 100px;
 }
-
-.contactpage .contactlink {
-  margin: 15px auto 30px;
+.contactpage .contacttext {
+  font-size: 26px;
 }
-
+.contactpage .contactimage {
+  max-height: 550px;
+}
 .contactpage .contactlinkicon {
   color: var(---baselight);
   font-size: 30px;
 }
 
+.contactpage .contactlinkicon:hover {
+  color: var(---base);
+}
+.contactpage .contactlink {
+  margin: 15px auto 30px;
+}
 
-@media (max-width: 1400px) {
+.contactpage .contactlink:hover {
+  color: var(---base);
 }
-@media (max-width: 1200px) {
-}
+
 @media (max-width: 992px) {
+  .contactpage h1 {
+    font-size: 80px;
+  }
+  .contactpage .contacttext {
+    font-size: 24px;
+  }
+  .contactpage .contactimage {
+    max-height: 450px;
+  }
 }
 @media (max-width: 768px) {
 }
 @media (max-width: 576px) {
+    .contactpage .contacttext {
+    font-size: 22px;
+  }
+  .contactpage .contactimage {
+    max-height: 400px;
+  }
 }
 @media (max-width: 420px) {
+     .contactpage .contacttext {
+    font-size: 20px;
+  }
+  .contactpage .contactimage {
+    max-height: 350px;
+  }
 }

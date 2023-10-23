@@ -19,7 +19,7 @@
   max-height: 540px;
 }
 .currentbooksection .introduction {
-  font-size: 20px;
+  font-size: 24px;
   line-height: 33px;
 }
 .currentbooksection .stars {
@@ -37,6 +37,7 @@
 }
 @media (max-width: 992px) {
   .currentbooksection h1 {
+    font-size: 85px;
     margin: -10px 0 30px 0;
     padding: 10px 0 0 90px;
   }
@@ -49,6 +50,7 @@
   }
 
   .currentbooksection .introduction {
+    font-size: 22px;
     line-height: 30px;
   }
   .currentbooksection .newspapersnippet {

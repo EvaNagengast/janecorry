@@ -10,7 +10,7 @@
 /* generic classes */
 
 h1 {
-  font-size: 80px;
+  font-size: 100px;
   font-family: var(---fontheadline);
   color: var(---baselight);
 }

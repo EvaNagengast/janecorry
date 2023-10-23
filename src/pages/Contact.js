@@ -11,18 +11,19 @@ import "./Contact.css";
 function Contact() {
   return (
     <div className="Contact">
-      <h1 className="ms-3">Contact</h1>
-      <div className="row">
-        <div className="col p-5">
-          <div className="contactpage">
-            You can send me a message on<br/> Facebook, Twitter and Instagram.
-            <div className="d-flex">
-              <div className="contactlink">
+      <div className="contactpage">
+        <h1 className="m-0">Contact</h1>
+        <div className="row mt-4 mt-md-5 m-auto">
+          <div className="col-12 col-md-6 pt-lg-4 contacttext">
+            You can send me a message on
+            <br /> Facebook, Twitter and Instagram.
+            <div className="d-flex ">
+              <div className="ps-5 contactlink">
                 <a
                   href="https://www.facebook.com/authorjanecorry/"
                   alt="Jane Corrys Facebook account"
                 >
-                  <RiFacebookCircleLine className="contactlinkicon" />
+                  <RiFacebookCircleLine className="contactlinkicon " />
                 </a>
               </div>
               <div className="contactlink">
@@ -33,10 +34,10 @@ function Contact() {
                   <RiTwitterXLine className="contactlinkicon" />
                 </a>
               </div>
-              <div className="contactlink">
+              <div className="pe-5 contactlink">
                 <a
                   href="https://www.instagram.com/janecorry"
-                  alt="Jane Corrys Facebook account"
+                  alt="Jane Corrys Instagram account"
                 >
                   <RiInstagramLine className="contactlinkicon" />
                 </a>
@@ -48,7 +49,7 @@ function Contact() {
               <a
                 href="mailto:JGentle@penguinrandomhouse.co.uk"
                 alt="mail of Jane Gentle"
-                className="highlight"
+                className="highlight contactlink"
               >
                 JGentle@penguinrandomhouse.co.uk
               </a>
@@ -57,9 +58,9 @@ function Contact() {
               My literary agent is Kate Hordern at KHLA.
               <br />
               <a
-                href="mailto:           kate@khla.co.uk"
+                href="mailto:kate@khla.co.uk"
                 alt="mail of Kate Hordern"
-                className="highlight"
+                className="highlight contactlink"
               >
                 kate@khla.co.uk
               </a>
@@ -69,22 +70,21 @@ function Contact() {
               <a
                 href="mailto:italia@ghliterary.com"
                 alt="mail of Italia Gandolfo"
-                className="highlight"
+                className="highlight contactlink"
               >
                 italia@ghliterary.com
               </a>
             </p>
           </div>
-        </div>
-        <div className="col p-5">
-          <img
-            src={jcbookstore}
-            alt="Jane corry showing her new book inside a bookstore"
-            className="img-fluid"
-          />
+          <div className="col-md-6 mb-5">
+            <img
+              src={jcbookstore}
+              alt="Jane corry showing her new book inside a bookstore"
+              className="img-fluid contactimage"
+            />
+          </div>
         </div>
       </div>
-
       <Footer />
     </div>
   );

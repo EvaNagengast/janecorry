@@ -16,15 +16,20 @@
 .aboutmepage .profile {
   max-width: 420px;
 }
-.aboutmepage .aboutmetext {
+.aboutmepage .aboutmetext,
+.aboutmepage .quote {
   font-size: 24px;
 }
 .aboutmepage .bio {
-  font-size: 20px;
+  font-size: 22px;
 }
 
 @media (max-width: 1200px) {
-  .aboutmepage .aboutmetext {
+  .aboutmepage .aboutmetext,
+  .aboutmepage .quote {
+    font-size: 22px;
+  }
+  .aboutmepage .bio {
     font-size: 20px;
   }
 }
@@ -43,12 +48,13 @@
     max-width: 300px;
     margin: 20px auto 0px;
   }
-  .aboutmepage .aboutmetext {
-  font-size: 22px;
-}
+  .aboutmepage .aboutmetext,
+  .aboutmepage .quote {
+    font-size: 22px;
+  }
   .aboutmepage .bio {
-  font-size: 18px;
-}
+    font-size: 18px;
+  }
 }
 @media (max-width: 420px) {
   .aboutmepage .profile {
@@ -61,10 +67,11 @@
   .aboutmepage h2 {
     font-size: 45px;
   }
-    .aboutmepage .aboutmetext {
-  font-size: 20px;
-}
+  .aboutmepage .aboutmetext,
+  .aboutmepage .quote {
+    font-size: 20px;
+  }
   .aboutmepage .bio {
-  font-size: 16px;
-}
+    font-size: 16px;
+  }
 }
