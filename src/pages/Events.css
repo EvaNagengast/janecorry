@@ -9,19 +9,24 @@
   padding-top: 20px;
   font-size: 22px;
 }
-.event1 {
+.eventspage .event1 {
   padding: 40px 80px;
 }
+.eventspage .joinbutton {
+  font-size: 20px;
+}
 
-@media (max-width: 1400px) {
-}
-@media (max-width: 1200px) {
-}
-@media (max-width: 992px) {
-}
-@media (max-width: 768px) {
-}
 @media (max-width: 576px) {
-}
-@media (max-width: 420px) {
+  .eventspage {
+    font-size: 20px;
+  }
+  .eventspage h1 {
+    font-size: 60px;
+  }
+  .eventspage .event1 {
+    padding: 30px 30px;
+  }
+  .eventspage .joinbutton {
+    font-size: 18px;
+  }
 }

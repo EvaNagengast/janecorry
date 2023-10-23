@@ -29,13 +29,13 @@ function Events() {
             </a>
           </p>
           <div>
-            {" "}
+         
             <a
               href="mailto:janecorryauthor@gmail.com?subject=Freelance Media Group&body=I would like to join the online meetings with the Freelance Media Group!"
               target="_blank"
               rel="noreferrer"
               alt="send a mail to join the online meetings with the Freelance Media Group"
-              className="px-3 btnLightDark newsletterbutton"
+              className="px-3 btnLightDark joinbutton"
             >
               click here to join
             </a>
