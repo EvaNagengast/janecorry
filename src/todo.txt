@@ -26,3 +26,5 @@ reviews:    Kate
             Furnivall twice in a row, closer, Nicci french, Ba Paris is in there twice
 
             stars: yellow or white
+
+writing tips: okay with the typewriter?

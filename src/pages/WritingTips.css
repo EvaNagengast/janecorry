@@ -1,25 +1,119 @@
+.WritingTips {
+  background-color: var(---basedark);
+}
 .writingtipspage {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  margin-top: -140px;
+  padding-top: 20px;
   text-align: center;
 }
-
-.WritingTips {
-  background-color: aqua;
+.writingtipspage h1 {
+  font-size: 80px;
+}
+.writingtipspage h2 {
+  font-size: 70px;
+  font-family: var(---fontheadline);
+  color: var(---baselight);
+}
+.writingtipspage ul {
+  padding-left: 20px;
+  list-style: none;
 }
 
+.writingtipspage .paper {
+  background: url("../media/paper.png");
+  height: 100%;
+  padding: 20px 15px 15px 15px;
 
-@media (max-width: 1400px) {
+  font-size: 20px;
+  font-family: "Special Elite", serif;
+  color: var(---basedark);
+}
+.writingtipspage .intro {
+  font-size: 28px;
+  line-height: 45px;
+}
+.writingtipspage .writingtext {
+  padding: 20px 90px;
+  font-size: 35px;
+  line-height: 42px;
 }
 @media (max-width: 1200px) {
+  .writingtipspage h2 {
+    font-size: 50px;
+  }
+  .writingtipspage .intro {
+    font-size: 26px;
+  }
+  .writingtipspage .writingtext {
+    padding: 20px 90px 0px 90px;
+    font-size: 28px;
+  }
 }
 @media (max-width: 992px) {
+  .writingtipspage .writingtext {
+    padding: 20px 60px 0px 60px;
+  }
 }
 @media (max-width: 768px) {
+  .writingtipspage h1 {
+    font-size: 70px;
+  }
+  .writingtipspage h2 {
+    font-size: 46px;
+  }
+  .writingtipspage .paper {
+    height: 130px;
+    padding: 20px 35px 35px 15px;
+    font-size: 18px;
+  }
+  .writingtipspage .intro {
+    line-height: 42px;
+  }
+  .writingtipspage .writingtext {
+    padding: 30px 0 0 0;
+    line-height: 40px;
+    font-size: 24px;
+  }
 }
 @media (max-width: 576px) {
+  .writingtipspage h2 {
+    font-size: 43px;
+  }
+  .writingtipspage .intro {
+    font-size: 22px;
+    line-height: 36px;
+  }
+
+  .writingtipspage .writingtext {
+    padding: 20px 0 0 0;
+    line-height: 34px;
+    font-size: 22px;
+    text-align: start;
+  }
 }
 @media (max-width: 420px) {
+  .writingtipspage h1 {
+    font-size: 52px;
+  }
+
+  .writingtipspage h2 {
+    font-size: 35px;
+  }
+  .writingtipspage .paper {
+    height: 100px;
+    padding: 10px 25px 25px 5px;
+    font-size: 14px;
+  }
+  .writingtipspage .intro {
+    text-align: start;
+    font-size: 19px;
+    line-height: 28px;
+  }
+
+  .writingtipspage .writingtext {
+    line-height: 34px;
+    font-size: 18px;
+  }
 }

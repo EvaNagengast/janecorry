@@ -35,7 +35,7 @@
   background-color: var(---baselight);
   color: var(---basedark);
 }
-.navbar .dropdown-item:active {
+.dropdown-item.active, .navbar .dropdown-item:active {
   background-color: var(---baselight);
   color: var(---basedark);
 }
