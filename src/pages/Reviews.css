@@ -1,19 +1,60 @@
+/* checked */
+.Reviews {
+  background-color: var(---basedark);
+}
 .reviewspage {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  margin-top: -140px;
+  padding-top: 20px;
+  font-size: 20px;
   text-align: center;
 }
-@media (max-width: 1400px) {
+.reviewspage h2 {
+  font-size: 30px;
 }
-@media (max-width: 1200px) {
+.reviewspage .highlight {
+  font-size: 26px;
 }
+
+/* .reviewspage .stars {
+  color: var(---baselight);
+} */
+
 @media (max-width: 992px) {
+  .reviewspage h2 {
+    font-size: 28px;
+  }
+  .reviewspage .highlight {
+    font-size: 24px;
+  }
 }
-@media (max-width: 768px) {
-}
+
 @media (max-width: 576px) {
+  .reviewspage {
+    font-size: 18px;
+  }
+  .reviewspage h1 {
+    font-size: 75px;
+  }
+  .reviewspage h2 {
+    font-size: 26px;
+  }
+  .reviewspage .highlight {
+    font-size: 22px;
+  }
 }
 @media (max-width: 420px) {
+  .reviewspage {
+    font-size: 14px;
+  }
+  .reviewspage h1 {
+    font-size: 70px;
+  }
+  .reviewspage h2 {
+    font-size: 22px;
+  }
+  .reviewspage .highlight {
+    font-size: 18px;
+  }
 }
