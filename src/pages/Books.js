@@ -18,14 +18,14 @@ function Books() {
         <h1 className="m-3">Books</h1>
         <div className="row g-5 m-auto justify-content-center">
           <div className="col-6  p-3">
-            <div className="currentbook">
+            <div className="displaybackground displaybackgoundCTFY">
               <img
                 src={book8}
                 alt="Coming to find you Book cover"
-                className=" float-start m-2 currentbookimage"
+                className=" float-start m-2 displaybookimage"
               />
               <h2>Coming to find you </h2>
-              <p className="lastbooktext">
+              <p className="displaybooktext">
                 When her family tragedy is splashed across the newspapers, Nancy
                 decides to disappear. Her grandmother's beautiful Regency house
                 in a quiet seaside village seems like the safest place to hide.
@@ -72,14 +72,14 @@ function Books() {
             </div>
           </div>
           <div className="col-6  p-3">
-            <div className="lastbook">
+            <div className="displaybackground displaybackgoundWAHOS">
               <img
                 src={book7}
                 alt="We all have our Secrets Book cover"
-                className=" float-start m-2 img-fluid lastbookimage"
-              />{" "}
+                className=" float-start m-2 img-fluid displaybookimage"
+              />
               <h2>We all have our Secrets</h2>
-              <p className="lastbooktext">
+              <p className="displaybooktext">
                 Emily made one bad decision, and now her career could be over.
                 Her family home on the Cornish coast is the only place where she
                 feels safe. But when she arrives, there's a stranger living with
@@ -99,7 +99,7 @@ function Books() {
                 Corry writes consistently enthralling stories about the dark
                 side of family life' Peter James, Picture You Dead
                 <a
-                  href="https://www.amazon.co.uk/We-All-Have-Our-Secrets-ebook/dp/B09H2Q5SHD/?_encoding=UTF8&pd_rd_w=AOAAU&content-id=amzn1.sym.3413293e-3815-4359-96ba-1ec5110e0b30&pf_rd_p=3413293e-3815-4359-96ba-1ec5110e0b30&pf_rd_r=257-6964746-9685606&pd_rd_wg=Abxx8&pd_rd_r=be567728-ce45-4347-8c12-9d9164d6d937&ref_=aufs_ap_sc_dsk"
+                  href="https://www.amazon.co.uk/We-All-Have-Our-Secrets-ebook/dp/B09H2Q5SHD"
                   alt="buy We all have our secrets on amazon"
                   rel="noreferrer"
                   target="_blank"
@@ -112,7 +112,6 @@ function Books() {
                   rel="noreferrer"
                   target="_blank"
                 >
-                  {" "}
                   Penguin
                 </a>
                 <a
@@ -127,8 +126,8 @@ function Books() {
             </div>
           </div>
         </div>
-  
- {/* 
+
+        {/* 
  
  
  
@@ -138,103 +137,300 @@ function Books() {
  
  
  */}
-        <div className="row m-auto">
-          <div className="col-3">
-            <img
-              src={book6}
-              alt="The lies we tell Book cover"
-              className="book"
-            />
-            <a
-              href="https://www.amazon.co.uk/Lies-We-Tell-Jane-Corry-ebook/dp/B088YWF5BC/?_encoding=UTF8&pd_rd_w=AOAAU&content-id=amzn1.sym.3413293e-3815-4359-96ba-1ec5110e0b30&pf_rd_p=3413293e-3815-4359-96ba-1ec5110e0b30&pf_rd_r=257-6964746-9685606&pd_rd_wg=Abxx8&pd_rd_r=be567728-ce45-4347-8c12-9d9164d6d937&ref_=aufs_ap_sc_dsk"
-              alt="buy The lies we tell  on amazon"
-              rel="noreferrer"
-              target="_blank"
-            >
-              Amazon
-            </a>
+        <div className="row g-5 m-auto justify-content-center">
+          <div className="col-3  p-3">
+            <div className="oldbackground oldbackgound6">
+              <img
+                src={book6}
+                alt="The lies we tell Book cover"
+                className=" float-start m-2 oldbookimage"
+              />
+              <h2>The Lies We Tell</h2>
+              <p className="oldbooktext">
+                The lies we tell The lies we tellThe lies we tellThe lies we
+                tellThe lies we tellThe lies we tellThe lies we tellThe lies we
+                tellThe lies we tellThe lies we tellThe lies we tellThe lies we
+                tellThe lies we tellThe lies we tellThe lies we tellThe lies we
+                tellThe lies we tellThe lies we tellThe lies we tell
+                <a
+                  href="https://www.amazon.co.uk/Lies-We-Tell-Jane-Corry/dp/0241989000"
+                  alt="buy The lies we tellon amazon"
+                  rel="noreferrer"
+                  target="_blank"
+                >
+                  Amazon
+                </a>
+                <a
+                  href="https://www.penguin.co.uk/books/317040/the-lies-we-tell-by-corry-jane/9780241989005"
+                  alt="buy The lies we tell on Penguin"
+                  rel="noreferrer"
+                  target="_blank"
+                >
+                  Penguin
+                </a>
+                <a
+                  href="https://www.goodreads.com/book/show/54139124-the-lies-we-tell"
+                  alt="learn about The lies we tell on Goodreads"
+                  rel="noreferrer"
+                  target="_blank"
+                >
+                  Goodreads
+                </a>
+              </p>
+            </div>
           </div>
-          <div className="col-3">
-            {" "}
-            <img
-              src={book5}
-              alt="I made a Mistake Book cover"
-              className="book"
-            />
-            <a
-              href="https://www.amazon.co.uk/I-Made-Mistake-Jane-Corry-ebook/dp/B07TMPXRT1/ref=sr_1_1?crid=1UX49VXT5EYJR&keywords=i+made+a+mistake+jane+corry&qid=1697125336&s=digital-text&sprefix=I+made+a+Mistake%2Cdigital-text%2C105&sr=1-1"
-              alt="buy I made a Mistake  on amazon"
-              rel="noreferrer"
-              target="_blank"
-            >
-              Amazon
-            </a>
+          <div className="col-3  p-3">
+            <div className="oldbackground oldbackgound5">
+              <img
+                src={book5}
+                alt="I made a mistake Book cover"
+                className=" float-start m-2 img-fluid oldbookimage"
+              />
+              <h2>I Made a Mistake</h2>
+              <p className="oldbooktext">
+                I Made a MistakeeI Made a MistakeI Made a MistakeI Made a
+                MistakeI Made a MistakeI Made a MistakeI Made a MistakeI Made a
+                MistakeI Made a MistakeI Made a MistakeI Made a MistakeI Made a
+                MistakeI Made a MistakeI Made a MistakeI Made a MistakeI Made a
+                MistakeI Made a Mistake
+                <a
+                  href="https://www.amazon.co.uk/I-Made-Mistake-Jane-Corry/dp/0241984653"
+                  alt="buy I Made a Mistake on amazon"
+                  rel="noreferrer"
+                  target="_blank"
+                >
+                  Amazon
+                </a>
+                <a
+                  href="https://www.penguin.co.uk/books/309670/i-made-a-mistake-by-corry-jane/9780241984659"
+                  alt="buy I Made a Mistake on penguin"
+                  rel="noreferrer"
+                  target="_blank"
+                >
+                  Penguin
+                </a>
+                <a
+                  href="https://www.goodreads.com/book/show/52706064-i-made-a-mistake"
+                  alt="learn about I Made a Mistake on Goodreads"
+                  rel="noreferrer"
+                  target="_blank"
+                >
+                  Goodreads
+                </a>
+              </p>
+            </div>
           </div>
-          <div className="col-3">
-            <img src={book4} alt="I looked away Book cover" className="book" />
-            <a
-              href="https://www.amazon.co.uk/Looked-Away-page-turning-Sunday-bestseller-ebook/dp/B07DVQQ1F6/?_encoding=UTF8&pd_rd_w=AOAAU&content-id=amzn1.sym.3413293e-3815-4359-96ba-1ec5110e0b30&pf_rd_p=3413293e-3815-4359-96ba-1ec5110e0b30&pf_rd_r=257-6964746-9685606&pd_rd_wg=Abxx8&pd_rd_r=be567728-ce45-4347-8c12-9d9164d6d937&ref_=aufs_ap_sc_dsk"
-              alt="buy I looked away  on amazon"
-              rel="noreferrer"
-              target="_blank"
-            >
-              amazon
-            </a>
+          <div className="col-3  p-3">
+            <div className="oldbackground oldbackgound4">
+              <img
+                src={book4}
+                alt="I Looked Away Book cover"
+                className=" float-start m-2 img-fluid oldbookimage"
+              />
+              <h2>I Looked Away</h2>
+              <p className="oldbooktext">
+                I Looked AwayI Looked AwayI Looked AwayI Looked AwayI Looked
+                AwayI Looked AwayI Looked AwayI Looked AwayI Looked AwayI Looked
+                AwayI Looked AwayI Looked AwayI Looked AwayI Looked AwayI Looked
+                AwayI Looked AwayI Looked AwayI Looked AwayI Looked AwayI Looked
+                Away
+                <a
+                  href="https://www.amazon.co.uk/Looked-Away-page-turning-Sunday-bestseller/dp/0241984637"
+                  alt="buy I Looked Away on amazon"
+                  rel="noreferrer"
+                  target="_blank"
+                >
+                  Amazon
+                </a>
+                <a
+                  href="https://www.penguin.co.uk/books/309669/i-looked-away-by-corry-jane/9780241984635"
+                  alt="buy I Looked Away on penguin"
+                  rel="noreferrer"
+                  target="_blank"
+                >
+                  Penguin
+                </a>
+                <a
+                  href="https://www.goodreads.com/book/show/40667415-i-looked-away"
+                  alt="learn aboutI Looked Away on Goodreads"
+                  rel="noreferrer"
+                  target="_blank"
+                >
+                  Goodreads
+                </a>
+              </p>
+            </div>
           </div>
-          <div className="col-3">
-            <a
-              href="https://www.amazon.co.uk/Dead-Ex-unputdownable-bestselling-thriller-ebook/dp/B073H7PPYQ/?_encoding=UTF8&pd_rd_w=AOAAU&content-id=amzn1.sym.3413293e-3815-4359-96ba-1ec5110e0b30&pf_rd_p=3413293e-3815-4359-96ba-1ec5110e0b30&pf_rd_r=257-6964746-9685606&pd_rd_wg=Abxx8&pd_rd_r=be567728-ce45-4347-8c12-9d9164d6d937&ref_=aufs_ap_sc_dsk"
-              alt="buy The dead ex  on amazon"
-              rel="noreferrer"
-              target="_blank"
-            >
-              Amazon
-            </a>{" "}
-            <img src={book3} alt="The dead ex Book cover" className="book" />
+          <div className="col-3  p-3">
+            <div className="oldbackground oldbackgound3">
+              <img
+                src={book3}
+                alt="The Dead Ex Book cover"
+                className=" float-start m-2 img-fluid oldbookimage"
+              />
+              <h2>The Dead Ex </h2>
+              <p className="oldbooktext">
+                The Dead ExThe Dead Ex The Dead ExThe Dead ExThe Dead ExThe Dead
+                ExThe Dead ExThe Dead ExThe Dead ExThe Dead Ex The Dead ExThe
+                Dead ExThe Dead ExThe Dead Ex The Dead Ex The Dead Ex The Dead
+                Ex The Dead Ex The Dead ExThe Dead Ex The Dead Ex The Dead Ex
+                The Dead ExThe Dead Ex The Dead Ex The Dead Ex The Dead Ex The
+                Dead ExThe Dead Ex The Dead ExThe Dead ExThe Dead ExThe Dead Ex
+                The Dead ExThe Dead Ex
+                <a
+                  href="https://www.amazon.co.uk/Dead-Ex-unputdownable-bestselling-thriller/dp/0241981743"
+                  alt="buy The Dead Ex on amazon"
+                  rel="noreferrer"
+                  target="_blank"
+                >
+                  Amazon
+                </a>
+                <a
+                  href="https://www.penguin.co.uk/books/305994/the-dead-ex-by-corry-jane/9780241981740"
+                  alt="buy The Dead Ex on penguin"
+                  rel="noreferrer"
+                  target="_blank"
+                >
+                  Penguin
+                </a>
+                <a
+                  href="https://www.goodreads.com/book/show/40391960-the-dead-ex"
+                  alt="learn about The Dead Ex on Goodreads"
+                  rel="noreferrer"
+                  target="_blank"
+                >
+                  Goodreads
+                </a>
+              </p>
+            </div>
           </div>
-          <div className="col-3">
-            {" "}
-            <img
-              src={book2}
-              alt="The killing type Book cover"
-              className="book"
-            />
-            <a
-              href="https://www.amazon.co.uk/Killing-Type-bestselling-author-Husbands-ebook/dp/B079XX8CRR/?_encoding=UTF8&pd_rd_w=AOAAU&content-id=amzn1.sym.3413293e-3815-4359-96ba-1ec5110e0b30&pf_rd_p=3413293e-3815-4359-96ba-1ec5110e0b30&pf_rd_r=257-6964746-9685606&pd_rd_wg=Abxx8&pd_rd_r=be567728-ce45-4347-8c12-9d9164d6d937&ref_=aufs_ap_sc_dsk"
-              alt="buy The killing type  on amazon"
-              rel="noreferrer"
-              target="_blank"
-            >
-              Amazon
-            </a>
+          <div className="col-3  p-3">
+            <div className="oldbackground oldbackgound2">
+              <img
+                src={book2}
+                alt="The Killing Type cover"
+                className=" float-start m-2 img-fluid oldbookimage"
+              />
+              <h2>The Killing Type</h2>
+              <p className="oldbooktext">
+                The Killing TypeThe Killing TypeThe Killing TypeThe Killing
+                TypeThe Killing TypeThe Killing TypeThe Killing TypeThe Killing
+                TypeThe Killing TypeThe Killing TypeThe Killing TypeThe Killing
+                TypeThe Killing TypeThe Killing TypeThe Killing TypeThe Killing
+                TypeThe Killing TypeThe Killing TypeThe Killing TypeThe Killing
+                TypeThe Killing TypeThe Killing TypeThe Killing TypeThe Killing
+                TypeThe Killing TypeThe Killing TypeThe Killing TypeThe Killing
+                TypeThe Killing Type
+                <a
+                  href="https://www.amazon.co.uk/Killing-Type-bestselling-author-Husbands-ebook/dp/B079XX8CRR"
+                  alt="buy The Killing Type on amazon"
+                  rel="noreferrer"
+                  target="_blank"
+                >
+                  Amazon
+                </a>
+                <a
+                  href="https://www.penguin.co.uk/books/309860/the-killing-type-by-corry-jane/9780241984581"
+                  alt="buy The Killing Type on penguin"
+                  rel="noreferrer"
+                  target="_blank"
+                >
+                  Penguin
+                </a>
+                <a
+                  href="https://www.goodreads.com/book/show/38719858-the-killing-type"
+                  alt="learn about The Killing Type on Goodreads"
+                  rel="noreferrer"
+                  target="_blank"
+                >
+                  Goodreads
+                </a>
+              </p>
+            </div>
           </div>
-          <div className="col-3">
-            {" "}
-            <img src={book1} alt="Blood sisters Book cover" className="book" />
-            <a
-              href="https://www.amazon.co.uk/Blood-Sisters-bestselling-thriller-Husbands-ebook/dp/B01G3NW68G/?_encoding=UTF8&pd_rd_w=AOAAU&content-id=amzn1.sym.3413293e-3815-4359-96ba-1ec5110e0b30&pf_rd_p=3413293e-3815-4359-96ba-1ec5110e0b30&pf_rd_r=257-6964746-9685606&pd_rd_wg=Abxx8&pd_rd_r=be567728-ce45-4347-8c12-9d9164d6d937&ref_=aufs_ap_sc_dsk"
-              alt="buy Blood sisters  on amazon"
-              rel="noreferrer"
-              target="_blank"
-            >
-              Amazon
-            </a>
+          <div className="col-3  p-3">
+            <div className="oldbackground oldbackgound1">
+              <img
+                src={book1}
+                alt="The Killing Type cover"
+                className=" float-start m-2 img-fluid oldbookimage"
+              />
+              <h2>Blood Sisters</h2>
+              <p className="oldbooktext">
+                Blood SistersBlood SistersBlood SistersBlood SistersBlood
+                SistersBlood SistersBlood SistersBlood SistersBlood SistersBlood
+                SistersBlood SistersBlood SistersBlood SistersBlood SistersBlood
+                SistersBlood SistersBlood SistersBlood SistersBlood SistersBlood
+                SistersBlood SistersBlood SistersBlood SistersBlood SistersBlood
+                Sisters
+                <a
+                  href="https://www.amazon.co.uk/Blood-Sisters-Jane-Corry/dp/0525522182"
+                  alt="buy Blood Sisters on amazon"
+                  rel="noreferrer"
+                  target="_blank"
+                >
+                  Amazon
+                </a>
+                <a
+                  href="https://www.penguin.co.uk/books/294513/blood-sisters-by-corry-jane/9780241976722"
+                  alt="buy Blood Sisters on penguin"
+                  rel="noreferrer"
+                  target="_blank"
+                >
+                  Penguin
+                </a>
+                <a
+                  href="https://www.goodreads.com/book/show/35580277-blood-sisters"
+                  alt="learn about Blood Sisters on Goodreads"
+                  rel="noreferrer"
+                  target="_blank"
+                >
+                  Goodreads
+                </a>
+              </p>
+            </div>
           </div>
-          <div className="col-3">
-            {" "}
-            <img
-              src={book0}
-              alt="My husband's wife Book cover"
-              className="book"
-            />
-            <a
-              href="https://www.amazon.co.uk/My-Husbands-Wife-Bestselling-Thriller-ebook/dp/B018WWOEE0/?_encoding=UTF8&pd_rd_w=AOAAU&content-id=amzn1.sym.3413293e-3815-4359-96ba-1ec5110e0b30&pf_rd_p=3413293e-3815-4359-96ba-1ec5110e0b30&pf_rd_r=257-6964746-9685606&pd_rd_wg=Abxx8&pd_rd_r=be567728-ce45-4347-8c12-9d9164d6d937&ref_=aufs_ap_sc_dsk"
-              alt="buy My husband's wife  on amazon"
-              rel="noreferrer"
-              target="_blank"
-            >
-              Amazon
-            </a>
+          <div className="col-3  p-3">
+            <div className="oldbackground oldbackgound0">
+              <img
+                src={book0}
+                alt="My Husbands Wife cover"
+                className=" float-start m-2 img-fluid oldbookimage"
+              />
+              <h2>My Husbands Wife</h2>
+              <p className="oldbooktext">
+                My Husbands WifeMy Husbands WifeMy Husbands Wife My Husbands
+                Wife My Husbands WifeMy Husbands Wife My Husbands WifeMy
+                Husbands WifeMy Husbands Wife My Husbands WifeMy Husbands Wife
+                My Husbands Wife My Husbands Wife My Husbands WifeMy Husbands
+                WifeMy Husbands WifeMy Husbands Wife My Husbands Wife My
+                Husbands WifeMy Husbands Wife My Husbands Wife
+                <a
+                  href="https://www.amazon.co.uk/My-Husbands-Wife-Jane-Corry/dp/0241256488"
+                  alt="buy My Husbands Wife  on amazon"
+                  rel="noreferrer"
+                  target="_blank"
+                >
+                  Amazon
+                </a>
+                <a
+                  href="https://www.penguin.co.uk/books/294457/my-husbands-wife-by-corry-jane/9780241256480"
+                  alt="buy My Husbands Wife on penguin"
+                  rel="noreferrer"
+                  target="_blank"
+                >
+                  Penguin
+                </a>
+                <a
+                  href="https://www.goodreads.com/book/show/31227076-my-husband-s-wife"
+                  alt="learn about My Husbands Wife  on Goodreads"
+                  rel="noreferrer"
+                  target="_blank"
+                >
+                  Goodreads
+                </a>
+              </p>
+            </div>
           </div>
         </div>
       </div>

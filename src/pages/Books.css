@@ -11,115 +11,103 @@
   font-family: var(---fontheadline);
   color: var(---baselight);
 }
-/* current book */
-.bookpage .currentbook {
+/* display books */
+.bookpage .displaybackgoundCTFY {
   background: linear-gradient(
       172deg,
       rgba(0, 0, 0, 0.7) 0%,
       rgb(0, 0, 0, 0.7) 100%
     ),
-    url("../media/ctfy.png");
+    url("../media/book8ctfy.png");
+}
+.bookpage .displaybackgoundWAHOS {
+  background: linear-gradient(
+      172deg,
+      rgba(0, 0, 0, 0.7) 0%,
+      rgb(0, 0, 0, 0.7) 100%
+    ),
+    url("../media/book7wahos.png");
+}
+.bookpage .displaybackground {
   background-repeat: no-repeat;
   background-size: cover;
   height: 100%;
   margin: 0 auto;
   text-align: center;
 }
-
-.bookpage .currentbookimage {
+.bookpage .displaybookimage {
   width: 120px;
 }
-.bookpage .currentbooktext {
-  font-size: 10px;
-}
-/* last book */
-.bookpage .lastbook {
-  background: linear-gradient(
-      172deg,
-      rgba(0, 0, 0, 0.7) 0%,
-      rgb(0, 0, 0, 0.7) 100%
-    ),
-    url("../media/wahos.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 100%;
-  margin: 0 auto;
-  text-align: center;
-}
-
-.bookpage .lastbookimage {
-  max-width: 150px;
-}
-
-.bookpage .lastbooktext {
+.bookpage .displaybooktext {
   font-size: 10px;
 }
 /* old books */
-.bookpage .book6 {
+.bookpage .oldbackgound6 {
   background: linear-gradient(
       172deg,
       rgba(0, 0, 0, 0.7) 0%,
       rgb(0, 0, 0, 0.7) 100%
     ),
-    url("../media/tlwt.png");
+    url("../media/book6tlwt.png");
 }
-.bookpage .book5 {
+.bookpage .oldbackgound5 {
   background: linear-gradient(
       172deg,
       rgba(0, 0, 0, 0.7) 0%,
       rgb(0, 0, 0, 0.7) 100%
     ),
-    url("../media/wahos.png");
+    url("../media/book5imam.png");
 }
-.bookpage .book4 {
+.bookpage .oldbackgound4 {
   background: linear-gradient(
       172deg,
       rgba(0, 0, 0, 0.7) 0%,
       rgb(0, 0, 0, 0.7) 100%
     ),
-    url("../media/wahos.png");
+    url("../media/book4ila.png");
 }
-.bookpage .book3 {
+.bookpage .oldbackgound3 {
   background: linear-gradient(
       172deg,
       rgba(0, 0, 0, 0.7) 0%,
       rgb(0, 0, 0, 0.7) 100%
     ),
-    url("../media/wahos.png");
+    url("../media/book3tde.png");
 }
-.bookpage .book2 {
+.bookpage .oldbackgound2 {
   background: linear-gradient(
       172deg,
       rgba(0, 0, 0, 0.7) 0%,
       rgb(0, 0, 0, 0.7) 100%
     ),
-    url("../media/wahos.png");
+    url("../media/book2tkt.png");
 }
-.bookpage .book1 {
+.bookpage .oldbackgound1 {
   background: linear-gradient(
       172deg,
       rgba(0, 0, 0, 0.7) 0%,
       rgb(0, 0, 0, 0.7) 100%
     ),
-    url("../media/wahos.png");
+    url("../media/book1bs.png");
 }
-.bookpage .book0 {
+.bookpage .oldbackgound0 {
   background: linear-gradient(
       172deg,
       rgba(0, 0, 0, 0.7) 0%,
       rgb(0, 0, 0, 0.7) 100%
     ),
-    url("../media/wahos.png");
+    url("../media/book0mhw.png");
 }
-.bookpage .oldbooks {
+.bookpage .oldbackground {
   background-repeat: no-repeat;
   background-size: cover;
   height: 100%;
   margin: 0 auto;
   text-align: center;
-  font-size: 20px;
 }
-
 .bookpage .oldbookimage {
-  max-width: 150px;
+  width: 80px;
+}
+.bookpage .oldbooktext {
+  font-size: 10px;
 }

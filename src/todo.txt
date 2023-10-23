@@ -13,3 +13,5 @@ left out pictures of last book but added little (clickable) slideshow
 would leave out the women&home bit and rather have that on the personal page and update  when there is news, or have extra news page
 
 would consider having less pages: reviews on books page, newsletter on contact page? events on news page?
+
+books: want just the newest one at the top display or both last ones?
