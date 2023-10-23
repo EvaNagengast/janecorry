@@ -56,7 +56,6 @@ function AbouttheAuthor() {
               Sign up to my newsletter
             </button>
             <p className="text-center">
-              {" "}
               and I will send you a free short story.
             </p>
           </div>

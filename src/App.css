@@ -5,7 +5,8 @@
   ---basedark: #011415;
   ---fontheadline: "Alice", serif;
 }
-
+/*  */
+/* *{border: 1px solid red;} */
 /* generic classes */
 
 h1 {

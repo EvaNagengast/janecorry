@@ -1,8 +1,7 @@
-.herocontainer {
+.homesection .herocontainer {
   max-height: 530px;
 }
-/* *{border: 1px solid red} */
-.flickeringlights {
+.homesection .flickeringlights {
   height: 500px;
   width: 250px;
   background-color: #fdb20b;
@@ -21,7 +20,7 @@
     )
     infinite;
 }
-.hero {
+.homesection .hero {
   position: relative;
   top: -580px;
   height: 620px;
@@ -31,12 +30,12 @@
       rgb(0, 0, 0, 0.1) 100%
     ),
     url("../../media/jccovernowindow.png");
-  background-repeat: no-repeat;
   background-size: cover;
+  background-repeat: no-repeat;
   text-align: center;
 }
 
-.titleimage {
+.homesection .titleimage {
   max-height: 300px;
   margin: 150px 10px 5px 1px;
 }
@@ -49,70 +48,66 @@
   }
 }
 @media (max-width: 992px) {
-  .herocontainer {
+  .homesection .herocontainer {
     max-height: 430px;
   }
-  .flickeringlights {
+  .homesection .flickeringlights {
     height: 400px;
   }
-  .hero {
+  .homesection .hero {
     top: -480px;
     height: 520px;
   }
-
-  .titleimage {
+  .homesection .titleimage {
     max-height: 270px;
     margin: 100px 10px 5px 100px;
   }
 }
 
 @media (max-width: 768px) {
-  .herocontainer {
+  .homesection .herocontainer {
     max-height: 330px;
   }
-  .flickeringlights {
+  .homesection .flickeringlights {
     height: 300px;
   }
-  .hero {
+  .homesection .hero {
     top: -330px;
     height: 420px;
   }
-
-  .titleimage {
+  .homesection .titleimage {
     max-height: 200px;
     margin: 50px 10px 5px 20px;
   }
 }
 @media (max-width: 576px) {
-  .herocontainer {
+  .homesection .herocontainer {
     max-height: 280px;
   }
-  .flickeringlights {
+  .homesection .flickeringlights {
     height: 250px;
   }
-  .hero {
+  .homesection .hero {
     top: -280px;
     height: 390px;
   }
-
-  .titleimage {
+  .homesection .titleimage {
     max-height: 160px;
- 
   }
-} 
+}
 @media (max-width: 420px) {
- .herocontainer {
+  .homesection .herocontainer {
     max-height: 430px;
   }
-  .flickeringlights {
+  .homesection .flickeringlights {
     height: 400px;
   }
-  .hero {
+  .homesection .hero {
     top: -480px;
     height: 520px;
   }
-  .titleimage {
+  .homesection .titleimage {
     max-height: 130px;
     margin: 100px 10px 5px 20px;
   }
-} 
+}

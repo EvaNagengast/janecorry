@@ -15,22 +15,22 @@ function Contact() {
       <div className="row">
         <div className="col p-5">
           <div className="contactpage">
-            You can send me a message through Facebook, Twitter and Instagram.
+            You can send me a message on<br/> Facebook, Twitter and Instagram.
             <div className="d-flex">
-              <div className="contactlink">
-                <a
-                  href="https://twitter.com/JaneCorryAuthor"
-                  alt="Jane Corrys Twitter account"
-                >
-                  <RiTwitterXLine className="contactlinkicon" />
-                </a>
-              </div>
               <div className="contactlink">
                 <a
                   href="https://www.facebook.com/authorjanecorry/"
                   alt="Jane Corrys Facebook account"
                 >
                   <RiFacebookCircleLine className="contactlinkicon" />
+                </a>
+              </div>
+              <div className="contactlink">
+                <a
+                  href="https://twitter.com/JaneCorryAuthor"
+                  alt="Jane Corrys Twitter account"
+                >
+                  <RiTwitterXLine className="contactlinkicon" />
                 </a>
               </div>
               <div className="contactlink">

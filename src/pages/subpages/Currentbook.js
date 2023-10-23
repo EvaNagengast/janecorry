@@ -13,7 +13,7 @@ function Currentbook() {
   let navigate = useNavigate();
   return (
     <div className="currentbooksection pb-4">
-      <div className="row">
+      <div className="row m-auto">
         <div className="col-3">
           <img src={Subtitle} alt="subtitle" className="subtitle d-block"></img>
         </div>
@@ -65,18 +65,31 @@ function Currentbook() {
             <div className="mt-3">
               Also available in bookshops and supermarkets nationwide.
             </div>
-          </div>
-        </div>
+          </div>{" "}
+        </div>{" "}
         <div className="d-block d-sm-none d-md-block col- 12 col-md-5 pt-4 p-sm-0">
+          {" "}
           <img
             src={Fullimage}
             alt="Jane Corry holding her recent novel"
             className="jcimage "
-          />
+          />{" "}
+        </div>
+        <div className=" d-none d-sm-block d-lg-none  pt-5 pt-lg-5 text-center starreviewhome">
+          <span className="stars">
+            <MdOutlineStar /> <MdOutlineStar /> <MdOutlineStar />{" "}
+            <MdOutlineStar /> <MdOutlineStar />
+          </span>
+          <br />
+          <i>
+            'What a lovely book. Parts are set in WWII & parts in the current
+            day. The mix is faultless. Fabulous story line that really draws you
+            in. Brilliant character'
+          </i>
         </div>
       </div>
       <div className="row m-auto my-5 pt-3 align-items-center ">
-        <div className="col-6 col-sm-4 col-lg-6  text-end text-sm-center text-lg-end bookinmagazine">
+        <div className="col-6    text-end text-sm-center text-lg-end bookinmagazine">
           Absolutely thrilled that <br />
           Coming To Find You <br />
           is in the July issue of
@@ -91,24 +104,12 @@ function Currentbook() {
             Woman & Home!
           </a>
         </div>
-        <div className="col-6 col-sm-4 col-lg-6 text-center text-lg-start">
+        <div className="col-6 text-center text-lg-start">
           <img
             src={Newspaper}
             alt="newspaper review of Coming To Find You"
             className="pe-4 pe-sm-0 img-fluid newspapersnippet"
           />
-        </div>{" "}
-        <div className="col-4 d-none d-sm-block d-lg-none  pt-2 pt-lg-5 starreviewhome">
-          <span className="stars">
-            <MdOutlineStar /> <MdOutlineStar /> <MdOutlineStar />{" "}
-            <MdOutlineStar /> <MdOutlineStar />
-          </span>
-          <br />
-          <i>
-            'What a lovely book. Parts are set in WWII & parts in the current
-            day. The mix is faultless. Fabulous story line that really draws you
-            in. Brilliant character'
-          </i>
         </div>
       </div>
       <hr className="m-4 m-lg-5" />
@@ -242,7 +243,7 @@ function Currentbook() {
           find more reviews here
         </button>
       </p>
-        </div>
+    </div>
   );
 }
 

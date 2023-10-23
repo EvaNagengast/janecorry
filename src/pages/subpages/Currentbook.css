@@ -1,12 +1,11 @@
+/* checked */
 .currentbooksection {
   background-color: var(---dark);
 }
-
 .currentbooksection h1 {
   margin-top: -30px;
   padding-top: 10px;
 }
-
 .currentbooksection hr {
   border: 2px solid var(---basedark);
   color: var(---basedark);
@@ -19,7 +18,6 @@
 .currentbooksection .jcimage {
   max-height: 540px;
 }
-
 .currentbooksection .introduction {
   font-size: 20px;
   line-height: 33px;
@@ -31,23 +29,17 @@
   max-height: 300px;
   border-radius: 6px;
 }
-
 .currentbooksection .bookinmagazine {
   font-size: 30px;
 }
-
 .currentbooksection .adlastbook {
   font-size: 20px;
 }
-
-
-
 @media (max-width: 992px) {
   .currentbooksection h1 {
     margin: -10px 0 30px 0;
     padding: 10px 0 0 90px;
   }
-
   .currentbooksection .subtitle {
     max-height: 50px;
     margin: 30px 0px 0 30px;
@@ -59,17 +51,15 @@
   .currentbooksection .introduction {
     line-height: 30px;
   }
-
   .currentbooksection .newspapersnippet {
     max-height: 250px;
   }
-
   .currentbooksection .bookinmagazine {
     font-size: 25px;
   }
-  .starreviewhome {
+  .currentbooksection .starreviewhome {
     font-size: 19px;
-  } 
+  }
 }
 
 @media (max-width: 768px) {
@@ -91,7 +81,7 @@
   .currentbooksection .bookinmagazine {
     font-size: 18px;
   }
-  .starreviewhome {
+  .currentbooksection .starreviewhome {
     font-size: 16px;
   }
 }
@@ -119,16 +109,16 @@
   .currentbooksection .bookinmagazine {
     font-size: 19px;
   }
-  .starreviewhome {
+  .currentbooksection .starreviewhome {
     font-size: 19px;
     line-height: 26px;
   }
   .currentbooksection .adlastbook {
     font-size: 19px;
   }
-  .comingtofindyouAmazon {
+  .currentbooksection .comingtofindyouAmazon {
     font-size: 17px;
-  } 
+  }
 }
 
 @media (max-width: 420px) {
@@ -166,10 +156,10 @@
   .currentbooksection .comingtofindyouAmazon {
     font-size: 14px;
   }
-  .reviewsection {
+  .currentbooksection .reviewsection {
     font-size: 12px;
   }
-  .reviewLink{
+  .currentbooksection .reviewLink {
     font-size: 14px;
-  } 
+  }
 }
