@@ -9,6 +9,7 @@
   padding-top: 20px;
 }
 .bookpage h2 {
+  font-size: 40px;
   font-family: var(---fontheadline);
   color: var(---baselight);
 }
@@ -40,7 +41,12 @@
   width: 120px;
 }
 .bookpage .displaybooktext {
-  font-size: 10px;
+  font-size: 22px;
+  text-align: left;
+}
+.bookpage .stars{
+  color: var(---baselight);
+  text-align: center;
 }
 /* old books */
 
@@ -116,7 +122,8 @@
   width: 80px;
 }
 .bookpage .oldbooktext {
-  font-size: 10px;
+   font-size: 16px;
+  text-align: left;
 }
 .bookpage .oldbooklinks {
   font-size: 10px;

@@ -1,3 +1,4 @@
+/* checked */
 .Newsletter {
   background-color: var(---basedark);
 }
@@ -12,7 +13,8 @@
 .newsletterpage .newsletterimage {
   max-width: 80%;
 }
-.newsletterpage .newslettertext,.newsletterpage .newsletterbutton {
+.newsletterpage .newslettertext,
+.newsletterpage .newsletterbutton {
   font-size: 40px;
 }
 
@@ -20,7 +22,8 @@
   .newsletterpage .newsletterimage {
     max-width: 80%;
   }
-  .newsletterpage .newslettertext,.newsletterpage .newsletterbutton {
+  .newsletterpage .newslettertext,
+  .newsletterpage .newsletterbutton {
     font-size: 34px;
   }
 }
@@ -30,16 +33,18 @@
     font-size: 60px;
   }
 
-  .newsletterpage .newslettertext,.newsletterpage .newsletterbutton {
+  .newsletterpage .newslettertext,
+  .newsletterpage .newsletterbutton {
     font-size: 26px;
   }
 }
 @media (max-width: 420px) {
-    .newsletterpage h1 {
+  .newsletterpage h1 {
     font-size: 55px;
   }
 
-  .newsletterpage .newslettertext,.newsletterpage .newsletterbutton {
+  .newsletterpage .newslettertext,
+  .newsletterpage .newsletterbutton {
     font-size: 19px;
   }
 }
