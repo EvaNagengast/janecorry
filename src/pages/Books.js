@@ -19,13 +19,13 @@ function Books() {
       <div className="bookpage">
         <h1 className="m-xl-3 text-center">Books</h1>
         <div className="row g-5 m-auto justify-content-center">
-          <div className="col-6">
-            <img
-              src={book8}
-              alt="Coming to find you Book cover"
-              className="m-2 mx-auto d-block d-lg-none displaybookimage"
-            />
+          <div className="col-12 col-lg-6">
             <div className="p-3 displaybackground displaybackgoundCTFY">
+              <img
+                src={book8}
+                alt="Coming to find you Book cover"
+                className="m-2 mx-auto d-block d-lg-none displaybookimage"
+              />
               <img
                 src={book8}
                 alt="Coming to find you Book cover"
@@ -107,14 +107,13 @@ function Books() {
               </p>
             </div>
           </div>
-          <div className="col-6 ">
-            <img
-              src={book7}
-              alt="We all have our Secrets Book cover"
-              className="m-2 mx-auto d-block d-lg-none displaybookimage"
-            />
-
+          <div className="col-12 col-lg-6 ">
             <div className="p-3 displaybackground displaybackgoundWAHOS">
+              <img
+                src={book7}
+                alt="We all have our Secrets Book cover"
+                className="m-2 mx-auto d-block d-lg-none displaybookimage"
+              />{" "}
               <img
                 src={book7}
                 alt="We all have our Secrets Book cover"
@@ -205,7 +204,7 @@ function Books() {
  
  */}
         <div className="row g-5 m-auto mb-5 pb-5 justify-content-center">
-          <div className="col-12 col-sm-6 col-md-4 col-lg-3  p-1 p-xl-3">
+          <div className="col-12 col-md-6 col-lg-4  p-1 p-xl-3">
             <div className="p-2 oldbackground oldbackgound6">
               <img
                 src={book6}
@@ -258,7 +257,7 @@ function Books() {
               </a>
             </p>
           </div>
-          <div className="col-12 col-sm-6 col-md-4 col-lg-3 p-1 p-xl-3">
+          <div className="col-12 col-md-6 col-lg-4 p-1 p-xl-3">
             <div className="p-2 oldbackground oldbackgound5">
               <img
                 src={book5}
@@ -312,7 +311,7 @@ function Books() {
               </a>
             </p>
           </div>
-          <div className="col-12 col-sm-6 col-md-4 col-lg-3 p-1 p-xl-3">
+          <div className="col-12 col-md-6 col-lg-4 p-1 p-xl-3">
             <div className="p-2 oldbackground oldbackgound4">
               <img
                 src={book4}
@@ -367,7 +366,7 @@ function Books() {
               </a>
             </p>
           </div>
-          <div className="col-12 col-sm-6 col-md-4 col-lg-3 p-1 p-xl-3">
+          <div className="col-12 col-md-6 col-lg-4 p-1 p-xl-3">
             <div className="p-2 oldbackground oldbackgound3">
               <img
                 src={book3}
@@ -427,7 +426,7 @@ function Books() {
               </a>
             </p>
           </div>
-          <div className="col-12 col-sm-6 col-md-4 col-lg-3 p-1 p-xl-3">
+          <div className="col-12 col-md-6 col-lg-4 p-1 p-xl-3">
             <div className="p-2 oldbackground oldbackgound2">
               <img
                 src={book2}
@@ -484,7 +483,7 @@ function Books() {
               </a>
             </p>
           </div>
-          <div className="col-12 col-sm-6 col-md-4 col-lg-3 p-1 p-xl-3">
+          <div className="col-12 col-md-6 col-lg-4 p-1 p-xl-3">
             <div className="p-2 oldbackground oldbackgound1">
               <img
                 src={book1}
@@ -542,7 +541,7 @@ function Books() {
               </a>
             </p>
           </div>
-          <div className="col-12 col-sm-6 col-md-4 col-lg-3 p-1 p-xl-3">
+          <div className="col-12 col-md-6 col-lg-4 p-1 p-xl-3">
             <div className="p-2 oldbackground oldbackgound0">
               <img
                 src={book0}

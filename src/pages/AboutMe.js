@@ -12,15 +12,15 @@ function AboutMe() {
         <img
           src={jcfront}
           alt="Jane Corry in a white blouse from the front"
-          className="profile d-block d-sm-none "
+          className="profile d-block d-md-none "
         />
         <div className="m-4">
           <img
             src={jcfront}
             alt="Jane Corry in a white blouse from the front"
-            className="float-start img-fluid profile d-none d-sm-block m-md-3 me-3 me-md-4 me-lg-5"
+            className="float-start img-fluid profile d-none d-md-block m-md-3 me-3 me-md-4 me-lg-5"
           />
-          <p className="mt-3 p-0 p-lg-4 p-xl-5 text-center text-sm-start aboutmetext">
+          <p className="p-md-3 text-center text-md-start aboutmetext">
             Sunday Times best-selling author; Washington Post best-seller; sold
             over a million copies world-wide in over 20 countries including the
             States; features writer for numerous magazines including Woman and

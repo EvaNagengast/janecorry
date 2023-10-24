@@ -7,23 +7,26 @@
   flex-direction: column;
   min-height: 100vh;
   padding-top: 20px;
-  font-size: 22px;
   text-align: center;
 }
 
 .contactpage h1 {
   margin: 10px 5px 40px 5px;
-  font-size: 100px;
+
 }
 .contactpage .contacttext {
-  font-size: 26px;
+  font-size: 22px;
 }
 .contactpage .contactimage {
-  max-height: 550px;
+  max-height: 400px;
+}
+.iconContainer{
+width: 70%;
+margin: 0 auto;
 }
 .contactpage .contactlinkicon {
   color: var(---baselight);
-  font-size: 30px;
+  font-size: 26px;
 }
 
 .contactpage .contactlinkicon:hover {
@@ -39,7 +42,7 @@
 
 @media (max-width: 992px) {
   .contactpage h1 {
-    font-size: 80px;
+    font-size: 60px;
   }
   .contactpage .contacttext {
     font-size: 24px;

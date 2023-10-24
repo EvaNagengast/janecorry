@@ -6,7 +6,7 @@
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  padding-top: 20px;
+  padding: 20px 120px;
 }
 .aboutmepage h2 {
   font-size: 60px;
@@ -14,7 +14,7 @@
   color: var(---baselight);
 }
 .aboutmepage .profile {
-  max-width: 420px;
+  max-width: 40%;
 }
 .aboutmepage .aboutmetext,
 .aboutmepage .quote {
@@ -34,19 +34,28 @@
   }
 }
 @media (max-width: 992px) {
+  .aboutmepage {
+    padding: 20px 80px;
+  }
   .aboutmepage .profile {
     max-width: 300px;
   }
 }
 @media (max-width: 768px) {
+    .aboutmepage {
+    padding: 20px 60px;
+  }
   .aboutmepage .profile {
     max-width: 250px;
+    margin: 20px auto 0px;
   }
 }
 @media (max-width: 576px) {
+     .aboutmepage {
+    padding: 20px 20px;
+  }
   .aboutmepage .profile {
     max-width: 300px;
-    margin: 20px auto 0px;
   }
   .aboutmepage .aboutmetext,
   .aboutmepage .quote {
@@ -57,19 +66,22 @@
   }
 }
 @media (max-width: 420px) {
+    .aboutmepage {
+    padding: 20px 0px;
+  }
   .aboutmepage .profile {
     max-width: 200px;
     margin: 20px auto 0px;
   }
   .aboutmepage h1 {
-    font-size: 65px;
+    font-size: 55px;
   }
   .aboutmepage h2 {
     font-size: 45px;
   }
   .aboutmepage .aboutmetext,
   .aboutmepage .quote {
-    font-size: 20px;
+    font-size: 18px;
   }
   .aboutmepage .bio {
     font-size: 16px;

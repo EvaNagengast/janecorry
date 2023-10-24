@@ -19,6 +19,10 @@ function WritingTips() {
                 }}
                 getBeforeInit={(instance) => {
                   instance
+                    .type("Once upon a time")
+                    .pause(1000)
+                    .empty(10)
+                    .pause(1000)
                     .type("There was no possibility of taking a walk that day")
                     .pause(1000)
                     .empty(10)
@@ -47,10 +51,7 @@ function WritingTips() {
                     .pause(1000)
                     .empty(10)
                     .pause(1000)
-                    .type("Once upon a time")
-                    .pause(1000)
-                    .empty(10)
-                    .pause(1000)
+
                     .type(
                       "It was a bright cold day in April, and the clocks were striking thirteen"
                     )
@@ -81,9 +82,7 @@ function WritingTips() {
           </div>
         </div>
         <div className="m-2 m-sm-3 m-md-5">
-          <h2 className="mt-4  ">
-            How to come up with an idea for a story
-          </h2>
+          <h2 className="mt-4  ">How to come up with an idea for a story</h2>
           <p className="text-start writingtext">
             Make a list of big things that have happened to you such as:
             <ul>

@@ -13,35 +13,33 @@ function Contact() {
     <div className="Contact">
       <div className="contactpage">
         <h1 className="m-0">Contact</h1>
-        <div className="row mt-4 mt-md-5 m-auto">
+        <div className="row my-4 my-md-5 m-auto">
           <div className="col-12 col-md-6 pt-lg-4 contacttext">
             You can send me a message on
             <br /> Facebook, Twitter and Instagram.
-            <div className="d-flex ">
-              <div className="ps-5 contactlink">
-                <a
-                  href="https://www.facebook.com/authorjanecorry/"
-                  alt="Jane Corrys Facebook account"
-                >
-                  <RiFacebookCircleLine className="contactlinkicon " />
-                </a>
-              </div>
-              <div className="contactlink">
-                <a
-                  href="https://twitter.com/JaneCorryAuthor"
-                  alt="Jane Corrys Twitter account"
-                >
-                  <RiTwitterXLine className="contactlinkicon" />
-                </a>
-              </div>
-              <div className="pe-5 contactlink">
-                <a
-                  href="https://www.instagram.com/janecorry"
-                  alt="Jane Corrys Instagram account"
-                >
-                  <RiInstagramLine className="contactlinkicon" />
-                </a>
-              </div>
+            <div className="d-flex iconContainer">
+              <a
+                href="https://www.facebook.com/authorjanecorry/"
+                alt="Jane Corrys Facebook account"
+                className="ps-5 contactlink"
+              >
+                <RiFacebookCircleLine className="contactlinkicon " />
+              </a>
+              <a
+                href="https://twitter.com/JaneCorryAuthor"
+                alt="Jane Corrys Twitter account"
+                className="contactlink"
+              >
+                <RiTwitterXLine className="contactlinkicon" />
+              </a>
+
+              <a
+                href="https://www.instagram.com/janecorry"
+                alt="Jane Corrys Instagram account"
+                className="pe-5 contactlink"
+              >
+                <RiInstagramLine className="contactlinkicon" />
+              </a>
             </div>
             <p>
               My publicity contact at Penguin is Jane Gentle

@@ -25,22 +25,59 @@ function Currentbook() {
           </h1>
         </div>
       </div>
-      <div className="row m-auto pt-md-4">
-        <div className="col-md-7 pt-2 ps-3 ps-md-5 introduction">
-          <img
-            src={Fullimage}
-            alt="Jane Corry holding her recent novel"
-            className="jcimage d-none d-sm-block d-md-none  float-end"
-          />
-          My new 2023 Penguin suspense is set in the Second World War and the
-          present day. When Nancy's stepbrother is sent to prison for killing
-          her mother and his father, Nancy seeks refuge from the press at the
-          family seaside holiday home in Devon. But Tall Chimneys was once owned
-          by Elizabeth who took in evacuees during the Second World War and was
-          also a member of Churchill's Secret Army. Elizabeth commited a
-          teribble crime. Can Nancy discover what it was - and finally find
-          peace for herself?
-          <div className="d-block d-sm-none d-lg-block  pt-5 starreviewhome">
+      {/* intro */}
+      <div className="intro">
+        <div className="row m-auto pt-md-4">
+          <div className="col-md-7 pt-2 ps-3 ps-md-5 introduction">
+            <img
+              src={Fullimage}
+              alt="Jane Corry holding her recent novel"
+              className="jcimage d-none d-sm-block d-md-none  float-end"
+            />
+            My new 2023 Penguin suspense is set in the Second World War and the
+            present day. When Nancy's stepbrother is sent to prison for killing
+            her mother and his father, Nancy seeks refuge from the press at the
+            family seaside holiday home in Devon. But Tall Chimneys was once
+            owned by Elizabeth who took in evacuees during the Second World War
+            and was also a member of Churchill's Secret Army. Elizabeth commited
+            a teribble crime. Can Nancy discover what it was - and finally find
+            peace for herself?
+            <div className="d-block d-sm-none d-lg-block  pt-5 starreviewhome">
+              <span className="stars">
+                <MdOutlineStar /> <MdOutlineStar /> <MdOutlineStar />{" "}
+                <MdOutlineStar /> <MdOutlineStar />
+              </span>
+              <br />
+              <i>
+                'What a lovely book. Parts are set in WWII & parts in the
+                current day. The mix is faultless. Fabulous story line that
+                really draws you in. Brilliant character'
+              </i>
+            </div>
+            <div className="mt-5">
+              <a
+                href="https://www.amazon.co.uk/Coming-Find-You-heart-wrenching-suspenseful/dp/0241996104/"
+                alt="shop coming to find you on amazon"
+                target="_blank"
+                rel="noreferrer"
+                className=" py-1 px-2 btnLightDark comingtofindyouAmazon"
+              >
+                click here to order <i>Coming To Find You</i>
+              </a>
+              <div className="mt-3">
+                Also available in bookshops and supermarkets nationwide.
+              </div>
+            </div>{" "}
+          </div>{" "}
+          <div className="d-block d-sm-none d-md-block col- 12 col-md-5 pt-4 p-sm-0">
+            {" "}
+            <img
+              src={Fullimage}
+              alt="Jane Corry holding her recent novel"
+              className="jcimage "
+            />{" "}
+          </div>
+          <div className=" d-none d-sm-block d-lg-none  pt-5 pt-lg-5 text-center starreviewhome">
             <span className="stars">
               <MdOutlineStar /> <MdOutlineStar /> <MdOutlineStar />{" "}
               <MdOutlineStar /> <MdOutlineStar />
@@ -52,88 +89,63 @@ function Currentbook() {
               you in. Brilliant character'
             </i>
           </div>
-          <div className="mt-5">
+        </div>
+      </div>
+      {/* news */}
+      <div className="news">
+        <div className="row m-auto my-5 pt-3 align-items-center ">
+          <div className="col-6    text-end text-sm-center text-lg-end bookinmagazine">
+            Absolutely thrilled that <br />
+            Coming To Find You <br />
+            is in the July issue of
+            <br />
             <a
-              href="https://www.amazon.co.uk/Coming-Find-You-heart-wrenching-suspenseful/dp/0241996104/"
-              alt="shop coming to find you on amazon"
+              href="https://www.womanandhome.com/"
+              alt="Woman and Home online magazine"
               target="_blank"
               rel="noreferrer"
-              className=" py-1 px-2 btnLightDark comingtofindyouAmazon"
+              className="linkLightBase"
             >
-              click here to order <i>Coming To Find You</i>
+              Woman & Home!
             </a>
-            <div className="mt-3">
-              Also available in bookshops and supermarkets nationwide.
-            </div>
-          </div>{" "}
-        </div>{" "}
-        <div className="d-block d-sm-none d-md-block col- 12 col-md-5 pt-4 p-sm-0">
-          {" "}
-          <img
-            src={Fullimage}
-            alt="Jane Corry holding her recent novel"
-            className="jcimage "
-          />{" "}
+          </div>
+          <div className="col-6 text-center text-lg-start">
+            <img
+              src={Newspaper}
+              alt="newspaper review of Coming To Find You"
+              className="pe-4 pe-sm-0 img-fluid newspapersnippet"
+            />
+          </div>
         </div>
-        <div className=" d-none d-sm-block d-lg-none  pt-5 pt-lg-5 text-center starreviewhome">
-          <span className="stars">
-            <MdOutlineStar /> <MdOutlineStar /> <MdOutlineStar />{" "}
-            <MdOutlineStar /> <MdOutlineStar />
+      </div>
+
+      {/* books */}
+      <div className="books">
+        {" "}
+        <hr className="m-4 m-lg-5" />
+        <div className="mt-3 adlastbook">
+          Meanwhile, you can buy my 2022 Penguin novel <br />
+          <span className="highlight">
+            <i>We all have our Secrets </i>
           </span>
           <br />
-          <i>
-            'What a lovely book. Parts are set in WWII & parts in the current
-            day. The mix is faultless. Fabulous story line that really draws you
-            in. Brilliant character'
-          </i>
+          and all of my other books at booksellers or online.
         </div>
-      </div>
-      <div className="row m-auto my-5 pt-3 align-items-center ">
-        <div className="col-6    text-end text-sm-center text-lg-end bookinmagazine">
-          Absolutely thrilled that <br />
-          Coming To Find You <br />
-          is in the July issue of
-          <br />
-          <a
-            href="https://www.womanandhome.com/"
-            alt="Woman and Home online magazine"
-            target="_blank"
-            rel="noreferrer"
-            className="linkLightBase"
-          >
-            Woman & Home!
-          </a>
+        <div className="m-3 p-md-5 p-3">
+          <Slideshow />
         </div>
-        <div className="col-6 text-center text-lg-start">
-          <img
-            src={Newspaper}
-            alt="newspaper review of Coming To Find You"
-            className="pe-4 pe-sm-0 img-fluid newspapersnippet"
-          />
-        </div>
+        <a
+          href="https://www.amazon.co.uk/stores/Jane-Corry/author/B01BTZ839E?ref=ap_rdr&store_ref=ap_rdr&isDramIntegrated=true&shoppingPortalEnabled=true"
+          alt="amazon sellers page"
+          target="_blank"
+          rel="noreferrer"
+          className="px-2 py-1 btnLightDark"
+        >
+          Click here to find all my books
+        </a>{" "}
+        <hr className="m-4 m-lg-5" />
       </div>
-      <hr className="m-4 m-lg-5" />
-      <div className="mt-3 adlastbook">
-        Meanwhile, you can buy my 2022 Penguin novel <br />
-        <span className="highlight">
-          <i>We all have our Secrets </i>
-        </span>
-        <br />
-        and all of my other books at booksellers or online.
-      </div>{" "}
-      <div className="m-3 p-md-5 p-3">
-        <Slideshow />
-      </div>
-      <a
-        href="https://www.amazon.co.uk/stores/Jane-Corry/author/B01BTZ839E?ref=ap_rdr&store_ref=ap_rdr&isDramIntegrated=true&shoppingPortalEnabled=true"
-        alt="amazon sellers page"
-        target="_blank"
-        rel="noreferrer"
-        className="px-2 py-1 btnLightDark"
-      >
-        Click here to find all my books
-      </a>
-      <hr className="m-4 m-lg-5" />
+
       <div className="row m-auto align-items-center reviewsection">
         <div className="col-5 col-sm-4 col-md-3 col-lg-2 ps-4">
           Psychological Thriller Of The Year!

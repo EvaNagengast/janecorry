@@ -31,7 +31,7 @@ function AbouttheAuthor() {
               dog-jogs along the beach followed by a dip in the sea.
               <button
                 onClick={() => {
-                  navigate("./reviews");
+                  navigate("./aboutme");
                 }}
                 className="d-block m-auto mt-3 buttonLink"
               >
