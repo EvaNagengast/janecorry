@@ -101,7 +101,7 @@ function Currentbook() {
 
       {/* books */}
       <div className="books">
-        {" "}
+     
         <hr className="m-4 m-lg-5" />
         <div className="mt-3 adlastbook">
           Meanwhile, you can buy my 2022 Penguin novel <br />

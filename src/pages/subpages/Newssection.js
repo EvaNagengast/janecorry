@@ -39,7 +39,7 @@ function Newssection() {
           </div>
           <div className="col-12 col-lg-6 order-1">
             <div className="cardTwo">
-              <div className="row cardimageTwo">
+              <div className="row m-auto cardimageTwo">
                 <div className="col-6">
                   <img
                     src={ctfy}

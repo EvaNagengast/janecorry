@@ -2,23 +2,63 @@ import React from "react";
 import Footer from "./Footer";
 import { InstagramEmbed } from "react-social-media-embed";
 import Newspaper from "../media/ctfynewspaper.jpg";
+import ctfy from "../media/book8.jpg";
+import ctfycanada from "../media/book8canada.jpg";
+import wahosaudio from "../media/audiobookwahos.png";
 import "./News.css";
 
 function News() {
   return (
     <div className="News">
       <div className="newspage">
-       <h1>NEWS</h1> 
-  <p> I'm very excited that "Coming to find you" is being published by
-        doubleday in canada and the states on december 19. This will be the
-        cover (Image od cover) Audiobook</p>
-        <br />
-        <br />
-        Do you like listening to novels rather than reading? Then you might
-        enjoy the audio version of We All Have Our Secrets
-        https://amzn.to/3Ris6EI
-        <br />
-        <br />
+        <h1 className="text-center">NEWS</h1>
+        <div className="row m-auto newsOne">
+          <div className="col-6">
+            <div className="row m-auto">
+              <div className="col-6">
+                <img
+                  src={ctfy}
+                  alt="coming to find you book cover"
+                  className=" w-100 img-fluid d-inline px-2 ctfycover"
+                />
+              </div>
+              <div className="col-6">
+                <img
+                  src={ctfycanada}
+                  alt="coming to find you book cover"
+                  className="w-100 img-fluid d-inline px-2 ctfycover"
+                />
+              </div>
+            </div>
+          </div>
+          <div className="col-6 p-5">
+            {" "}
+            <p>
+              I'm very excited that "Coming to find you" is being published by
+              doubleday in canada and the states on december 19.{" "}
+            </p>
+            <p>These are the covers.</p>
+          </div>
+        </div>
+        <hr />
+        <div className="row m-auto newsOne">
+          <div className="col-4">
+            {" "}
+            <img
+              src={wahosaudio}
+              alt="coming to find you book cover"
+              className=" w-100 img-fluid d-inline px-2 ctfycover"
+            />
+          </div>
+          <div className="col-8">
+            {" "}
+            <p className="newsTwo">
+              Do you like listening to novels rather than reading? Then you
+              might enjoy the audio version of We All Have Our Secrets
+              https://amzn.to/3Ris6EI
+            </p>
+          </div>
+        </div>
         If you would like to be amongst the first to know more details, please
         get in touch with me through the mailing list by emailing me at
         janecorryauthor@gmail.com
