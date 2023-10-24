@@ -10,7 +10,7 @@ function AbouttheAuthor() {
       <div className="py-2 py-lg-5 aboutJaneCorry">
         <div className="row m-auto align-items-center">
           <div className="col-md-6 col-lg-7 col-xl-8 col-xxl-9 mt-4 mt-md-0 mt-lg-3">
-            <h2 className="text-center">Jane Corry</h2>
+            <h3 className="text-center">Jane Corry</h3>
             <div className="my-4 d-none d-lg-block text-center Newsletterprompt">
               <button
                 onClick={() => {

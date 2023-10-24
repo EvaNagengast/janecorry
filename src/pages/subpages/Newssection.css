@@ -1,0 +1,66 @@
+.newssection h2 {
+  font-size: 60px;
+  font-family: var(---fontheadline);
+  color: var(---baselight);
+}
+.newssection .newsCardContainer {
+  padding: 20px 60px ;
+}
+.newssection ul {
+  list-style: none;
+  padding: 0;
+}
+.newssection li {
+  display: inline;
+}
+
+.newssection .cardOne,
+.newssection .cardTwo,
+.newssection .cardThree {
+  max-width: 80%;
+  height: 98%;
+  margin: 0 auto;
+  padding: 25px 30px 5px 30px;
+  border: 3px double var(---baselight);
+}
+.newssection .cardtextOne,
+.newssection .cardtextTwo,
+.newssection .cardtextThree {font-size: 22px;}
+.newssection .ctfycover,
+.newssection .newspapersnippet {
+  max-height: 300px;
+}
+
+@media (max-width: 992px) {
+  .currentbooksection .newspapersnippet {
+    max-height: 250px;
+  }
+  .currentbooksection .bookinmagazine {
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 769px) {
+  .currentbooksection .bookinmagazine {
+    font-size: 18px;
+  }
+}
+@media (max-width: 576px) {
+  .currentbooksection .newspapersnippet {
+    max-height: 180px;
+    border-radius: 4px;
+  }
+  .currentbooksection .bookinmagazine {
+    font-size: 19px;
+  }
+}
+
+@media (max-width: 420px) {
+  .currentbooksection .bookinmagazine {
+    font-size: 15px;
+  }
+
+  .currentbooksection .adlastbook {
+    font-size: 15px;
+  }
+}

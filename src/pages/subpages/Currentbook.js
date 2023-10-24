@@ -1,8 +1,9 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 import { MdOutlineStar } from "react-icons/md";
+import Newssection from "./Newssection";
 import Slideshow from "./Slideshow";
-import Newspaper from "../../media/ctfynewspaper.jpg";
+
 import Fullimage from "../../media/jcfullbody.jpg";
 
 import Subtitle from "../../media/jcfontsubtitle.png";
@@ -95,32 +96,8 @@ function Currentbook() {
         </div>
       </div>
       {/* news */}
-      <div className="news">
-        <div className="row m-auto my-5 pt-3 align-items-center ">
-          <div className="col-6    text-end text-sm-center text-lg-end bookinmagazine">
-            Absolutely thrilled that <br />
-            Coming To Find You <br />
-            is in the July issue of
-            <br />
-            <a
-              href="https://www.womanandhome.com/"
-              alt="Woman and Home online magazine"
-              target="_blank"
-              rel="noreferrer"
-              className="linkLightBase"
-            >
-              Woman & Home!
-            </a>
-          </div>
-          <div className="col-6 text-center text-lg-start">
-            <img
-              src={Newspaper}
-              alt="newspaper review of Coming To Find You"
-              className="pe-4 pe-sm-0 img-fluid newspapersnippet"
-            />
-          </div>
-        </div>
-      </div>
+
+      <Newssection />
 
       {/* books */}
       <div className="books">

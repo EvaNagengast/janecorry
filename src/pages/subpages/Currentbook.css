@@ -39,14 +39,6 @@
   color: var(---dark);
   opacity: 0.7;
 }
-
-.currentbooksection .newspapersnippet {
-  max-height: 300px;
-  border-radius: 6px;
-}
-.currentbooksection .bookinmagazine {
-  font-size: 30px;
-}
 .currentbooksection .adlastbook {
   font-size: 20px;
 }
@@ -70,14 +62,6 @@
     font-size: 22px;
     padding: 30px;
   }
- 
-  /*  */
-  .currentbooksection .newspapersnippet {
-    max-height: 250px;
-  }
-  .currentbooksection .bookinmagazine {
-    font-size: 25px;
-  }
 }
 
 @media (max-width: 769px) {
@@ -99,10 +83,6 @@
     max-width: 205px;
   }
   .currentbooksection .introLink {
-    font-size: 18px;
-  }
-  /*  */
-  .currentbooksection .bookinmagazine {
     font-size: 18px;
   }
 }
@@ -132,19 +112,7 @@
   .currentbooksection .starreviewhome {
     font-size: 18px;
   }
-
   /*  */
-  .currentbooksection .newspapersnippet {
-    max-height: 180px;
-    border-radius: 4px;
-  }
-  .currentbooksection .bookinmagazine {
-    font-size: 19px;
-  }
-  .currentbooksection .starreviewhome {
-    font-size: 19px;
-    line-height: 26px;
-  }
   .currentbooksection .adlastbook {
     font-size: 19px;
   }
@@ -179,14 +147,6 @@
     font-size: 16px;
   }
   /*  */
-  .currentbooksection .bookinmagazine {
-    font-size: 15px;
-  }
-
-  .currentbooksection .adlastbook {
-    font-size: 15px;
-  }
-
   .currentbooksection .reviewsection {
     font-size: 12px;
   }

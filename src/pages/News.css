@@ -9,14 +9,6 @@
   padding: 20px 100px;
   font-size: 22px;
 }
-.newspapersnippet {
-  max-height: 300px;
-  border-radius: 6px;
-}
-
-.bookinmagazine {
-  font-size: 30px;
-}
 
 @media (max-width: 1400px) {
 }
