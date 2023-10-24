@@ -114,7 +114,7 @@
   }
   /*  */
   .currentbooksection .adlastbook {
-    font-size: 19px;
+    font-size: 18px;
   }
 }
 
@@ -147,6 +147,9 @@
     font-size: 16px;
   }
   /*  */
+    .currentbooksection .adlastbook {
+    font-size: 16px;
+  }
   .currentbooksection .reviewsection {
     font-size: 12px;
   }

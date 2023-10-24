@@ -10,9 +10,9 @@ function Newssection() {
       <div className="newssection">
         <h2>News</h2>
 
-        <div className="row newsCardContainer">
-          <div className="col-6 order-2">
-            {" "}
+        <div className="row m-auto newsCardContainer">
+          <div className="col-12 col-lg-6 order-2 pt-3 pt-lg-0 ">
+      
             <div className="cardOne">
               <div className="cardimageOne">
                 <img
@@ -37,29 +37,29 @@ function Newssection() {
               </p>
             </div>
           </div>
-          <div className="col-6 order-1">
+          <div className="col-12 col-lg-6 order-1">
             <div className="cardTwo">
-              <div className="cardimageTwo">
-                <ul>
-                  <li>
-                    <img
-                      src={ctfy}
-                      alt="coming to find you book cover"
-                      className=" w-50 img-fluid d-inline px-2 ctfycover"
-                    />
-                    <figcaption>Coming To find you UK</figcaption>
-                  </li>
-                  <li>
-                    <img
-                      src={ctfycanada}
-                      alt="coming to find you book cover"
-                      className="w-50 img-fluid d-inline px-2 ctfycover"
-                    />
-                    <figcaption className="text-wrap">Coming To find you Canada/US</figcaption>
-                  </li>
-                </ul>
+              <div className="row cardimageTwo">
+                <div className="col-6">
+                  <img
+                    src={ctfy}
+                    alt="coming to find you book cover"
+                    className=" w-100 img-fluid d-inline px-2 ctfycover"
+                  />
+                  <figcaption className="p-1">Coming To find you UK</figcaption>
+                </div>
+                <div className="col-6">
+                  <img
+                    src={ctfycanada}
+                    alt="coming to find you book cover"
+                    className="w-100 img-fluid d-inline px-2 ctfycover"
+                  />
+                  <figcaption className="p-1">
+                    Coming To find you Canada/US
+                  </figcaption>
+                </div>
               </div>
-              <p className="cardtextTwo">
+              <p className="pt-2 cardtextTwo">
                 I'm very excited that <i>Coming To Find You</i> is being
                 published by
                 <a
@@ -71,7 +71,8 @@ function Newssection() {
                 >
                   {"  "}Doubleday {"  "}
                 </a>
-                in Canada and the States on December 19.
+                in Canada and the States on December 19. You can find the
+                picture of the cover at the top of the page.
               </p>
             </div>
           </div>
