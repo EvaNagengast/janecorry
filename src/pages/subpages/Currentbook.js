@@ -14,10 +14,10 @@ function Currentbook() {
   return (
     <div className="currentbooksection pb-4">
       <div className="row m-auto">
-        <div className="col-3">
+        <div className="col-12 col-sm-3">
           <img src={Subtitle} alt="subtitle" className="subtitle d-block"></img>
         </div>
-        <div className="col-11">
+        <div className="col-12 col-sm-11">
           <h1 className="">
             Coming To
             <br />
@@ -27,32 +27,35 @@ function Currentbook() {
       </div>
       {/* intro */}
       <div className="intro">
-        <div className="row m-auto pt-md-4">
-          <div className="col-md-7 pt-2 ps-3 ps-md-5 introduction">
+        <div className="row m-auto">
+          <div className="col-md-7 introduction">
             <img
               src={Fullimage}
               alt="Jane Corry holding her recent novel"
-              className="jcimage d-none d-sm-block d-md-none  float-end"
+              className="jcimage m-2 d-none d-sm-block d-md-none  float-end"
             />
-            My new 2023 Penguin suspense is set in the Second World War and the
-            present day. When Nancy's stepbrother is sent to prison for killing
-            her mother and his father, Nancy seeks refuge from the press at the
-            family seaside holiday home in Devon. But Tall Chimneys was once
-            owned by Elizabeth who took in evacuees during the Second World War
-            and was also a member of Churchill's Secret Army. Elizabeth commited
-            a teribble crime. Can Nancy discover what it was - and finally find
-            peace for herself?
-            <div className="d-block d-sm-none d-lg-block  pt-5 starreviewhome">
+            <p className="text-start  ">
+              {" "}
+              My new 2023 Penguin suspense is set in the Second World War and
+              the present day. When Nancy's stepbrother is sent to prison for
+              killing her mother and his father, Nancy seeks refuge from the
+              press at the family seaside holiday home in Devon. But Tall
+              Chimneys was once owned by Elizabeth who took in evacuees during
+              the Second World War and was also a member of Churchill's Secret
+              Army. Elizabeth commited a teribble crime. Can Nancy discover what
+              it was - and finally find peace for herself?
+            </p>
+            <div className="d-block d-sm-none d-lg-block">
               <span className="stars">
                 <MdOutlineStar /> <MdOutlineStar /> <MdOutlineStar />{" "}
                 <MdOutlineStar /> <MdOutlineStar />
               </span>
               <br />
-              <i>
+              <span className="starreviewhome">
                 'What a lovely book. Parts are set in WWII & parts in the
                 current day. The mix is faultless. Fabulous story line that
                 really draws you in. Brilliant character'
-              </i>
+              </span>
             </div>
             <div className="mt-5">
               <a
@@ -60,7 +63,7 @@ function Currentbook() {
                 alt="shop coming to find you on amazon"
                 target="_blank"
                 rel="noreferrer"
-                className=" py-1 px-2 btnLightDark comingtofindyouAmazon"
+                className=" py-1 px-2 btnLightDark introLink"
               >
                 click here to order <i>Coming To Find You</i>
               </a>
@@ -77,7 +80,7 @@ function Currentbook() {
               className="jcimage "
             />{" "}
           </div>
-          <div className=" d-none d-sm-block d-lg-none  pt-5 pt-lg-5 text-center starreviewhome">
+          <div className=" d-none d-sm-block d-lg-none text-center starreviewhome">
             <span className="stars">
               <MdOutlineStar /> <MdOutlineStar /> <MdOutlineStar />{" "}
               <MdOutlineStar /> <MdOutlineStar />
