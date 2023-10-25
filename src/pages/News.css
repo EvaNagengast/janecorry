@@ -42,16 +42,40 @@
 .MediaContoller {
   background-color: var(---baselight);
 }
-
-@media (max-width: 1400px) {
-}
-@media (max-width: 1200px) {
+.embed {
+  max-width: 300px;
 }
 @media (max-width: 992px) {
+  .newspage {
+    padding: 20px 5%;
+    font-size: 20px;
+  }
+  .newspage .newsOne,
+  .newspage .newsTwo,
+  .newspage .newsThree {
+    padding: 20px 30px;
+  }
 }
 @media (max-width: 768px) {
+    .newspage .newsOne,
+  .newspage .newsTwo,
+  .newspage .newsThree {
+    padding: 15px 15px;
+  }
+  .newspage .wahoscover {
+    max-width: 50%;
+  }
 }
 @media (max-width: 576px) {
+   .newspage .wahoscover {
+    max-width: 60%;
+  }
 }
 @media (max-width: 420px) {
+  .newspage {
+    padding: 20px 0;
+    font-size: 18px;
+  }   .newspage .wahoscover {
+    max-width: 80%;
+  }
 }
