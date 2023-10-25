@@ -1,3 +1,7 @@
+:root {
+  --media-primary-color: rgb(255, 190, 0);
+}
+
 .News {
   background-color: var(---basedark);
 }
@@ -16,9 +20,29 @@
   color: var(---dark);
   opacity: 0.7;
 }
-.newspage .newsOne {
+.newspage .newsOne,
+.newspage .newsTwo,
+.newspage .newsThree {
   padding: 30px 50px;
 }
+.newspage .iconContainer {
+  width: 70%;
+  margin: 0 auto;
+}
+.newspage .contactlinkicon {
+  color: var(---baselight);
+  font-size: 26px;
+}
+
+.newspage .contactlinkicon:hover {
+  color: var(---base);
+}
+
+.MediaContoller:host,
+.MediaContoller {
+  background-color: var(---baselight);
+}
+
 @media (max-width: 1400px) {
 }
 @media (max-width: 1200px) {

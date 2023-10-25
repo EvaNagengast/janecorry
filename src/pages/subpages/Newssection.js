@@ -20,7 +20,7 @@ function Newssection() {
                   alt="newspaper review of Coming To Find You"
                   className="w-70 img-fluid newspapersnippet"
                 />
-              </div>{" "}
+              </div>
               <p className="pt-2 cardtextOne">
                 Absolutely thrilled that <i>Coming To Find You </i>is in the
                 July issue of

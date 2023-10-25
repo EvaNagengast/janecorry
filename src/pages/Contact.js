@@ -46,6 +46,8 @@ function Contact() {
               <br />
               <a
                 href="mailto:JGentle@penguinrandomhouse.co.uk"
+                target="_blank"
+                rel="noreferrer"
                 alt="mail of Jane Gentle"
                 className="highlight contactlink"
               >
@@ -57,6 +59,8 @@ function Contact() {
               <br />
               <a
                 href="mailto:kate@khla.co.uk"
+                target="_blank"
+                rel="noreferrer"
                 alt="mail of Kate Hordern"
                 className="highlight contactlink"
               >
