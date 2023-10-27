@@ -18,21 +18,16 @@ function Books() {
     <div className="Books">
       <div className="bookpage">
         <h1 className="m-xl-3 text-center">Books</h1>
-        <div className="row g-5 m-auto justify-content-center">
-          <div className="col-12 col-lg-6">
-            <div className="p-3 displaybackground displaybackgoundCTFY">
+        <div className="row m-auto g-0 g-sm-5 justify-content-center">
+          <div className="col-12 col-lg-6  displayOne">
+            <div className="p-2 p-sm-3 displaybackground displaybackgoundCTFY">
               <img
                 src={book8}
                 alt="Coming to find you Book cover"
-                className="m-2 mx-auto d-block d-lg-none displaybookimage"
-              />
-              <img
-                src={book8}
-                alt="Coming to find you Book cover"
-                className="m-2 float-start d-none d-lg-block  displaybookimage"
+                className="m-2 float-start  displaybookimage"
               />
               <h2>Coming to find you </h2>
-              <p className="displaybooktext">
+              <p className="displaybooktext p-2 p-sm-1">
                 <p>
                   When her family tragedy is splashed across the newspapers,
                   Nancy decides to disappear. Her grandmother's beautiful
@@ -75,13 +70,13 @@ function Books() {
                   Curtis, author of Invite Me In
                 </p>
 
-                <p className="m-3 text-center newbooklinks">
+                <p className="m-sm-3 text-center newbooklinks">
                   <a
                     href="https://www.amazon.co.uk/Coming-Find-You-heart-wrenching-suspenseful/dp/0241996104"
                     alt="buy Coming to find you on amazon"
                     rel="noreferrer"
                     target="_blank"
-                    className="btnNoneLight  px-3 mx-2 mx-lg-3"
+                    className="btnNoneLight  px-2 mx-1 px-sm-3 mx-sm-2 mx-lg-3"
                   >
                     Amazon
                   </a>
@@ -90,7 +85,7 @@ function Books() {
                     alt="buy Coming to find you on Penguin"
                     rel="noreferrer"
                     target="_blank"
-                    className="btnNoneLight px-3 mx-2 mx-lg-3"
+                    className="btnNoneLight px-2 mx-1 px-sm-3 mx-sm-2  mx-lg-3"
                   >
                     Penguin
                   </a>
@@ -99,7 +94,7 @@ function Books() {
                     alt="learn about Coming to find you on Goodreads"
                     rel="noreferrer"
                     target="_blank"
-                    className="btnNoneLight px-3 mx-2 mx-lg-3"
+                    className="btnNoneLight px-2 mx-1 px-sm-3 mx-sm-2 mx-lg-3"
                   >
                     Goodreads
                   </a>
@@ -112,15 +107,10 @@ function Books() {
               <img
                 src={book7}
                 alt="We all have our Secrets Book cover"
-                className="m-2 mx-auto d-block d-lg-none displaybookimage"
-              />{" "}
-              <img
-                src={book7}
-                alt="We all have our Secrets Book cover"
-                className="m-2 float-start d-none d-lg-block img-fluid displaybookimage"
+                className="m-2 float-start img-fluid displaybookimage"
               />
               <h2>We all have our Secrets</h2>
-              <p className="displaybooktext">
+              <p className="displaybooktext  p-2 p-sm-1">
                 <p>You know she's lying... But so are you.</p>
                 <p>
                   Emily made one bad decision, and now her career could be over.
@@ -159,13 +149,13 @@ function Books() {
                   </i>
                   - Peter James, Picture You Dead
                 </p>
-                <p className="m-3 text-center newbooklinks">
+                <p className="m-sm-3 text-center newbooklinks">
                   <a
                     href="https://www.amazon.co.uk/We-All-Have-Our-Secrets-ebook/dp/B09H2Q5SHD"
                     alt="buy We all have our secrets on amazon"
                     rel="noreferrer"
                     target="_blank"
-                    className="btnNoneLight px-3 mx-2 mx-lg-3"
+                    className="btnNoneLight px-2 mx-1 px-sm-3 mx-sm-2 mx-lg-3"
                   >
                     Amazon
                   </a>
@@ -174,7 +164,7 @@ function Books() {
                     alt="buy We all have our secrets on penguin"
                     rel="noreferrer"
                     target="_blank"
-                    className="btnNoneLight px-3 mx-2 mx-lg-3"
+                    className="btnNoneLight px-2 mx-1 px-sm-3 mx-sm-2  mx-lg-3"
                   >
                     Penguin
                   </a>
@@ -183,7 +173,7 @@ function Books() {
                     alt="learn about  We all have our secrets on Goodreads"
                     rel="noreferrer"
                     target="_blank"
-                    className="btnNoneLight px-3 mx-2 mx-lg-3"
+                    className="btnNoneLight px-2 mx-1 px-sm-3 mx-sm-2 mx-lg-3"
                   >
                     Goodreads
                   </a>
@@ -203,8 +193,8 @@ function Books() {
  
  
  */}
-        <div className="row g-5 m-auto mb-5 pb-5 justify-content-center">
-          <div className="col-12 col-md-6 col-lg-4  p-1 p-xl-3">
+        <div className="row g-0 g-sm-5 m-auto mb-5 pb-5 justify-content-center">
+          <div className="col-12 col-md-6 col-lg-4  p-sm-2 p-xl-3">
             <div className="p-2 oldbackground oldbackgound6">
               <img
                 src={book6}
@@ -212,7 +202,7 @@ function Books() {
                 className="m-2 float-start oldbookimage"
               />
               <h3>The Lies We Tell</h3>
-              <p className="oldbooktext">
+              <p className="oldbooktext p-2 p-sm-1 ">
                 <p> Save your son, or save yourself?</p>
                 <p>
                   Sarah always thought of herself and her husband, Tom, as good
@@ -233,7 +223,7 @@ function Books() {
                 alt="buy The lies we tellon amazon"
                 rel="noreferrer"
                 target="_blank"
-                className="btnDarkLight px-2 mx-1 mx-xxl-2"
+                className="btnDarkLight px-sm-2 mx-1 mx-xxl-2"
               >
                 Amazon
               </a>
@@ -242,7 +232,7 @@ function Books() {
                 alt="buy The lies we tell on Penguin"
                 rel="noreferrer"
                 target="_blank"
-                className="btnDarkLight px-2 mx-1 mx-xxl-2"
+                className="btnDarkLight px-sm-2 mx-1 mx-xxl-2"
               >
                 Penguin
               </a>
@@ -251,13 +241,13 @@ function Books() {
                 alt="learn about The lies we tell on Goodreads"
                 rel="noreferrer"
                 target="_blank"
-                className="btnDarkLight px-2 mx-1 mx-xxl-2"
+                className="btnDarkLight px-sm-2 mx-1 mx-xxl-2"
               >
                 Goodreads
               </a>
             </p>
           </div>
-          <div className="col-12 col-md-6 col-lg-4 p-1 p-xl-3">
+          <div className="col-12 col-md-6 col-lg-4 p-2 p-xl-3">
             <div className="p-2 oldbackground oldbackgound5">
               <img
                 src={book5}
@@ -265,8 +255,8 @@ function Books() {
                 className=" float-start m-2 img-fluid oldbookimage"
               />
               <h3>I Made a Mistake</h3>
-              <p className="oldbooktext">
-                <p>It started wirh a kiss and ended with murder. . .</p>
+              <p className="oldbooktext p-2 p-sm-1">
+                <p>It started wirh a kiss and ended with murder.</p>
                 <p>
                   In Poppy Page's mind, there are two types of women in this
                   world: those who are faithful to their husbands, and those who
@@ -287,7 +277,7 @@ function Books() {
                 alt="buy I Made a Mistake on amazon"
                 rel="noreferrer"
                 target="_blank"
-                className="btnDarkLight px-2 mx-1 mx-xxl-2"
+                className="btnDarkLight px-sm-2 mx-1 mx-xxl-2"
               >
                 Amazon
               </a>
@@ -296,7 +286,7 @@ function Books() {
                 alt="buy I Made a Mistake on penguin"
                 rel="noreferrer"
                 target="_blank"
-                className="btnDarkLight px-2 mx-1 mx-xxl-2"
+                className="btnDarkLight px-sm-2 mx-1 mx-xxl-2"
               >
                 Penguin
               </a>
@@ -305,13 +295,13 @@ function Books() {
                 alt="learn about I Made a Mistake on Goodreads"
                 rel="noreferrer"
                 target="_blank"
-                className="btnDarkLight px-2 mx-1 mx-xxl-2"
+                className="btnDarkLight px-sm-2 mx-1 mx-xxl-2"
               >
                 Goodreads
               </a>
             </p>
           </div>
-          <div className="col-12 col-md-6 col-lg-4 p-1 p-xl-3">
+          <div className="col-12 col-md-6 col-lg-4 p-2 p-xl-3">
             <div className="p-2 oldbackground oldbackgound4">
               <img
                 src={book4}
@@ -319,7 +309,7 @@ function Books() {
                 className=" float-start m-2 img-fluid oldbookimage"
               />
               <h3>I Looked Away</h3>
-              <p className="oldbooktext">
+              <p className="oldbooktext p-2 p-sm-1">
                 <p>
                   Every Monday, 49-year-old Ellie looks after her grandson Josh.
                   She loves him more than anyone else in the world.
@@ -342,7 +332,7 @@ function Books() {
                 alt="buy I Looked Away on amazon"
                 rel="noreferrer"
                 target="_blank"
-                className="btnDarkLight px-2 mx-1 mx-xxl-2"
+                className="btnDarkLight px-sm-2 mx-1 mx-xxl-2"
               >
                 Amazon
               </a>
@@ -351,7 +341,7 @@ function Books() {
                 alt="buy I Looked Away on penguin"
                 rel="noreferrer"
                 target="_blank"
-                className="btnDarkLight px-2 mx-1 mx-xxl-2"
+                className="btnDarkLight px-sm-2 mx-1 mx-xxl-2"
               >
                 Penguin
               </a>
@@ -360,13 +350,13 @@ function Books() {
                 alt="learn aboutI Looked Away on Goodreads"
                 rel="noreferrer"
                 target="_blank"
-                className="btnDarkLight px-2 mx-1 mx-xxl-2"
+                className="btnDarkLight px-sm-2 mx-1 mx-xxl-2"
               >
                 Goodreads
               </a>
             </p>
           </div>
-          <div className="col-12 col-md-6 col-lg-4 p-1 p-xl-3">
+          <div className="col-12 col-md-6 col-lg-4 p-2 p-xl-3">
             <div className="p-2 oldbackground oldbackgound3">
               <img
                 src={book3}
@@ -374,7 +364,7 @@ function Books() {
                 className=" float-start m-2 img-fluid oldbookimage"
               />
               <h3>The Dead Ex </h3>
-              <p className="oldbooktext">
+              <p className="oldbooktext p-2 p-sm-1">
                 <p>
                   {" "}
                   Vicki's husband David once promised to love her in sickness
@@ -402,7 +392,7 @@ function Books() {
                 alt="buy The Dead Ex on amazon"
                 rel="noreferrer"
                 target="_blank"
-                className="btnDarkLight px-2 mx-1 mx-xxl-2"
+                className="btnDarkLight px-sm-2 mx-1 mx-xxl-2"
               >
                 Amazon
               </a>
@@ -411,7 +401,7 @@ function Books() {
                 alt="buy The Dead Ex on penguin"
                 rel="noreferrer"
                 target="_blank"
-                className="btnDarkLight px-2 mx-1 mx-xxl-2"
+                className="btnDarkLight px-sm-2 mx-1 mx-xxl-2"
               >
                 Penguin
               </a>
@@ -420,13 +410,13 @@ function Books() {
                 alt="learn about The Dead Ex on Goodreads"
                 rel="noreferrer"
                 target="_blank"
-                className="btnDarkLight px-2 mx-1 mx-xxl-2"
+                className="btnDarkLight px-sm-2 mx-1 mx-xxl-2"
               >
                 Goodreads
               </a>
             </p>
           </div>
-          <div className="col-12 col-md-6 col-lg-4 p-1 p-xl-3">
+          <div className="col-12 col-md-6 col-lg-4 p-2 p-xl-3">
             <div className="p-2 oldbackground oldbackgound2">
               <img
                 src={book2}
@@ -434,7 +424,7 @@ function Books() {
                 className=" float-start m-2 img-fluid oldbookimage"
               />
               <h3>The Killing Type</h3>
-              <p className="oldbooktext">
+              <p className="oldbooktext p-2 p-sm-1">
                 <p>
                   {" "}
                   Susie and her sister have never been close. These days they
@@ -459,7 +449,7 @@ function Books() {
                 alt="buy The Killing Type on amazon"
                 rel="noreferrer"
                 target="_blank"
-                className="btnDarkLight px-2 mx-1 mx-xxl-2"
+                className="btnDarkLight px-sm-2 mx-1 mx-xxl-2"
               >
                 Amazon
               </a>
@@ -468,7 +458,7 @@ function Books() {
                 alt="buy The Killing Type on penguin"
                 rel="noreferrer"
                 target="_blank"
-                className="btnDarkLight px-2 mx-1 mx-xxl-2"
+                className="btnDarkLight px-sm-2 mx-1 mx-xxl-2"
               >
                 Penguin
               </a>
@@ -477,13 +467,13 @@ function Books() {
                 alt="learn about The Killing Type on Goodreads"
                 rel="noreferrer"
                 target="_blank"
-                className="btnDarkLight px-2 mx-1 mx-xxl-2"
+                className="btnDarkLight px-sm-2 mx-1 mx-xxl-2"
               >
                 Goodreads
               </a>
             </p>
           </div>
-          <div className="col-12 col-md-6 col-lg-4 p-1 p-xl-3">
+          <div className="col-12 col-md-6 col-lg-4 p-2 p-xl-3">
             <div className="p-2 oldbackground oldbackgound1">
               <img
                 src={book1}
@@ -491,7 +481,7 @@ function Books() {
                 className=" float-start m-2 img-fluid oldbookimage"
               />
               <h3>Blood Sisters</h3>
-              <p className="oldbooktext">
+              <p className="oldbooktext p-2 p-sm-1">
                 <p>
                   Kitty lives in a care home. She can't speak properly, and she
                   has no memory of the accident that put her here. At least
@@ -517,7 +507,7 @@ function Books() {
                 alt="buy Blood Sisters on amazon"
                 rel="noreferrer"
                 target="_blank"
-                className="btnDarkLight px-2 mx-1 mx-xxl-2"
+                className="btnDarkLight px-sm-2 mx-1 mx-xxl-2"
               >
                 Amazon
               </a>
@@ -526,7 +516,7 @@ function Books() {
                 alt="buy Blood Sisters on penguin"
                 rel="noreferrer"
                 target="_blank"
-                className="btnDarkLight px-2 mx-1 mx-xxl-2"
+                className="btnDarkLight px-sm-2 mx-1 mx-xxl-2"
               >
                 Penguin
               </a>
@@ -535,13 +525,13 @@ function Books() {
                 alt="learn about Blood Sisters on Goodreads"
                 rel="noreferrer"
                 target="_blank"
-                className="btnDarkLight px-2 mx-1 mx-xxl-2"
+                className="btnDarkLight px-sm-2 mx-1 mx-xxl-2"
               >
                 Goodreads
               </a>
             </p>
           </div>
-          <div className="col-12 col-md-6 col-lg-4 p-1 p-xl-3">
+          <div className="col-12 col-md-6 col-lg-4 p-2 p-xl-3">
             <div className="p-2 oldbackground oldbackgound0">
               <img
                 src={book0}
@@ -549,7 +539,7 @@ function Books() {
                 className=" float-start m-2 img-fluid oldbookimage"
               />
               <h3>My Husbands Wife</h3>
-              <p className="oldbooktext">
+              <p className="oldbooktext p-2 p-sm-1">
                 <p> What if your life was built on a lie? </p>
                 <p>
                   {" "}
@@ -576,7 +566,7 @@ function Books() {
                 alt="buy My Husbands Wife  on amazon"
                 rel="noreferrer"
                 target="_blank"
-                className="btnDarkLight px-2 mx-1 mx-xxl-2"
+                className="btnDarkLight px-sm-2 mx-1 mx-xxl-2"
               >
                 Amazon
               </a>
@@ -585,7 +575,7 @@ function Books() {
                 alt="buy My Husbands Wife on penguin"
                 rel="noreferrer"
                 target="_blank"
-                className="btnDarkLight px-2 mx-1 mx-xxl-2"
+                className="btnDarkLight px-sm-2 mx-1 mx-xxl-2"
               >
                 Penguin
               </a>
@@ -594,7 +584,7 @@ function Books() {
                 alt="learn about My Husbands Wife  on Goodreads"
                 rel="noreferrer"
                 target="_blank"
-                className="btnDarkLight px-2 mx-1 mx-xxl-2"
+                className="btnDarkLight px-sm-2 mx-1 mx-xxl-2"
               >
                 Goodreads
               </a>

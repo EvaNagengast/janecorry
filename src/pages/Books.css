@@ -121,12 +121,12 @@
 .bookpage .oldbackground {
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100%;
+  height: 95%;
   margin: 0 auto;
   text-align: center;
-}
+} 
 .bookpage .oldbookimage {
-  width: 120px;
+  width: 33%;
 }
 .bookpage .oldbooktext {
   font-size: 22px;
@@ -142,16 +142,14 @@
   }
 
   .bookpage h3 {
-    font-size: 30px;
+    font-size: 35px;
   }
-  .bookpage .oldbookimage {
-    width: 100px;
-  }
+
   .bookpage .oldbooktext {
     font-size: 23px;
   }
   .bookpage .oldbooklinks {
-    font-size: 17px;
+    font-size: 20px;
   }
 }
 @media (max-width: 1200px) {
@@ -165,63 +163,94 @@
     font-size: 20px;
   }
   .bookpage h3 {
-    font-size: 28px;
+    font-size: 35px;
   }
   .bookpage .oldbookimage {
     padding-top: 5px;
-    width: 75px;
   }
   .bookpage .oldbooktext {
     font-size: 21px;
   }
   .bookpage .oldbooklinks {
-    font-size: 14px;
+    font-size: 18px;
   }
 }
 @media (max-width: 992px) {
   .bookpage .displaybookimage {
-    width: 50%;
-  }
-  .displaybackground {
-    height: 80%;
+    width: 34%;
+    padding-top: 0px;
   }
 
-  /* .bookpage h2 {
-    font-size: 46px;
-  } */
-  /* .bookpage .displaybookimage {
-    padding-top: 10px;
-    width: 140px;
-  } */
-  /* .bookpage .displaybooktext {
-    font-size: 24px;
-    text-align: left;
-  } */
-  /* .bookpage .stars {
-    color: var(---baselight);
-    text-align: center;
-  } */
-  /* .bookpage .newbooklinks {
-    font-size: 20px;
+  .bookpage h2 {
+    font-size: 50px;
   }
-  .bookpage h3 {
-    font-size: 28px;
+
+  .bookpage .oldbooklinks {
+    font-size: 19px;
+  }
+}
+@media (max-width: 768px) {
+  .bookpage .displaybookimage {
+    width: 31%;
+  }
+  .bookpage .oldbackground {
+    height: 90%;
   }
   .bookpage .oldbookimage {
     padding-top: 5px;
-    width: 75px;
-  } */
-  /* .bookpage .oldbooktext {
-    font-size: 21px;
-    text-align: left;
+    width: 23%;
+  }
+  .bookpage .oldbooktext {
+    font-size: 22px;
   }
   .bookpage .oldbooklinks {
-    font-size: 14px;
-  } */
-}
-@media (max-width: 768px) {
+    font-size: 20px;
+  }
 }
 @media (max-width: 576px) {
+  .bookpage .displaybookimage {
+    width: 35%;
+  }
+
+  .bookpage h2 {
+    font-size: 40px;
+  }
+
+  .bookpage .displaybooktext {
+    font-size: 22px;
+    text-align: left;
+  }
+
+  .bookpage .oldbookimage {
+    width: 28%;
+  }
+  .bookpage .oldbooktext {
+    font-size: 20px;
+  }
 }
 @media (max-width: 420px) {
+  .bookpage .displaybookimage {
+    width: 30%;
+  }
+
+
+  .bookpage h2 {
+    font-size: 35px;
+  } 
+
+  .bookpage .displaybooktext {
+    font-size: 18px;
+ 
+  }
+  .bookpage .newbooklinks {
+    font-size: 17px;
+  } 
+  .bookpage h3 {
+    font-size: 24px;
+  }
+
+   .bookpage .oldbooktext,  .bookpage .oldbooklinks{
+    font-size: 16px;
+    }
+
 }
