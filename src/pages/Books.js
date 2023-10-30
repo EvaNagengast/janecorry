@@ -27,7 +27,7 @@ function Books() {
                 className="m-2 float-start  displaybookimage"
               />
               <h2>Coming to find you </h2>
-              <p className="displaybooktext p-2 p-sm-1">
+              <section className="displaybooktext p-2 p-sm-1">
                 <p>
                   When her family tragedy is splashed across the newspapers,
                   Nancy decides to disappear. Her grandmother's beautiful
@@ -99,7 +99,7 @@ function Books() {
                     Goodreads
                   </a>
                 </p>
-              </p>
+              </section>
             </div>
           </div>
           <div className="col-12 col-lg-6 ">
@@ -110,7 +110,7 @@ function Books() {
                 className="m-2 float-start img-fluid displaybookimage"
               />
               <h2>We all have our Secrets</h2>
-              <p className="displaybooktext  p-2 p-sm-1">
+              <section className="displaybooktext  p-2 p-sm-1">
                 <p>You know she's lying... But so are you.</p>
                 <p>
                   Emily made one bad decision, and now her career could be over.
@@ -178,7 +178,7 @@ function Books() {
                     Goodreads
                   </a>
                 </p>
-              </p>
+              </section>
             </div>
           </div>
         </div>
@@ -202,7 +202,7 @@ function Books() {
                 className="m-2 float-start oldbookimage"
               />
               <h3>The Lies We Tell</h3>
-              <p className="oldbooktext p-2 p-sm-1 ">
+              <section className="oldbooktext p-2 p-sm-1 ">
                 <p> Save your son, or save yourself?</p>
                 <p>
                   Sarah always thought of herself and her husband, Tom, as good
@@ -215,7 +215,7 @@ function Books() {
                 As the lies build up and Sarah is presented with the perfect
                 opportunity to get Freddy off the hook, she is faced with a
                 terrifying decision.
-              </p>
+              </section>
             </div>
             <p className="m-2  text-center oldbooklinks">
               <a
@@ -255,7 +255,7 @@ function Books() {
                 className=" float-start m-2 img-fluid oldbookimage"
               />
               <h3>I Made a Mistake</h3>
-              <p className="oldbooktext p-2 p-sm-1">
+              <section className="oldbooktext p-2 p-sm-1">
                 <p>It started wirh a kiss and ended with murder.</p>
                 <p>
                   In Poppy Page's mind, there are two types of women in this
@@ -269,7 +269,7 @@ function Books() {
                   more dangerous than she could imagine. Someone is going to pay
                   for it with their life.
                 </p>
-              </p>
+              </section>
             </div>
             <p className="m-2  text-center oldbooklinks">
               <a
@@ -309,7 +309,7 @@ function Books() {
                 className=" float-start m-2 img-fluid oldbookimage"
               />
               <h3>I Looked Away</h3>
-              <p className="oldbooktext p-2 p-sm-1">
+              <section className="oldbooktext p-2 p-sm-1">
                 <p>
                   Every Monday, 49-year-old Ellie looks after her grandson Josh.
                   She loves him more than anyone else in the world.
@@ -324,7 +324,7 @@ function Books() {
                   And just for a moment, Ellie takes her eyes off her grandson.
                   What happens next will change her life forever. .
                 </p>
-              </p>
+              </section>
             </div>
             <p className="m-2  text-center oldbooklinks">
               <a
@@ -364,7 +364,7 @@ function Books() {
                 className=" float-start m-2 img-fluid oldbookimage"
               />
               <h3>The Dead Ex </h3>
-              <p className="oldbooktext p-2 p-sm-1">
+              <section className="oldbooktext p-2 p-sm-1">
                 <p>
                   {" "}
                   Vicki's husband David once promised to love her in sickness
@@ -384,7 +384,7 @@ function Books() {
                   And how can Vicki prove her innocence, when she's not even
                   sure of it herself?
                 </p>
-              </p>
+              </section>
             </div>
             <p className="m-2  text-center oldbooklinks">
               <a
@@ -424,7 +424,7 @@ function Books() {
                 className=" float-start m-2 img-fluid oldbookimage"
               />
               <h3>The Killing Type</h3>
-              <p className="oldbooktext p-2 p-sm-1">
+              <section className="oldbooktext p-2 p-sm-1">
                 <p>
                   {" "}
                   Susie and her sister have never been close. These days they
@@ -441,7 +441,7 @@ function Books() {
                   Who is lying? Who is telling the truth? And who, really, is
                   the killing type?
                 </p>
-              </p>
+              </section>
             </div>
             <p className="m-2  text-center oldbooklinks">
               <a
@@ -481,7 +481,7 @@ function Books() {
                 className=" float-start m-2 img-fluid oldbookimage"
               />
               <h3>Blood Sisters</h3>
-              <p className="oldbooktext p-2 p-sm-1">
+              <section className="oldbooktext p-2 p-sm-1">
                 <p>
                   Kitty lives in a care home. She can't speak properly, and she
                   has no memory of the accident that put her here. At least
@@ -499,7 +499,7 @@ function Books() {
                   revenge for what happened that sunny morning in May. And only
                   another life will do . . .
                 </p>
-              </p>
+              </section>
             </div>
             <p className="m-2  text-center oldbooklinks">
               <a
@@ -539,7 +539,7 @@ function Books() {
                 className=" float-start m-2 img-fluid oldbookimage"
               />
               <h3>My Husbands Wife</h3>
-              <p className="oldbooktext p-2 p-sm-1">
+              <section className="oldbooktext p-2 p-sm-1">
                 <p> What if your life was built on a lie? </p>
                 <p>
                   {" "}
@@ -558,7 +558,7 @@ function Books() {
                 <p>
                   First comes love, then comes marriage, then comes murder . . .
                 </p>
-              </p>
+              </section>
             </div>
             <p className="m-2  text-center oldbooklinks">
               <a

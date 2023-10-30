@@ -116,14 +116,16 @@ function WritingTips() {
           <h2 className="mt-4  ">How to come up with an idea for a story</h2>
           <p className="text-start writingtext">
             Make a list of big things that have happened to you such as:
-            <ul>
-              <li> Moving house</li>
-              <li>Getting married</li>
-              <li>Going on holiday</li>
-              <li> Starting a new job</li>
-              <li> Getting stuck in a lift</li>
-              <li>Losing something important</li>
-            </ul>
+          </p>
+          <ul className="text-start writingtext">
+            <li> Moving house</li>
+            <li>Getting married</li>
+            <li>Going on holiday</li>
+            <li> Starting a new job</li>
+            <li> Getting stuck in a lift</li>
+            <li>Losing something important</li>
+          </ul>
+          <p className="text-start writingtext">
             Now ask yourself the question
             <i className="px-2">What if? </i> What if something different had
             happened during one of these experiences. For example, what if you
@@ -132,12 +134,12 @@ function WritingTips() {
             day of a new job? Could that lead to a different career?
             <i className="px-2">What if</i> is a great way to get the
             imagination working!
-            <p className="m-5">
-              <i>
-                Try out this exercise yourself. You could be surprised at the
-                ideas you come up with.
-              </i>
-            </p>
+          </p>{" "}
+          <p className="text-start writingtext m-3 m-sm-5">
+            <i>
+              Try out this exercise yourself. You could be surprised at the
+              ideas you come up with.
+            </i>
           </p>
         </div>
       </div>

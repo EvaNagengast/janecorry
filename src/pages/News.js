@@ -40,18 +40,15 @@ function News() {
             className="px-3 linkLightBase "
           >
             janecorryauthor@gmail.com
-          </a>
-          <p className="mt-2">
-            {" "}
-            <button
-              onClick={() => {
-                navigate("../newsletter");
-              }}
-              className="btnLightDark px-3 py-1 reviewLink"
-            >
-              click here to find out more
-            </button>
-          </p>
+          </a>{" "}
+          <button
+            onClick={() => {
+              navigate("../newsletter");
+            }}
+            className="btnLightDark px-3 mt-3 py-1 reviewLink"
+          >
+            click here to find out more
+          </button>
         </p>
         <hr />
         {/* 
@@ -150,20 +147,20 @@ function News() {
           <div className="col-12 col-md-7 col-lg-8">
             <p className=" mt-3 my-0 px-2  newsTwo text-center text-md-start">
               Do you like listening to novels rather than reading? Then you
-              might enjoy the audio version of <i>We All Have Our Secrets</i>{" "}
-              <p className="mt-5 mb-0">
-                Listen to the audiobook on{" "}
-                <a
-                  href="https://amzn.to/3Ris6EI"
-                  alt="Listen to the audiobook on audible "
-                  target="_blank"
-                  rel="noreferrer"
-                  className="px-2 py-1 linkLightBase"
-                >
-                  audible
-                </a>
-              </p>
-            </p>{" "}
+              might enjoy the audio version of <i>We All Have Our Secrets</i>
+            </p>
+            <p className=" px-2   text-center text-md-start">
+              Listen to the audiobook on{" "}
+              <a
+                href="https://amzn.to/3Ris6EI"
+                alt="Listen to the audiobook on audible "
+                target="_blank"
+                rel="noreferrer"
+                className="px-2 py-1 linkLightBase"
+              >
+                audible
+              </a>
+            </p>
           </div>
         </div>{" "}
         <hr />

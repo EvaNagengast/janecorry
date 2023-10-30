@@ -43,7 +43,7 @@
   background-color: var(---baselight);
 }
 .embed {
-  max-width: 300px;
+  max-width: 330px;
 }
 @media (max-width: 992px) {
   .newspage {
@@ -57,7 +57,7 @@
   }
 }
 @media (max-width: 768px) {
-    .newspage .newsOne,
+  .newspage .newsOne,
   .newspage .newsTwo,
   .newspage .newsThree {
     padding: 15px 15px;
@@ -67,7 +67,7 @@
   }
 }
 @media (max-width: 576px) {
-   .newspage .wahoscover {
+  .newspage .wahoscover {
     max-width: 60%;
   }
 }
@@ -75,7 +75,8 @@
   .newspage {
     padding: 20px 0;
     font-size: 18px;
-  }   .newspage .wahoscover {
+  }
+  .newspage .wahoscover {
     max-width: 80%;
   }
 }
