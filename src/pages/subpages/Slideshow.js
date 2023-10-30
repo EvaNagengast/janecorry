@@ -45,7 +45,7 @@ function Slideshow() {
         duration={3000}
         transitionDuration={700}
       >
-        <div className="each-slide-effect" defaultIndex={1}>
+        <div className="each-slide-effect" defaultindex={1}>
           <a
             href="https://www.amazon.co.uk/We-All-Have-Our-Secrets-ebook/dp/B09H2Q5SHD/?_encoding=UTF8&pd_rd_w=AOAAU&content-id=amzn1.sym.3413293e-3815-4359-96ba-1ec5110e0b30&pf_rd_p=3413293e-3815-4359-96ba-1ec5110e0b30&pf_rd_r=257-6964746-9685606&pd_rd_wg=Abxx8&pd_rd_r=be567728-ce45-4347-8c12-9d9164d6d937&ref_=aufs_ap_sc_dsk"
             alt="buy We all have our secrets on amazon"
