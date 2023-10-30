@@ -36,7 +36,7 @@
 }
 .writingtipspage .writingtext {
   padding: 20px 90px;
- font-size: 28px;
+  font-size: 28px;
   line-height: 45px;
 }
 @media (max-width: 1200px) {
@@ -64,7 +64,7 @@
     font-size: 46px;
   }
   .writingtipspage .paper {
-    height: 130px;
+    height: 150px;
     padding: 20px 35px 35px 15px;
     font-size: 18px;
   }
@@ -92,6 +92,10 @@
     font-size: 22px;
     text-align: start;
   }
+  .writingtipspage .paper {
+    height: 155px;
+    font-size: 16px;
+  }
 }
 @media (max-width: 420px) {
   .writingtipspage h1 {
@@ -102,7 +106,7 @@
     font-size: 35px;
   }
   .writingtipspage .paper {
-    height: 100px;
+    height: 145px;
     padding: 10px 25px 25px 5px;
     font-size: 14px;
   }

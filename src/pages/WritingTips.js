@@ -13,51 +13,82 @@ function WritingTips() {
               {" "}
               <TypeIt
                 options={{
-                  speed: 150,
+                  speed: 100,
                   waitUntilVisible: true,
                   loop: true,
                 }}
                 getBeforeInit={(instance) => {
                   instance
-                    .type("Once upon a time")
-                    .pause(1000)
-                    .empty(10)
-                    .pause(1000)
-                    .type("There was no possibility of taking a walk that day")
-                    .pause(1000)
-                    .empty(10)
-                    .pause(1000)
-                    .type("All this happened, more or less")
+                    .type(
+                      "I unscrew the lid,  inhale the deep, heady smell - straight to the nostrils - and carefully measure out three drops into the glass measuring jug. Pure lavender. My favourite."
+                    )
+
                     .pause(1000)
                     .empty(10)
                     .pause(1000)
 
-                    .type("Call me Ishmael")
+                    .type(
+                      "Careful. It's not the size that counts. It's the sharpness. And the angle. The blade must sing. Not scratch"
+                    )
                     .pause(1000)
                     .empty(10)
                     .pause(1000)
-
-                    .type("It was the best of times, it was the worst of times")
-                    .pause(1000)
-                    .empty(10)
-                    .pause(1000)
-                    .type("All children except one grow up")
+                    .type("Flash of metal. Thunder in my ears.")
                     .pause(1000)
                     .empty(10)
                     .pause(1000)
                     .type(
-                      "The drought had lasted now for ten million years, and the reign of the terrible lizards had long since ended"
+                      "Sage, savin, rue, red thyme. People assume that aroma therapy oils are safe. But these little beauties can be highly toxic if used in the wrong way."
+                    )
+                    .pause(1000)
+                    .empty(10)
+                    .pause(1000)
+                    .type(
+                      "MIND THE GAP scream the yellow capital letters on the edge of the platform."
+                    )
+                    .pause(1000)
+                    .empty(10)
+                    .pause(1000)
+                    .type(
+                      "I shouldn't walk too fast. But if I go too slow, I will be a moving target."
                     )
                     .pause(1000)
                     .empty(10)
                     .pause(1000)
 
                     .type(
-                      "It was a bright cold day in April, and the clocks were striking thirteen"
+                      "The knife rack is on the side. I've always thought it was a dangerous thing to have in the house."
                     )
                     .pause(1000)
                     .empty(10)
                     .pause(1000)
+                    .type(
+                      "'Have you got somewhere safe to go?' asks the barrister after the verdict"
+                    )
+                    .pause(1000)
+                    .empty(10)
+                    .pause(1000)
+
+                    .type(
+                      "`Nervous?` Ed asks. He's pouring out his favourite breakfast cereal."
+                    )
+                    .pause(1000)
+                    .empty(10)
+                    .pause(1000)
+
+                    .type(
+                      "Black tights. That's what I need to buy on the way home."
+                    )
+                    .pause(1000)
+                    .empty(10)
+                    .pause(1000)
+                    .type(
+                      "Saturday, 17 August 2019. A date that will forever be engraved in my heart, although I don't know that at this precise minute in time."
+                    )
+                    .pause(1000)
+                    .empty(10)
+                    .pause(1000)
+
                     .type("It Was A Dark And Stormy Night");
 
                   return instance;
