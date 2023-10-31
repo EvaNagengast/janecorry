@@ -223,7 +223,7 @@ function Books() {
                 alt="buy The lies we tellon amazon"
                 rel="noreferrer"
                 target="_blank"
-                className="btnDarkLight px-sm-2 mx-1 mx-xxl-2"
+                className="btnDarkLight px-2  mx-1 mx-xxl-2"
               >
                 Amazon
               </a>
@@ -232,7 +232,7 @@ function Books() {
                 alt="buy The lies we tell on Penguin"
                 rel="noreferrer"
                 target="_blank"
-                className="btnDarkLight px-sm-2 mx-1 mx-xxl-2"
+                className="btnDarkLight px-2 mx-1 mx-xxl-2"
               >
                 Penguin
               </a>
@@ -241,7 +241,7 @@ function Books() {
                 alt="learn about The lies we tell on Goodreads"
                 rel="noreferrer"
                 target="_blank"
-                className="btnDarkLight px-sm-2 mx-1 mx-xxl-2"
+                className="btnDarkLight px-2 mx-1 mx-xxl-2"
               >
                 Goodreads
               </a>
@@ -277,7 +277,7 @@ function Books() {
                 alt="buy I Made a Mistake on amazon"
                 rel="noreferrer"
                 target="_blank"
-                className="btnDarkLight px-sm-2 mx-1 mx-xxl-2"
+                className="btnDarkLight px-2 mx-1 mx-xxl-2"
               >
                 Amazon
               </a>
@@ -286,7 +286,7 @@ function Books() {
                 alt="buy I Made a Mistake on penguin"
                 rel="noreferrer"
                 target="_blank"
-                className="btnDarkLight px-sm-2 mx-1 mx-xxl-2"
+                className="btnDarkLight px-2 mx-1 mx-xxl-2"
               >
                 Penguin
               </a>
@@ -295,7 +295,7 @@ function Books() {
                 alt="learn about I Made a Mistake on Goodreads"
                 rel="noreferrer"
                 target="_blank"
-                className="btnDarkLight px-sm-2 mx-1 mx-xxl-2"
+                className="btnDarkLight px-2 mx-1 mx-xxl-2"
               >
                 Goodreads
               </a>
@@ -332,7 +332,7 @@ function Books() {
                 alt="buy I Looked Away on amazon"
                 rel="noreferrer"
                 target="_blank"
-                className="btnDarkLight px-sm-2 mx-1 mx-xxl-2"
+                className="btnDarkLight px-2 mx-1 mx-xxl-2"
               >
                 Amazon
               </a>
@@ -341,7 +341,7 @@ function Books() {
                 alt="buy I Looked Away on penguin"
                 rel="noreferrer"
                 target="_blank"
-                className="btnDarkLight px-sm-2 mx-1 mx-xxl-2"
+                className="btnDarkLight px-2 mx-1 mx-xxl-2"
               >
                 Penguin
               </a>
@@ -350,7 +350,7 @@ function Books() {
                 alt="learn aboutI Looked Away on Goodreads"
                 rel="noreferrer"
                 target="_blank"
-                className="btnDarkLight px-sm-2 mx-1 mx-xxl-2"
+                className="btnDarkLight px-2 mx-1 mx-xxl-2"
               >
                 Goodreads
               </a>
@@ -392,7 +392,7 @@ function Books() {
                 alt="buy The Dead Ex on amazon"
                 rel="noreferrer"
                 target="_blank"
-                className="btnDarkLight px-sm-2 mx-1 mx-xxl-2"
+                className="btnDarkLight px-2 mx-1 mx-xxl-2"
               >
                 Amazon
               </a>
@@ -401,7 +401,7 @@ function Books() {
                 alt="buy The Dead Ex on penguin"
                 rel="noreferrer"
                 target="_blank"
-                className="btnDarkLight px-sm-2 mx-1 mx-xxl-2"
+                className="btnDarkLight px-2 mx-1 mx-xxl-2"
               >
                 Penguin
               </a>
@@ -410,7 +410,7 @@ function Books() {
                 alt="learn about The Dead Ex on Goodreads"
                 rel="noreferrer"
                 target="_blank"
-                className="btnDarkLight px-sm-2 mx-1 mx-xxl-2"
+                className="btnDarkLight px-2 mx-1 mx-xxl-2"
               >
                 Goodreads
               </a>
@@ -449,7 +449,7 @@ function Books() {
                 alt="buy The Killing Type on amazon"
                 rel="noreferrer"
                 target="_blank"
-                className="btnDarkLight px-sm-2 mx-1 mx-xxl-2"
+                className="btnDarkLight px-2 mx-1 mx-xxl-2"
               >
                 Amazon
               </a>
@@ -458,7 +458,7 @@ function Books() {
                 alt="buy The Killing Type on penguin"
                 rel="noreferrer"
                 target="_blank"
-                className="btnDarkLight px-sm-2 mx-1 mx-xxl-2"
+                className="btnDarkLight px-2 mx-1 mx-xxl-2"
               >
                 Penguin
               </a>
@@ -467,7 +467,7 @@ function Books() {
                 alt="learn about The Killing Type on Goodreads"
                 rel="noreferrer"
                 target="_blank"
-                className="btnDarkLight px-sm-2 mx-1 mx-xxl-2"
+                className="btnDarkLight px-2 mx-1 mx-xxl-2"
               >
                 Goodreads
               </a>
@@ -507,7 +507,7 @@ function Books() {
                 alt="buy Blood Sisters on amazon"
                 rel="noreferrer"
                 target="_blank"
-                className="btnDarkLight px-sm-2 mx-1 mx-xxl-2"
+                className="btnDarkLight px-2 mx-1 mx-xxl-2"
               >
                 Amazon
               </a>
@@ -516,7 +516,7 @@ function Books() {
                 alt="buy Blood Sisters on penguin"
                 rel="noreferrer"
                 target="_blank"
-                className="btnDarkLight px-sm-2 mx-1 mx-xxl-2"
+                className="btnDarkLight px-2 mx-1 mx-xxl-2"
               >
                 Penguin
               </a>
@@ -525,7 +525,7 @@ function Books() {
                 alt="learn about Blood Sisters on Goodreads"
                 rel="noreferrer"
                 target="_blank"
-                className="btnDarkLight px-sm-2 mx-1 mx-xxl-2"
+                className="btnDarkLight px-2 mx-1 mx-xxl-2"
               >
                 Goodreads
               </a>
@@ -566,7 +566,7 @@ function Books() {
                 alt="buy My Husbands Wife  on amazon"
                 rel="noreferrer"
                 target="_blank"
-                className="btnDarkLight px-sm-2 mx-1 mx-xxl-2"
+                className="btnDarkLight px-2 mx-1 mx-xxl-2"
               >
                 Amazon
               </a>
@@ -575,7 +575,7 @@ function Books() {
                 alt="buy My Husbands Wife on penguin"
                 rel="noreferrer"
                 target="_blank"
-                className="btnDarkLight px-sm-2 mx-1 mx-xxl-2"
+                className="btnDarkLight px-2 mx-1 mx-xxl-2"
               >
                 Penguin
               </a>
@@ -584,7 +584,7 @@ function Books() {
                 alt="learn about My Husbands Wife  on Goodreads"
                 rel="noreferrer"
                 target="_blank"
-                className="btnDarkLight px-sm-2 mx-1 mx-xxl-2"
+                className="btnDarkLight px-2 mx-1 mx-xxl-2"
               >
                 Goodreads
               </a>
