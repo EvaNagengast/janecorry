@@ -54,22 +54,46 @@ export default function Navigation() {
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
             <li className="nav-item">
               <NavLink to="/" className="nav-link">
-                Home
+                <span
+                  data-bs-toggle="collapse"
+                  data-bs-target="#navbarSupportedContent"
+                  aria-controls="navbarSupportedContent"
+                >
+                  Home
+                </span>
               </NavLink>
             </li>
             <li className="nav-item">
               <NavLink to="/aboutme" className="nav-link">
-                About Me
+                <span
+                  data-bs-toggle="collapse"
+                  data-bs-target="#navbarSupportedContent"
+                  aria-controls="navbarSupportedContent"
+                >
+                  About Me
+                </span>
               </NavLink>
             </li>
             <li className="nav-item">
               <NavLink to="/books" className="nav-link">
-                Books
+                <span
+                  data-bs-toggle="collapse"
+                  data-bs-target="#navbarSupportedContent"
+                  aria-controls="navbarSupportedContent"
+                >
+                  Books
+                </span>
               </NavLink>
             </li>
             <li className="nav-item">
               <NavLink to="/contact" className="nav-link">
-                Contact
+                <span
+                  data-bs-toggle="collapse"
+                  data-bs-target="#navbarSupportedContent"
+                  aria-controls="navbarSupportedContent"
+                >
+                  Contact
+                </span>
               </NavLink>
             </li>
             <li className="nav-item dropdown">
@@ -85,27 +109,58 @@ export default function Navigation() {
               <ul className="dropdown-menu">
                 <li>
                   <NavLink to="/newsletter" className="dropdown-item">
-                    Newsletter
+                    <span
+                      data-bs-toggle="collapse"
+                      data-bs-target="#navbarSupportedContent"
+                      aria-controls="navbarSupportedContent"
+                    >
+                      Newsletter
+                    </span>
                   </NavLink>
                 </li>
                 <li>
                   <NavLink to="/reviews" className="dropdown-item">
-                    Reviews
+                    <span
+                      data-bs-toggle="collapse"
+                      data-bs-target="#navbarSupportedContent"
+                      aria-controls="navbarSupportedContent"
+                    >
+                      Reviews
+                    </span>
                   </NavLink>
                 </li>
                 <li>
                   <NavLink to="/writingtips" className="dropdown-item">
-                    Writing Tips
+                    <span
+                      data-bs-toggle="collapse"
+                      data-bs-target="#navbarSupportedContent"
+                      aria-controls="navbarSupportedContent"
+                    >
+                      Writing Tips
+                    </span>
                   </NavLink>
                 </li>
                 <li>
                   <NavLink to="/events" className="dropdown-item">
-                    Events
+                    <span
+                      data-bs-toggle="collapse"
+                      data-bs-target="#navbarSupportedContent"
+                      aria-controls="navbarSupportedContent"
+                    >
+                      {" "}
+                      Events
+                    </span>
                   </NavLink>
                 </li>
                 <li>
                   <NavLink to="/news" className="dropdown-item">
-                    News
+                    <span
+                      data-bs-toggle="collapse"
+                      data-bs-target="#navbarSupportedContent"
+                      aria-controls="navbarSupportedContent"
+                    >
+                      News
+                    </span>
                   </NavLink>
                 </li>
               </ul>
