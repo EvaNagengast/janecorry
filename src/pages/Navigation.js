@@ -33,86 +33,84 @@ export default function Navigation() {
 
   return (
     <div className="Navigation">
-      <nav className="navbar navbar-expand-sm ">
-        <div className="container-fluid">
-          <NavLink to="/" className="navbar-brand">
-            <img src={Logo} alt="Jane Correy Home" className="smalllogo"></img>
-          </NavLink>
-          <button
-            className="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span className="navbar-toggler-icon">
-              <RxHamburgerMenu />
-            </span>
-          </button>
-          <div className="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-              <li className="nav-item">
-                <NavLink to="/" className="nav-link">
-                  Home
-                </NavLink>
-              </li>
-              <li className="nav-item">
-                <NavLink to="/aboutme" className="nav-link">
-                  About Me
-                </NavLink>
-              </li>
-              <li className="nav-item">
-                <NavLink to="/books" className="nav-link">
-                  Books
-                </NavLink>
-              </li>
-              <li className="nav-item">
-                <NavLink to="/contact" className="nav-link">
-                  Contact
-                </NavLink>
-              </li>
-              <li className="nav-item dropdown">
-                <NavLink
-                  to="/more"
-                  className="nav-link dropdown-toggle"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  More
-                </NavLink>
-                <ul className="dropdown-menu">
-                  <li>
-                    <NavLink to="/newsletter" className="dropdown-item">
-                      Newsletter
-                    </NavLink>
-                  </li>
-                  <li>
-                    <NavLink to="/reviews" className="dropdown-item">
-                      Reviews
-                    </NavLink>
-                  </li>
-                  <li>
-                    <NavLink to="/writingtips" className="dropdown-item">
-                      Writing Tips
-                    </NavLink>
-                  </li>
-                  <li>
-                    <NavLink to="/events" className="dropdown-item">
-                      Events
-                    </NavLink>
-                  </li>
-                  <li>
-                    <NavLink to="/news" className="dropdown-item">
-                      News
-                    </NavLink>
-                  </li>
-                </ul>
-              </li>
-            </ul>
-          </div>
+      <nav className="navbar navbar-expand-sm ps-2">
+        <NavLink to="/" className="navbar-brand">
+          <img src={Logo} alt="Jane Correy Home" className="smalllogo"></img>
+        </NavLink>
+        <button
+          className="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span className="navbar-toggler-icon">
+            <RxHamburgerMenu />
+          </span>
+        </button>
+        <div className="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+            <li className="nav-item">
+              <NavLink to="/" className="nav-link">
+                Home
+              </NavLink>
+            </li>
+            <li className="nav-item">
+              <NavLink to="/aboutme" className="nav-link">
+                About Me
+              </NavLink>
+            </li>
+            <li className="nav-item">
+              <NavLink to="/books" className="nav-link">
+                Books
+              </NavLink>
+            </li>
+            <li className="nav-item">
+              <NavLink to="/contact" className="nav-link">
+                Contact
+              </NavLink>
+            </li>
+            <li className="nav-item dropdown">
+              <NavLink
+                to="/more"
+                className="nav-link dropdown-toggle"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                More
+              </NavLink>
+              <ul className="dropdown-menu">
+                <li>
+                  <NavLink to="/newsletter" className="dropdown-item">
+                    Newsletter
+                  </NavLink>
+                </li>
+                <li>
+                  <NavLink to="/reviews" className="dropdown-item">
+                    Reviews
+                  </NavLink>
+                </li>
+                <li>
+                  <NavLink to="/writingtips" className="dropdown-item">
+                    Writing Tips
+                  </NavLink>
+                </li>
+                <li>
+                  <NavLink to="/events" className="dropdown-item">
+                    Events
+                  </NavLink>
+                </li>
+                <li>
+                  <NavLink to="/news" className="dropdown-item">
+                    News
+                  </NavLink>
+                </li>
+              </ul>
+            </li>
+          </ul>
         </div>
       </nav>
       {routes}
