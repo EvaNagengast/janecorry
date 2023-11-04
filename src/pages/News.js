@@ -16,7 +16,7 @@ import {
   RiFacebookCircleLine,
 } from "react-icons/ri";
 import Newspaper from "../media/ctfynewspaper.jpg";
-import ctfy from "../media/book8.jpg";
+import tlwtgerman from "../media/book6german.jpg";
 import ctfycanada from "../media/book8canada.jpg";
 import wahosaudio from "../media/audiobookwahos.png";
 import audiobook from "../media/ctfyaudio.mp3";
@@ -54,33 +54,52 @@ function News() {
         {/* 
         NEWS 
          */}
-        <div className="row m-auto p-1 p-sm-3   align-items-center newsOne">
-          <div className="col-12 col-md-6">
-            <div className="row  m-auto">
-              <div className="col-6">
-                <img
-                  src={ctfy}
-                  alt="coming to find you book cover"
-                  className=" w-100 img-fluid d-inline px-2 ctfycover"
-                />
-              </div>
-              <div className="col-6">
-                <img
-                  src={ctfycanada}
-                  alt="coming to find you book cover"
-                  className="w-100 img-fluid d-inline px-2 ctfycover"
-                />
-              </div>
-            </div>
+        <div className="row m-auto p-1 p-sm-3 align-items-center news">
+          <div className="col-12 col-md-6 text-center text-md-end">
+            <img
+              src={tlwtgerman}
+              alt="The lies we tell, german book cover"
+              className="w-50 img-fluid  newspapersnippet"
+            />
           </div>
-          <div className="col-12 col-md-6 text-center text-md-start pt-2 p-md-0">
-            {" "}
-            <p>
+          <div className="col-12 col-md-6 text-center text-md-start">
+            <p className="mt-sm-3 mb-0 ">
+              I'm delighted that <i>The Lies We Tell</i> has just been published
+              in Germany by
+              <br />
+              <a
+                href="https://www.piper.de/buecher/the-lies-we-tell-niemand-ist-ohne-schuld-isbn-978-3-492-31917-1"
+                alt="Piper publishing"
+                target="_blank"
+                rel="noreferrer"
+                className="linkLightBase"
+              >
+                {"  "} Piper Verlag GmbH {"  "}
+              </a>
+            </p>
+          </div>
+        </div>
+        <hr />
+        {/* 
+        NEWS 
+        coming to find you Canada
+         */}
+        <div className="row m-auto p-1 p-sm-3 align-items-center news">
+          <div className="col-12 col-md-6 text-center text-md-end">
+            <img
+              src={ctfycanada}
+              alt="Canadian cover of Coming to find you"
+              className="w-50 img-fluid  middleimage"
+            />
+          </div>
+          <div className="col-12 col-md-6 text-center text-md-start">
+            <p className="mt-sm-3 mb-0 ">
               I'm very excited that <i>Coming To Find You</i> is being published
               by
+              <br />
               <a
                 href="https://www.penguinrandomhouse.ca/imprints/4H/doubleday-canada"
-                alt="Woman and Home online magazine"
+                alt="Doubleday publishing"
                 target="_blank"
                 rel="noreferrer"
                 className="linkLightBase"
@@ -88,24 +107,48 @@ function News() {
                 {"  "}Doubleday {"  "}
               </a>
               in Canada and the States on December 19.
-            </p>
-            <p className="mb-0">These are the covers.</p>
+            </p>{" "}
+            <div>
+              {" "}
+              <a
+                href="https://www.amazon.ca/gp/product/B0BYYNF1YX/ref=dbs_a_def_rwt_bibl_vppi_i0"
+                alt="amazon link to Coming to find you in canada"
+                target="_blank"
+                rel="noreferrer"
+                className="linkLightBase"
+              >
+                Click here to order in Canada
+              </a>
+            </div>
+            <div>
+              {" "}
+              <a
+                href="https://www.amazon.com/Coming-Find-You-Jane-Corry-ebook/dp/B0BYYNF1YX/ref=sr_1_3?keywords=jane+corry&qid=1699120785&sr=8-3"
+                alt="amazon link to Coming to find you in usa"
+                target="_blank"
+                rel="noreferrer"
+                className="linkLightBase"
+              >
+                Click here to order in the US
+              </a>
+            </div>
           </div>
         </div>
         <hr />
         {/* 
-        NEWS TWO
+        NEWS 
+        Coming to find you newspaper
          */}{" "}
-        <div className="row m-auto p-1 p-sm-3 align-items-center newsThree">
+        <div className="row m-auto p-1 p-sm-3 align-items-center news">
           <div className="col-12 col-md-6 text-center text-md-end">
             <img
               src={Newspaper}
               alt="newspaper review of Coming To Find You"
-              className="w-50 img-fluid  newspapersnippet"
+              className="w-50 img-fluid  middleimage"
             />
           </div>
           <div className="col-12 col-md-6 text-center text-md-start">
-            <p className="mt-sm-3 mb-0 newsTwo">
+            <p className="mt-sm-3 mb-0 ms-3">
               I'm absolutely thrilled that <br />
               Coming To Find You <br />
               is in the July issue of
@@ -124,9 +167,10 @@ function News() {
         </div>
         <hr />
         {/* 
-        NEWS THREE
+        NEWS 
+        We all have our secrets audio book
          */}{" "}
-        <div className="row m-auto  p-1 p-sm-3  align-items-center newsTwo">
+        <div className="row m-auto  p-1 p-sm-3  align-items-center news">
           <div className="col-12 col-md-5 col-lg-4 text-center text-md-end">
             {" "}
             <img
@@ -145,7 +189,7 @@ function News() {
             </MediaController>
           </div>
           <div className="col-12 col-md-7 col-lg-8">
-            <p className=" mt-3 my-0 px-2  newsTwo text-center text-md-start">
+            <p className=" mt-3 my-3 px-2 text-center text-md-start">
               Do you like listening to novels rather than reading? Then you
               might enjoy the audio version of <i>We All Have Our Secrets</i>
             </p>
@@ -162,14 +206,14 @@ function News() {
               </a>
             </p>
           </div>
-        </div>{" "}
+        </div>
         <hr />
         {/* 
 SOCIALS
  */}
         <p className="mt-3  text-center">
           Follow me on
-          <br /> Facebook, Twitter and Instagram. .newspage
+          <br /> Facebook, Twitter and Instagram
         </p>
         <p className="text-center">
           <a
@@ -195,7 +239,7 @@ SOCIALS
           </a>
         </p>
         {/*  */}
-        <div className="row m-auto">
+        <div className="row m-auto insta">
           <div className="col">
             {" "}
             <InstagramEmbed
@@ -221,9 +265,7 @@ SOCIALS
               className="m-auto embed"
             />
           </div>
-          <div>
-            
-          </div>
+          <div></div>
         </div>
         {/*  */}
       </div>

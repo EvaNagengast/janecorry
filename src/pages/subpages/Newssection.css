@@ -6,15 +6,14 @@
 .newssection .newsCardContainer {
   padding: 30px 60px;
 }
-.newssection figcaption {
-  background-color: var(---baselight);
-  color: var(---basedark);
-}
+
 .newssection .cardOne,
 .newssection .cardTwo,
 .newssection .cardThree {
-  max-width: 80%;
-  height: 98%;
+  width: 95%;
+  height: auto;
+  min-height: 98%;
+  overflow: auto;
   margin: 0 auto;
   padding: 25px 30px 5px 30px;
   border: 3px double var(---baselight);
@@ -28,23 +27,47 @@
 .newssection .newspapersnippet {
   max-height: 300px;
 }
-.newssection .ctfycover {
-  max-width: 216px;
+.newssection .cardImageTwo,
+.newssection .cardImageOne,
+.newssection .cardImageThree {
+  max-width: 40%;
+  height: auto;
 }
 
 @media (max-width: 992px) {
   .newssection .newspapersnippet {
     max-height: 250px;
   }
+  .newssection .cardImageTwo,
+  .newssection .cardImageOne,
+  .newssection .cardImageThree {
+    max-height: 240px;
+  }
+  .newssection .cardOne,
+.newssection .cardTwo,
+.newssection .cardThree {
+  width: 65%;
+  
+}
 }
 
 @media (max-width: 769px) {
   .newssection .newsCardContainer {
     padding: 25px 20px;
   }
-  .newssection .newspapersnippet {
-    max-height: 210px;
+    .newssection .cardOne,
+.newssection .cardTwo,
+.newssection .cardThree {
+  width: 78%;
+  
+}
+
+  .newssection .cardImageTwo,
+  .newssection .cardImageOne,
+  .newssection .cardImageThree {
+    max-height: 220px;
   }
+
 }
 @media (max-width: 576px) {
   .newssection h2 {
@@ -56,17 +79,20 @@
   .newssection .cardOne,
   .newssection .cardTwo,
   .newssection .cardThree {
-    max-width: 85%;
+  width: 85%;
+    padding: 10px 0 5px 0;
   }
-  .newssection figcaption {
-    font-size: 14px;
-  }
+
   .newssection .cardtextOne,
   .newssection .cardtextTwo,
   .newssection .cardtextThree {
     font-size: 19px;
-
     padding: 20px 20px 5px 20px;
+  }
+  .newssection .cardImageTwo,
+  .newssection .cardImageOne,
+  .newssection .cardImageThree {
+    max-height: 180px;
   }
 }
 
@@ -79,10 +105,11 @@
   .newssection .cardOne,
   .newssection .cardTwo,
   .newssection .cardThree {
-    max-width: 90%;
-    padding: 15px 15px 5px 15px;
+    max-width: 95%;
   }
-  .newssection .newspapersnippet {
-    max-height: 180px;
+  .newssection .cardImageTwo,
+  .newssection .cardImageOne,
+  .newssection .cardImageThree {
+    max-height: 140px;
   }
 }

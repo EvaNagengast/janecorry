@@ -4,7 +4,7 @@ import { MdOutlineStar } from "react-icons/md";
 import Newssection from "./Newssection";
 import Slideshow from "./Slideshow";
 
-import Fullimage from "../../media/jcfullbody.jpg";
+import ctfycover from "../../media/book8.jpg";
 
 import Subtitle from "../../media/jcfontsubtitle.png";
 
@@ -31,7 +31,7 @@ function Currentbook() {
         <div className="row m-auto">
           <div className="col-md-7 introduction">
             <img
-              src={Fullimage}
+              src={ctfycover}
               alt="Jane Corry holding her recent novel"
               className="jcimage m-2 d-none d-sm-block d-md-none  float-end"
             />
@@ -46,7 +46,10 @@ function Currentbook() {
               Army. Elizabeth commited a teribble crime. Can Nancy discover what
               it was - and finally find peace for herself?
             </p>
-            <div className="d-block d-sm-none d-lg-block">
+            <div
+              id="starreviewsection"
+              className="d-block d-sm-none d-lg-block"
+            >
               <span className="stars">
                 <MdOutlineStar /> <MdOutlineStar /> <MdOutlineStar />{" "}
                 <MdOutlineStar /> <MdOutlineStar />
@@ -58,7 +61,7 @@ function Currentbook() {
                 really draws you in. Brilliant character'
               </span>
             </div>
-            <div className="mt-5">
+            <div id="clickheretoorder" className="mt-5">
               <a
                 href="https://www.amazon.co.uk/Coming-Find-You-heart-wrenching-suspenseful/dp/0241996104/"
                 alt="shop coming to find you on amazon"
@@ -73,15 +76,21 @@ function Currentbook() {
               </div>
             </div>{" "}
           </div>{" "}
-          <div className="d-block d-sm-none d-md-block col- 12 col-md-5 pt-4 p-sm-0">
+          <div
+            id="secondcoverctfy"
+            className="d-block d-sm-none d-md-block col-12 col-md-5 pt-4 p-sm-0"
+          >
             {" "}
             <img
-              src={Fullimage}
-              alt="Jane Corry holding her recent novel"
+              src={ctfycover}
+              alt="coming to find you cover"
               className="jcimage "
-            />{" "}
+            />
           </div>
-          <div className=" d-none d-sm-block d-lg-none text-center starreviewhome">
+          <div
+            id="secondstarreview"
+            className=" d-none d-sm-block d-lg-none text-center starreviewhome"
+          >
             <span className="stars">
               <MdOutlineStar /> <MdOutlineStar /> <MdOutlineStar />{" "}
               <MdOutlineStar /> <MdOutlineStar />
@@ -101,7 +110,6 @@ function Currentbook() {
 
       {/* books */}
       <div className="books">
-     
         <hr className="m-4 m-lg-5" />
         <div className="mt-3 adlastbook">
           Meanwhile, you can buy my 2022 Penguin novel <br />

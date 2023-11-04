@@ -17,7 +17,7 @@
 }
 .abouttheauthor .jcimagesmall {
   max-height: 450px;
-  filter: saturate(130%) grayscale(90%);
+  /* filter: saturate(130%) grayscale(90%); */
 }
 .abouttheauthor .jcdescription {
   font-size: 24px;

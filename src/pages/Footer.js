@@ -7,7 +7,7 @@ export default function Footer() {
         © 2023 Jane Corry <br />
         Images are by
         <a
-          href="https://www.lucydaviesphotography.com/"
+          href="https://www.instagram.com/lucydaviesphotography"
           target="_blank"
           rel="noreferrer"
           alt="Photos by Lucy Davies"
