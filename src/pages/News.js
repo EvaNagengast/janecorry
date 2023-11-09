@@ -52,7 +52,7 @@ function News() {
         </p>
         <hr />
         {/* 
-        NEWS 
+        NEWS Coming to find you germany
          */}
         <div className="row m-auto p-1 p-sm-3 align-items-center news">
           <div className="col-12 col-md-6 text-center text-md-end">
@@ -77,6 +77,18 @@ function News() {
                 {"  "} Piper Verlag GmbH {"  "}
               </a>
             </p>
+            <div className="mt-3">
+              {" "}
+              <a
+                href="https://www.amazon.de/Lies-We-Tell-Niemand-Thriller-ebook/dp/B0C1P7KZC5"
+                alt="amazon link to Coming to find you in germany"
+                target="_blank"
+                rel="noreferrer"
+                className="linkLightBase"
+              >
+                Click here to order in Germany
+              </a>
+            </div>
           </div>
         </div>
         <hr />
@@ -108,8 +120,7 @@ function News() {
               </a>
               in Canada and the States on December 19.
             </p>{" "}
-            <div>
-              {" "}
+            <div className="mt-3">
               <a
                 href="https://www.amazon.ca/gp/product/B0BYYNF1YX/ref=dbs_a_def_rwt_bibl_vppi_i0"
                 alt="amazon link to Coming to find you in canada"

@@ -105,7 +105,18 @@ function Newssection() {
                 >
                   {"  "} Piper Verlag GmbH {"  "}
                 </a>
-              </p>
+              </p>{" "}
+              <div className="mt-4">
+                <a
+                  href="https://www.amazon.de/Lies-We-Tell-Niemand-Thriller-ebook/dp/B0C1P7KZC5"
+                  alt="amazon link to Coming to find you in germany"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="linkLightBase"
+                >
+                  Click here to order in Germany
+                </a>
+              </div>
             </div>
           </div>
         </div>
