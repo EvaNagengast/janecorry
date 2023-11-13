@@ -1,11 +1,18 @@
+.Error {
+  background-color: var(---basedark);
+}
+
 .errorpage {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  margin-top: -140px;
-  text-align: center;
+  padding: 20px 10%;
+  font-size: 22px;
 }
-
+.errorpage h1 {
+  font-size: 30px;
+  color: var(---base);
+}
 
 @media (max-width: 1400px) {
 }
