@@ -43,7 +43,7 @@ function Currentbook() {
               press at the family seaside holiday home in Devon. But Tall
               Chimneys was once owned by Elizabeth who took in evacuees during
               the Second World War and was also a member of Churchill's Secret
-              Army. Elizabeth commited a teribble crime. Can Nancy discover what
+              Army. Elizabeth commited a terrible crime. Can Nancy discover what
               it was - and finally find peace for herself?
             </p>
             <div
